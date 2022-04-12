@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <include
+      layout="@layout/TopToolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  
+  <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+    
+    <TextView
+      android:id="@+id/tvAppontmentTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textStyle="normal"
+      android:paddingTop="20dp"
+      android:paddingLeft="20dp"
+      style="@style/Base.TextAppearance.AppCompat.Subhead"
+      android:textSize="18sp"/>
+    
+    <TextView
+      android:id="@+id/tvAppontmentDescription"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textStyle="normal"
+      android:paddingLeft="20dp"
+      style="@style/Base.TextAppearance.AppCompat.Subhead"
+      android:textSize="18sp"/>
+      
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="20dp"
+       android:gravity="center_vertical|center_horizontal">
+
+      <ImageButton
+            android:id="@+id/ivBad"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:tint="@color/rate_bad"
+            android:src="@drawable/ic_sentiment_very_dissatisfied_white_48dp"
+            android:background="?android:attr/selectableItemBackground" />
+      <ImageButton
+            android:id="@+id/ivNeutral"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:tint="@color/rate_neutral"
+            android:src="@drawable/ic_sentiment_neutral_white_48dp"
+            android:background="?android:attr/selectableItemBackground" />
+      <ImageButton
+            android:id="@+id/ivGood"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:tint="@color/rate_good"
+            android:src="@drawable/ic_sentiment_very_satisfied_white_48dp"
+            android:background="?android:attr/selectableItemBackground" />
+      
+            
+    </LinearLayout>
+   </LinearLayout>
+</LinearLayout>

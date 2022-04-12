@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <!--Base theme-->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:activatedBackgroundIndicator">@drawable/navdrawer_activated_background</item>
+  </style>
+  <!--Splash Screen theme-->
+  <style name="AppTheme.Splash" parent ="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>
+  </style>
+  <!--Toolbar style-->
+  <style name="AppTheme.TopToolbar" parent="AppTheme">
+    <item name="android:textColorPrimary">@color/toptoolbar_textColor</item>
+    <item name="android:textColorSecondary">@color/toptoolbar_textColor</item>
+    <item name="actionMenuTextColor">@color/toptoolbar_textColor</item>
+  </style>
+  <!--Button-->
+  <style name="AppTheme.Button" parent="Base.Widget.AppCompat.Button">
+    <item name="colorButtonNormal">@color/colorPrimary</item>
+    <item name="android:textColor">@color/button_textColor</item>
+  </style>
+  <!--Form elements-->
+  <style name="AppTheme.FormElement" parent="AppTheme">
+    <item name="android:textColorHint">@color/backupColor</item>
+    <!--EditText hint color-->
+    <item name="colorControlActivated">@color/backupColor</item>
+    <!-- TextInputLayout text color-->
+    <item name="colorControlHighlight">@color/backupColor</item>
+    <!-- EditText line color when EditText on-focus-->
+    <item name="colorControlNormal">@color/backupColor</item>
+    <!-- EditText line color when EditText  in un-focus-->
+  </style>
+</resources>

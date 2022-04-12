@@ -1,0 +1,16 @@
+﻿PCL ---------------------
+1. Settings.cs -> Change the constants CompanyID and CompanySecret
+
+iOS ---------------------
+1. Settings.cs -> Change the constants APP_NAME, COMPANY_URL, COMPANY_ABOUT, FIRST_COLOR, FIRST_COLOR_TEXT, SECOND_COLOR, BACKUP_COLOR, TABLE_HEADER_COLOR and LOGIN_KEYBOARD_TYPE
+2. Copy files, except StoreIcon.png, from folder \Resources\ClientResources\[COMPANY_FOLDER] to \Resources\
+3. Change resource values LoginUserName (ex: "Insira o seu username", "Insira o número de utente")
+4. Info.plist (Project Properties) -> Change CFBundleDisplayName (ex. mySAMS) and CFBundleIdentifier (ex. pt.simplesolutions.SS.HealthApp.iOS.SBSI.SAMS)
+
+Android -----------------
+1. Project Properties -> change Package name (ex. pt.simplesolutions.SS.HealthApp.Android.SBSI.SAMS)
+2. Project Properties -> change version number and version name
+3. Resources\values\Strings.xml -> Change the app_name, client_name and client_url keys
+4. Resources\values\strings.xml -> Change the AboutText
+5. Copy files from folder \Resources\ClientResources\[COMPANY_FOLDER] to \Resources\
+6. Resources\Layouts\Login.axml -> change the etUsername control to use android:inputType="number" to number only textbox or android:inputType="textEmailAddress" to email format

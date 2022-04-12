@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Utils" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Utils" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="Enums.Genero">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="NA" />
+      <xs:enumeration value="Masculino" />
+      <xs:enumeration value="Feminino" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Enums.Genero" nillable="true" type="tns:Enums.Genero" />
+  <xs:simpleType name="Enums.TipoUtilizador">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="NaoAutenticado" />
+      <xs:enumeration value="GestorConteudo" />
+      <xs:enumeration value="Medico" />
+      <xs:enumeration value="Utente" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Enums.TipoUtilizador" nillable="true" type="tns:Enums.TipoUtilizador" />
+  <xs:simpleType name="Enums.TipoAtendimentoPermanente">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Erro" />
+      <xs:enumeration value="CentroClinicoAdultos" />
+      <xs:enumeration value="CentroClinicoPediatria" />
+      <xs:enumeration value="HospitalAdultos" />
+      <xs:enumeration value="HospitalPediatria" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Enums.TipoAtendimentoPermanente" nillable="true" type="tns:Enums.TipoAtendimentoPermanente" />
+</xs:schema>

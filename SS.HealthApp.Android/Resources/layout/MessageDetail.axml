@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <include
+      layout="@layout/TopToolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <LinearLayout android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:background="@color/grayblock_backgroundColor">
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/tvSubHeaderTitle"
+       android:textColor="@color/colorPrimary"
+       style="@style/Base.TextAppearance.AppCompat.Title"/>
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/tvSubHeaderDescription"
+       style="@style/Base.TextAppearance.AppCompat.Caption" />
+  </LinearLayout>
+  <LinearLayout
+    android:id="@+id/llProgressBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <ProgressBar
+        android:id="@+id/pbHeaderProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </ProgressBar>
+  </LinearLayout>
+  <ListView
+        android:id="@+id/lvConversation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:visibility="gone"/>
+</LinearLayout>

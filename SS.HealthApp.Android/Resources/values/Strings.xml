@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">mySAMS</string>
+  <string name="client_name">Sindicato Bancário Sul e Ilhas</string>
+  <string name="client_url">https://pics.sams.pt</string>
+
+  <!--string name="app_name">Digital Customer</string>
+  <string name="client_name">Digital Customer</string>
+  <string name="client_url">https://simplesolutions.pt</string-->
+
+  <string name="developer_url">http://www.simplesolutions.pt/</string>
+  
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+  <string name="info_saving">Saving</string>
+  <string name="info_success">Success</string>
+  <string name="info_error">Error</string>
+  <string name="info_wait">Wait...</string>
+  <string name="yes">Yes</string>
+  <string name="no">No</string>
+  <string name="close">Close</string>
+  <string name="save">Save</string>
+  <string name="select_option">Select an option:</string>
+  <string name="no_records">No records found.</string>
+  <string name="Ticket">Ticket</string>
+
+  <string name="ErrGeneral">An error has ocurred, please try again later.</string>
+  <string name="ErrConnSevere">There was an error connecting to the service, check the connectivity, or try again later.</string>
+  <string name="ErrConnLight">There is no connection, some data may be outdated.</string>
+  <string name="ErrChangePassword">We were unable to make the change, make sure the old PIN is correct, or try again later.</string>
+  <string name="ErrCancelAppointment">Unable to cancel, check connectivity, or try again later.</string>
+  <string name="ErrCreateAppointment">Unable to schedule, please check the selected data.</string>
+  <string name="ErrOpenDeclaration">Could not get declaration, check connectivity, or try again later.</string>
+  <string name="ErrOpenDocument">Could not get document, check connectivity, or try again later.</string>
+  <string name="ErrAccessCalendar">Can not access calendar, check app settings in device settings.</string>
+  <string name="ErrNoAppointmentDates">Unable to schedule, please check the selected data.</string>
+  <string name="ErrNoAppViewFile">The device has no application to open the file.</string>
+  <string name="ErrAccessGPS">Could not access GPS</string>
+  <string name="ErrSendMessage">Could not send message, please try again later.</string>
+  <string name="ErrCheckinAppointment">Unable to check in, check connectivity, or try again later.</string>
+  <string name="ErrOpenQrCode">Could not get qr code, check connectivity, or try again later.</string>
+    
+
+  <string name="validationError_required">Required</string>
+  <string name="validationError_passwordmismatch">A nova password é diferente da confirmação.</string>
+
+  <string name="menu_Home">Home</string>
+  <string name="menu_Appointment">Appointments</string>
+  <string name="menu_AppointmentDescription">Manage your appointments and check in</string>
+  <string name="menu_Messages">Messages</string>
+  <string name="menu_MessagesDescription">Direct channel to our services</string>
+  <string name="menu_AccountStatment">Account</string>
+  <string name="menu_AccountStatmentDescription">Your financial documents</string>
+  <string name="menu_News">News</string>
+  <string name="menu_NewsDescription">Keep up to date with news</string>
+  <string name="menu_Facility">Facilities</string>
+  <string name="menu_FacilityDescription">Find the nearest health facility</string>
+  <string name="menu_Declarations">Declarations</string>
+  <string name="menu_DeclarationsDescription">Ask for the declaration of presence</string>
+  <string name="menu_PersonalData">Personal Data</string>
+  <string name="menu_About">About</string>
+  <string name="menu_Logout">Logout</string>
+
+  <string name="home_ticket_goto">Go to </string>
+  
+  <string name="emergency_time_emergency">Emergency Care</string>
+  <string name="emergency_time_adult">Adults</string>
+  <string name="emergency_time_pediatric">Pediatrics</string>
+  <string name="emergency_time_minutes">min</string>
+  
+  <string name="login_username">Username</string>
+  <string name="login_password">PIN</string>
+  <string name="login_login">Login</string>
+  <string name="login_authenticating">Logging In...</string>
+  <string name="login_error">Invalid access</string>
+
+  <string name="facility_travel_time_travel">Travel Time</string>
+  <string name="facility_travel_time_min">{0} min.</string>
+  <string name="facility_travel_time_BasedInTraffic">Based on distance and transit</string>
+  
+  <string name="menu_UserSettings_PersonalDataDescription">Change your Personal Information</string>
+  <string name="menu_UserSettings_ChangePassword">Change PIN</string>
+  <string name="menu_UserSettings_ChangePasswordDescription">Change your service access PIN</string>
+  <string name="menu_UserSettings_Notifications">Notifications</string>
+  <string name="menu_UserSettings_NotificationsDescription">Manage the notifications you want to receive</string>
+  
+  <string name="user_settingsListSubheader">Select an option</string>
+  <string name="userdata_name">Name</string>
+  <string name="userdata_email">Email</string>
+  <string name="userdata_taxNumber">Tax Number</string>
+  <string name="userdata_phoneNumber">Phone</string>
+  <string name="userdata_MobileNumber">Mobile</string>
+  <string name="userdata_address">Address</string>
+  
+  <string name="userdata_changePassword_actualPassword">Old PIN</string>
+  <string name="userdata_changePassword_newPassword">New PIN</string>
+  <string name="userdata_changePassword_confirmNewPassword">Confirm your new PIN</string>
+  
+  <string name="appointment_NewAppointment">New Appointment</string>
+  <string name="appointment_Status_Booked">Scheduled</string>
+  <string name="appointment_Status_Closed">Closed</string>
+  <string name="appointment_Status_History">Historic</string>
+  <string name="appointment_Status_Arrived_with_number">Wait for the call by ticket</string>
+  <string name="appointment_Status_Arrived_without_number">Wait for the call by name</string>
+  <string name="appointment_cancel">Cancel Appointment</string>
+  <string name="appointment_save_calendar">Register on Device Calendar</string>
+  <string name="appointment_check_in">Check in</string>
+  <string name="appointment_feedback_rating">Rate the Service</string>
+  <string name="appointment_presence_declaration">Presence Declaration</string>
+  <string name="appointment_parking_qr_code">Parking Discount</string>
+  <string name="appointment_cancel_alertDialog_Title">Cancel Appointment?</string>
+  <string name="appointment_cancel_alertDialog_Message">Confirm cancellation</string>
+  <string name="appointment_checkin_alertDialog_Title">Check in Appointment?</string>
+  <string name="appointment_checkin_alertDialog_Message">Confirm check in</string>
+  <string name="appointment_eventcreation_sucess">A new event has been created on your device calendar</string>
+  <string name="appointment_type0">Consultation</string>
+  <string name="appointment_type1">Exam</string>
+  <string name="appointment_type2">Other</string>
+  <string name="appointment_doctor">Doctor</string>
+  <string name="appointment_speciality">Specialty</string>
+  <string name="appointment_service">Service</string>
+  <string name="appointment_facility">Facility</string>
+  <string name="appointment_date_from">Schedule from</string>
+  <string name="appointment_date">Date</string>
+  <string name="appointment_time">Time</string>
+  <string name="appointment_payor">Payor</string>
+  <string name="appointment_selectMomentRequired">Please select a date first</string>
+  <string name="appointment_book_alertDialog_Title">Confirm the appointment?</string>
+
+  <string name="message_message">Message</string>
+  <string name="message_newMessage">New Message</string>
+  <string name="message_recepient">Recipient</string>
+  <string name="message_subject">SubjectVersion</string>
+
+  <string name="AboutVersion">Version {0}</string>
+
+  <string name="AboutText">
+    A App MySams é um serviço fornecido pelo SBSI / SAMS.\n
+    \n
+    A App MySAMS – disponível para smartphones com sistema operativo iOS ou Android – permite consultar informação das várias unidades de saúde do SBSI /SAMS,\n
+    saber os tempos de espera no Atendimento Permanente do Hospital e do Centro Clínico de Lisboa, gerir consultas e exames e disponibiliza informação da atividade realizada no SAMS.\n
+    \n
+    A App MySAMS permite auxiliá-lo na gestão da marcação de um ato clinico e a efetuar o cálculo de tempo e o percurso para a unidade de saúde.\n
+    \n
+    A App é para uso pessoal e carece de registo prévio. Nem todos os serviços da App funcionam com todos os equipamentos móveis – antes de se registar, terá de verificar se o seu equipamento móvel é compatível com o MySams.\n
+    \n
+    Copyright 2017 - Sindicato dos Bancários Sul e Ilhas. Todos os direitos reservados.\n
+    \n
+    Mobile app development with Xamarin Tech. in collaboration with Simple Solutions.
+  </string>
+
+  <!--string name="AboutText">
+    With the Digital Transformation in mind, Simple Solutions has developed an innovative product that digitizes the relationship and service provided, between B2C companies and their end customers.\n
+    \n
+    Some of the features of our Customer Service App:\n
+    - Booking, check-in and cancellation of appointments;\n
+    - Check-in with estimated time for service;\n
+    - Message exchange with back office;\n
+    - Notifications;\n
+    - Financial statement;\n
+    - News;\n
+    - Facilities list(with travel time, including traffic).\n
+    \n
+    Copyright 2017 - Simple Solutions. All rights reserved.\n
+  </string-->
+
+
+</resources>

@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://localhost/MySAMSApiWS/MySAMSApiWS.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" />
+  <xs:import schemaLocation="https://localhost/MySAMSApiWS/MySAMSApiWS.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="Login">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pin" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoginResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="LoginResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AlterarPin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nAplicacional" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pinAnterior" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pinNovo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AlterarPinResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AlterarPinResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="errorMessage" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterDadosPessoais">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pin" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterDadosPessoaisResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterDadosPessoaisResult" nillable="true" type="q1:Utilizador" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AtualizarDadosPessoais">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="pin" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Telefone" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Telemovel" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AtualizarDadosPessoaisResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AtualizarDadosPessoaisResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterTempoAP">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterTempoAPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterTempoAPResult" nillable="true" type="q2:ArrayOfAPTempoEspera" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterBannersHomepage">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterBannersHomepageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterBannersHomepageResult" nillable="true" type="q3:ArrayOfHomepageBanner" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaUnidades">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaUnidadesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterListaUnidadesResult" nillable="true" type="q4:ArrayOfUnidadeSaude" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaNoticias">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaNoticiasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterListaNoticiasResult" nillable="true" type="q5:ArrayOfNoticia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaConsultas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaConsultasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterListaConsultasResult" nillable="true" type="q6:ArrayOfConsulta" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CancelarAgendamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="agendamento" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CancelarAgendamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CancelarAgendamentoResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterDadosAgendamento">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterDadosAgendamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterDadosAgendamentoResult" nillable="true" type="q7:DadosAgendamento" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterDatasDisponiveisAgendamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="hospital" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="especialidade" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="recurso" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="servico" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="inicio" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterDatasDisponiveisAgendamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterDatasDisponiveisAgendamentoResult" nillable="true" type="q8:ArrayOfDataHoraAgendamentoItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterHorasDisponiveisAgendamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="hospital" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="especialidade" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="recurso" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="servico" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="data" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterHorasDisponiveisAgendamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterHorasDisponiveisAgendamentoResult" nillable="true" type="q9:ArrayOfDataHoraAgendamentoItem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterEntidadesAgendamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterEntidadesAgendamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterEntidadesAgendamentoResult" nillable="true" type="q10:ArrayOfOrganismoPlano" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Agendar">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="slot" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="servico" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="organismo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="plano" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AgendarResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AgendarResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaDocumentos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaDocumentosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterListaDocumentosResult" nillable="true" type="q11:ArrayOfDocumentoFinanceiro" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DevolverDocumento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="idDocumento" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DevolverDocumentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DevolverDocumentoResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaDeclaracoesPresenca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaDeclaracoesPresencaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterListaDeclaracoesPresencaResult" nillable="true" type="q12:ArrayOfDeclaracaoPresenca" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DevolverDeclaracaoPresenca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="idDeclaracao" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DevolverDeclaracaoPresencaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DevolverDeclaracaoPresencaResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckIn">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rowId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckInResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckInResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterPrevisaoAtendimento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rowId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterPrevisaoAtendimentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObterPrevisaoAtendimentoResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AvaliarAtendimento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rowId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="avaliacao" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AvaliarAtendimentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AvaliarAtendimentoResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterSenhas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterSenhasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterSenhasResult" nillable="true" type="q13:ArrayOfSenha" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterQRCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rowID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterQRCodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ObterQRCodeResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaAssuntos">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaAssuntosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterListaAssuntosResult" nillable="true" type="q14:ArrayOfMensagemAssunto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaDestinatarios">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaDestinatariosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterListaDestinatariosResult" nillable="true" type="q15:ArrayOfUtilizador" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaMensagens">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObterListaMensagensResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="ObterListaMensagensResult" nillable="true" type="q16:ArrayOfMensagem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AbrirMensagem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mensagemId" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AbrirMensagemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" minOccurs="0" name="AbrirMensagemResult" nillable="true" type="q17:ArrayOfMensagem" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AbrirAnexo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mensagemId" type="xs:long" />
+        <xs:element minOccurs="0" name="nome" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AbrirAnexoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AbrirAnexoResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ResponderMensagem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mensagemId" type="xs:long" />
+        <xs:element minOccurs="0" name="textoMensagem" nillable="true" type="xs:string" />
+        <xs:element xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="anexos" nillable="true" type="q18:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ResponderMensagemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ResponderMensagemResult" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CriarMensagem">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="beneficiario" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="destinatarioId" type="xs:long" />
+        <xs:element minOccurs="0" name="assuntoId" type="xs:long" />
+        <xs:element minOccurs="0" name="textoMensagem" nillable="true" type="xs:string" />
+        <xs:element xmlns:q19="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="anexos" nillable="true" type="q19:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CriarMensagemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CriarMensagemResult" type="xs:long" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <color name="colorPrimary">#00ABBD</color>
+  <color name="colorPrimaryDark">#0097A7</color>
+  <color name="colorAccent">#FF6600</color>
+  <color name="backupColor">#51626F</color>
+  <color name="grayblock_backgroundColor">#F3F3F3</color>
+  <!--splash screen-->
+  <color name="splash_background">#FFFFFF</color>
+  <!--top toolbar-->
+  <color name="toptoolbar_textColor">#FFF</color>
+  <!--nav drawer-->
+  <color name="navdrawer_itemTextColor">#FFF</color>
+  <!--emergency wait time-->
+  <color name="emergencywaittime_adultColor">#0B5394</color>
+  <color name="emergencywaittime_pediatricColor">#D46179</color>
+  <!--Facility Navigation Time-->
+  <color name="navigation_timeColor">#D46179</color>
+  <!--activity sub headers-->
+  <color name="subheader_backgorund">#F3F3F3</color>
+  <!--button-->
+  <color name="button_textColor">#FFF</color>
+  <color name="purple_for_testing">#800080</color>
+  <color name="lightgrey">#D3D3D3</color>
+  <!--Rate Service-->
+  <color name="rate_good">#008000</color>
+  <color name="rate_neutral">#696969</color>
+  <color name="rate_bad">#FF0000</color>
+</resources>

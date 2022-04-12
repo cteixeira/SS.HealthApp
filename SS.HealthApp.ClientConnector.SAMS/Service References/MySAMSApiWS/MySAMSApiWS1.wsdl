@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="MySAMSApiWS" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpBinding_IMySAMSApiWS_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Lax />
+              </wsp:Policy>
+            </sp:Layout>
+            <sp:IncludeTimestamp />
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <sp:SignedSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+              <wsp:Policy>
+                <sp:WssUsernameToken10 />
+              </wsp:Policy>
+            </sp:UsernameToken>
+          </wsp:Policy>
+        </sp:SignedSupportingTokens>
+        <sp:Wss10 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy />
+        </sp:Wss10>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost/MySAMSApiWS/MySAMSApiWS.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost/MySAMSApiWS/MySAMSApiWS.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost/MySAMSApiWS/MySAMSApiWS.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Models" />
+      <xsd:import schemaLocation="http://localhost/MySAMSApiWS/MySAMSApiWS.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/MySAMSApi.Regras.Utils" />
+      <xsd:import schemaLocation="http://localhost/MySAMSApiWS/MySAMSApiWS.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMySAMSApiWS_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_AlterarPin_InputMessage">
+    <wsdl:part name="parameters" element="tns:AlterarPin" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_AlterarPin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AlterarPinResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterDadosPessoais_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterDadosPessoais" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterDadosPessoais_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterDadosPessoaisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_AtualizarDadosPessoais_InputMessage">
+    <wsdl:part name="parameters" element="tns:AtualizarDadosPessoais" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_AtualizarDadosPessoais_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AtualizarDadosPessoaisResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterTempoAP_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterTempoAP" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterTempoAP_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterTempoAPResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterBannersHomepage_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterBannersHomepage" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterBannersHomepage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterBannersHomepageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaUnidades_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaUnidades" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaUnidades_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaUnidadesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaNoticias_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaNoticias" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaNoticias_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaNoticiasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaConsultas_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaConsultas" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaConsultas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaConsultasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_CancelarAgendamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:CancelarAgendamento" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_CancelarAgendamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelarAgendamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterDadosAgendamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterDadosAgendamento" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterDadosAgendamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterDadosAgendamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterDatasDisponiveisAgendamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterDatasDisponiveisAgendamento" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterDatasDisponiveisAgendamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterDatasDisponiveisAgendamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterHorasDisponiveisAgendamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterHorasDisponiveisAgendamento" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterHorasDisponiveisAgendamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterHorasDisponiveisAgendamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterEntidadesAgendamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterEntidadesAgendamento" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterEntidadesAgendamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterEntidadesAgendamentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_Agendar_InputMessage">
+    <wsdl:part name="parameters" element="tns:Agendar" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_Agendar_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AgendarResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaDocumentos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaDocumentos" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaDocumentos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaDocumentosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_DevolverDocumento_InputMessage">
+    <wsdl:part name="parameters" element="tns:DevolverDocumento" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_DevolverDocumento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DevolverDocumentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaDeclaracoesPresenca_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaDeclaracoesPresenca" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaDeclaracoesPresenca_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaDeclaracoesPresencaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_DevolverDeclaracaoPresenca_InputMessage">
+    <wsdl:part name="parameters" element="tns:DevolverDeclaracaoPresenca" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_DevolverDeclaracaoPresenca_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DevolverDeclaracaoPresencaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_CheckIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckIn" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_CheckIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckInResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterPrevisaoAtendimento_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterPrevisaoAtendimento" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterPrevisaoAtendimento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterPrevisaoAtendimentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_AvaliarAtendimento_InputMessage">
+    <wsdl:part name="parameters" element="tns:AvaliarAtendimento" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_AvaliarAtendimento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AvaliarAtendimentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterSenhas_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterSenhas" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterSenhas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterSenhasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterQRCode_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterQRCode" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterQRCode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterQRCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaAssuntos_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaAssuntos" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaAssuntos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaAssuntosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaDestinatarios_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaDestinatarios" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaDestinatarios_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaDestinatariosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaMensagens_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaMensagens" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ObterListaMensagens_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObterListaMensagensResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_AbrirMensagem_InputMessage">
+    <wsdl:part name="parameters" element="tns:AbrirMensagem" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_AbrirMensagem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AbrirMensagemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_AbrirAnexo_InputMessage">
+    <wsdl:part name="parameters" element="tns:AbrirAnexo" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_AbrirAnexo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AbrirAnexoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ResponderMensagem_InputMessage">
+    <wsdl:part name="parameters" element="tns:ResponderMensagem" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_ResponderMensagem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ResponderMensagemResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_CriarMensagem_InputMessage">
+    <wsdl:part name="parameters" element="tns:CriarMensagem" />
+  </wsdl:message>
+  <wsdl:message name="IMySAMSApiWS_CriarMensagem_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CriarMensagemResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IMySAMSApiWS">
+    <wsdl:operation name="Login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/Login" message="tns:IMySAMSApiWS_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/LoginResponse" message="tns:IMySAMSApiWS_Login_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AlterarPin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/AlterarPin" message="tns:IMySAMSApiWS_AlterarPin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/AlterarPinResponse" message="tns:IMySAMSApiWS_AlterarPin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterDadosPessoais">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterDadosPessoais" message="tns:IMySAMSApiWS_ObterDadosPessoais_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterDadosPessoaisResponse" message="tns:IMySAMSApiWS_ObterDadosPessoais_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AtualizarDadosPessoais">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/AtualizarDadosPessoais" message="tns:IMySAMSApiWS_AtualizarDadosPessoais_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/AtualizarDadosPessoaisResponse" message="tns:IMySAMSApiWS_AtualizarDadosPessoais_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterTempoAP">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterTempoAP" message="tns:IMySAMSApiWS_ObterTempoAP_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterTempoAPResponse" message="tns:IMySAMSApiWS_ObterTempoAP_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterBannersHomepage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterBannersHomepage" message="tns:IMySAMSApiWS_ObterBannersHomepage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterBannersHomepageResponse" message="tns:IMySAMSApiWS_ObterBannersHomepage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaUnidades">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaUnidades" message="tns:IMySAMSApiWS_ObterListaUnidades_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaUnidadesResponse" message="tns:IMySAMSApiWS_ObterListaUnidades_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaNoticias">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaNoticias" message="tns:IMySAMSApiWS_ObterListaNoticias_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaNoticiasResponse" message="tns:IMySAMSApiWS_ObterListaNoticias_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaConsultas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaConsultas" message="tns:IMySAMSApiWS_ObterListaConsultas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaConsultasResponse" message="tns:IMySAMSApiWS_ObterListaConsultas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CancelarAgendamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/CancelarAgendamento" message="tns:IMySAMSApiWS_CancelarAgendamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/CancelarAgendamentoResponse" message="tns:IMySAMSApiWS_CancelarAgendamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterDadosAgendamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterDadosAgendamento" message="tns:IMySAMSApiWS_ObterDadosAgendamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterDadosAgendamentoResponse" message="tns:IMySAMSApiWS_ObterDadosAgendamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterDatasDisponiveisAgendamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterDatasDisponiveisAgendamento" message="tns:IMySAMSApiWS_ObterDatasDisponiveisAgendamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterDatasDisponiveisAgendamentoResponse" message="tns:IMySAMSApiWS_ObterDatasDisponiveisAgendamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterHorasDisponiveisAgendamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterHorasDisponiveisAgendamento" message="tns:IMySAMSApiWS_ObterHorasDisponiveisAgendamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterHorasDisponiveisAgendamentoResponse" message="tns:IMySAMSApiWS_ObterHorasDisponiveisAgendamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterEntidadesAgendamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterEntidadesAgendamento" message="tns:IMySAMSApiWS_ObterEntidadesAgendamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterEntidadesAgendamentoResponse" message="tns:IMySAMSApiWS_ObterEntidadesAgendamento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Agendar">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/Agendar" message="tns:IMySAMSApiWS_Agendar_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/AgendarResponse" message="tns:IMySAMSApiWS_Agendar_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDocumentos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaDocumentos" message="tns:IMySAMSApiWS_ObterListaDocumentos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaDocumentosResponse" message="tns:IMySAMSApiWS_ObterListaDocumentos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DevolverDocumento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/DevolverDocumento" message="tns:IMySAMSApiWS_DevolverDocumento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/DevolverDocumentoResponse" message="tns:IMySAMSApiWS_DevolverDocumento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDeclaracoesPresenca">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaDeclaracoesPresenca" message="tns:IMySAMSApiWS_ObterListaDeclaracoesPresenca_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaDeclaracoesPresencaResponse" message="tns:IMySAMSApiWS_ObterListaDeclaracoesPresenca_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DevolverDeclaracaoPresenca">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/DevolverDeclaracaoPresenca" message="tns:IMySAMSApiWS_DevolverDeclaracaoPresenca_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/DevolverDeclaracaoPresencaResponse" message="tns:IMySAMSApiWS_DevolverDeclaracaoPresenca_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/CheckIn" message="tns:IMySAMSApiWS_CheckIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/CheckInResponse" message="tns:IMySAMSApiWS_CheckIn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterPrevisaoAtendimento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterPrevisaoAtendimento" message="tns:IMySAMSApiWS_ObterPrevisaoAtendimento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterPrevisaoAtendimentoResponse" message="tns:IMySAMSApiWS_ObterPrevisaoAtendimento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AvaliarAtendimento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/AvaliarAtendimento" message="tns:IMySAMSApiWS_AvaliarAtendimento_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/AvaliarAtendimentoResponse" message="tns:IMySAMSApiWS_AvaliarAtendimento_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterSenhas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterSenhas" message="tns:IMySAMSApiWS_ObterSenhas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterSenhasResponse" message="tns:IMySAMSApiWS_ObterSenhas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterQRCode">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterQRCode" message="tns:IMySAMSApiWS_ObterQRCode_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterQRCodeResponse" message="tns:IMySAMSApiWS_ObterQRCode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaAssuntos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaAssuntos" message="tns:IMySAMSApiWS_ObterListaAssuntos_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaAssuntosResponse" message="tns:IMySAMSApiWS_ObterListaAssuntos_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDestinatarios">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaDestinatarios" message="tns:IMySAMSApiWS_ObterListaDestinatarios_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaDestinatariosResponse" message="tns:IMySAMSApiWS_ObterListaDestinatarios_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaMensagens">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaMensagens" message="tns:IMySAMSApiWS_ObterListaMensagens_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ObterListaMensagensResponse" message="tns:IMySAMSApiWS_ObterListaMensagens_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AbrirMensagem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/AbrirMensagem" message="tns:IMySAMSApiWS_AbrirMensagem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/AbrirMensagemResponse" message="tns:IMySAMSApiWS_AbrirMensagem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AbrirAnexo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/AbrirAnexo" message="tns:IMySAMSApiWS_AbrirAnexo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/AbrirAnexoResponse" message="tns:IMySAMSApiWS_AbrirAnexo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ResponderMensagem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/ResponderMensagem" message="tns:IMySAMSApiWS_ResponderMensagem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/ResponderMensagemResponse" message="tns:IMySAMSApiWS_ResponderMensagem_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CriarMensagem">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMySAMSApiWS/CriarMensagem" message="tns:IMySAMSApiWS_CriarMensagem_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMySAMSApiWS/CriarMensagemResponse" message="tns:IMySAMSApiWS_CriarMensagem_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IMySAMSApiWS" type="tns:IMySAMSApiWS">
+    <wsp:PolicyReference URI="#BasicHttpBinding_IMySAMSApiWS_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AlterarPin">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/AlterarPin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterDadosPessoais">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterDadosPessoais" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AtualizarDadosPessoais">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/AtualizarDadosPessoais" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterTempoAP">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterTempoAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterBannersHomepage">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterBannersHomepage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaUnidades">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterListaUnidades" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaNoticias">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterListaNoticias" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaConsultas">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterListaConsultas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CancelarAgendamento">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/CancelarAgendamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterDadosAgendamento">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterDadosAgendamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterDatasDisponiveisAgendamento">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterDatasDisponiveisAgendamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterHorasDisponiveisAgendamento">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterHorasDisponiveisAgendamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterEntidadesAgendamento">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterEntidadesAgendamento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Agendar">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/Agendar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDocumentos">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterListaDocumentos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DevolverDocumento">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/DevolverDocumento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDeclaracoesPresenca">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterListaDeclaracoesPresenca" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DevolverDeclaracaoPresenca">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/DevolverDeclaracaoPresenca" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckIn">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/CheckIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterPrevisaoAtendimento">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterPrevisaoAtendimento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AvaliarAtendimento">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/AvaliarAtendimento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterSenhas">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterSenhas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterQRCode">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterQRCode" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaAssuntos">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterListaAssuntos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaDestinatarios">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterListaDestinatarios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObterListaMensagens">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ObterListaMensagens" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AbrirMensagem">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/AbrirMensagem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AbrirAnexo">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/AbrirAnexo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ResponderMensagem">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/ResponderMensagem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CriarMensagem">
+      <soap:operation soapAction="http://tempuri.org/IMySAMSApiWS/CriarMensagem" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MySAMSApiWS">
+    <wsdl:port name="BasicHttpBinding_IMySAMSApiWS" binding="tns:BasicHttpBinding_IMySAMSApiWS">
+      <soap:address location="https://lenovo-pc:444/MySAMSApiWS/MySAMSApiWS.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,131 @@
+﻿"Yes" = "Sim";
+"No" = "Não";
+"Back" = "Voltar";
+"RequiredField" = "Preencha os campos obrigatórios";
+"SelectOption" = "Seleccione uma opção:";
+"AreYouSure" = "Tem a certeza?";
+"Waiting" = "Aguarde...";
+"Save" = "Gravar";
+"Success" = "Sucesso";
+"Close" = "Fechar";
+"Next" = "Seguinte";
+"Select" = "Seleccione";
+"NoRecords" = "Não foram encontrados registos.";
+
+"ErrConnSevere" = "Ocorreu um erro na ligação ao serviço, verifique a conectividade ou tente mais tarde.";
+"ErrConnLight" = "Não existe ligação ao serviço, alguns dados poderão estar desatualizados.";
+"ErrChangePassword" = "Não foi possível fazer a alteração, verifique se o PIN antigo está correto ou tente mais tarde.";
+"ErrCancelAppointment" = "Não foi possível fazer o cancelamento, verifique a conectividade ou tente mais tarde.";
+"ErrCreateAppointment" = "Não foi possível fazer a marcação, verifique a conectividade ou tente mais tarde.";
+"ErrSendDeclaration" = "Não foi possível enviar a declaração, verifique o seu endereço de email ou tente mais tarde.";
+"ErrOpenDeclaration" = "Não foi possível obter a declaração, verifique a conectividade ou tente mais tarde.";
+"ErrSendDocument" = "Não foi possível enviar o documento, verifique o seu endereço de email ou tente mais tarde.";
+"ErrOpenDocument" = "Não foi possível obter o documento, verifique a conectividade ou tente mais tarde.";
+"ErrAccessCalendar" = "Não é possível aceder ao calendário, verifique as configurações da app nas definições do dispositivo.";
+"ErrNoAppointmentDates" = "Não é possível efetuar a marcação, por favor verifique os dados seleccionados.";
+"ErrAccessGPS" = "Não foi possível aceder ao GPS";
+"ErrSendingMessage" = "Não foi possível enviar a mensagem, por favor tente mais tarde.";
+"ErrCheckinAppointment" = "Não foi possível registar a entrada, verifique a conectividade ou tente mais tarde.";
+"ErrOpenQrCode" = "Não foi possível obter o código de desconto, verifique a conectividade ou tente mais tarde.";
+"ErrRatingService" = "Não foi possível classificar o serviço, verifique a conectividade ou tente mais tarde.";
+"ErrIOSVersion" = "O seu dispositivo não é compatível com esta funcionalidade.";
+
+"HomeTitle" = "Home";
+"AccountTitle" = "Faturas";
+"AppointmentTitle" = "Marcações";
+"DeclarationTitle" = "Declarações";
+"FacilityTitle" = "Unidades";
+"MessageTitle" = "Mensagens";
+"NewsTitle" = "Notícias";
+"UserTitle" = "Dados Pessoais";
+"AboutTitle" = "Sobre";
+"Logout" = "Sair";
+
+"EmergencyTitle" = "Atendimento Permanente";
+"WaitTime" = "Tempo de Espera {0}";
+"WaitTimeAdult" = "{0} min. | Adultos";
+"WaitTimeChildren" = "{0} min. | Pediatria";
+
+"AccountSubTitle" = "Os seus documentos financeiros";
+"AppointmentSubTitle" = "Faça a gestão da suas consultas";
+"DeclarationSubTitle" = "Peça a declaração de presença";
+"FacilitySubTitle" = "Encontre uma unidade de saúde";
+"MessageSubTitle" = "Canal direto para os serviços";
+"NewsSubTitle" = "Mantenha-se a par das novidades";
+
+"DeclarationTableTitle" = "Seleccione a declaração para envio por email";
+"DeclarationSendDocument" = "Deseja receber a declaração por email?";
+"DeclarationFileTitle" = "Declaração";
+
+"AccountTableTitle" = "Seleccione o documento para envio por email";
+"AccountPending" = "Valor a Pagamento";
+"AccountSendDocument" = "Deseja receber o documento por email?";
+"AccountFileTitle" = "Documento";
+
+"FacilityDrivingTitle" = "Deslocação";
+"FacilityDrivingTime" = "{0} min.";
+"FacilityDrivingCalculation" = "Baseado em distância e trânsito";
+
+"LoginUserName" = "Insira o número de utente";
+"LoginPassword" = "Insira o PIN";
+"LoginSubmit" = "Entrar";
+"LoginInvalid" = "Acesso inválido";
+
+"UserName" = "Nome";
+"UserEmail" = "Email";
+"UserTaxNumber" = "NIF";
+"UserMobile" = "Telemóvel";
+"UserPhone" = "Telefone";
+"UserAddress" = "Morada";
+"UserTableTitle" = "Seleccione a opção pretendida";
+"UserTitleDetail" = "Dados Pessoais";
+"UserSubTitleDetail" = "Altere os seus Dados Pessoais";
+"UserTitlePassword" = "Alterar PIN";
+"UserSubTitlePassword" = "Altere o seu PIN de acesso aos serviços";
+"UserTitleNotification" = "Notificações";
+"UserSubTitleNotification" = "Faça a gestão das notificações que pretende receber";
+
+"UserPasswordOld" = "Insira o seu PIN antigo";
+"UserPasswordNew" = "Insira o seu novo PIN";
+"UserPasswordConfirm" = "Confirme o seu novo PIN";
+"UserPasswordMismatch" = "O novo PIN é diferente da confirmação.";
+
+"AppointmentBookedTableTitle" = "Agendado";
+"AppointmentOldTableTitle" = "Histórico";
+"AppointmentClosedTableTitle" = "Concluído";
+"AppointmentCancelAppointment" = "Cancelar Marcação";
+"AppointmentDownloadICS" = "Registar no Calendário";
+"AppointmentNew" = "Nova Marcação";
+"AppointmentTypeC" = "Consulta";
+"AppointmentTypeE" = "Exame";
+"AppointmentTypeO" = "Outro";
+"AppointmentDoctor" = "Médico";
+"AppointmentSpecialty" = "Especialidade";
+"AppointmentService" = "Ato";
+"AppointmentFacility" = "Unidade de Saúde";
+"AppointmentFrom" = "Marcação a partir de";
+"AppointmentDate" = "Data";
+"AppointmentTime" = "Hora";
+"AppointmentPayor" = "Entidade Financiadora";
+"AppointmentPayorWarning" = "Validação sujeita às condições acordadas com a Entidade Financiadora.";
+"AppointmentBook" = "Marcar";
+"AppointmentConfirmation" = "Confirme a Marcação";
+"AppointmentEventCreationSuccess" = "Foi criado um novo evento no seu calendário";
+"NoAppointments" = "Não tem marcações";
+"AppointmentArrivedWithNumberTableTitle" = "Aguarde a chamada da senha";
+"AppointmentArrivedWithoutNumberTableTitle" = "Aguarde a chamada pelo nome";
+"AppointmentCheckIn" = "Registar chegada";
+"AppointmentRating" = "Classifique o serviço";
+"AppointmentRatingSuccess" = "Obrigado pela sua classificação.";
+"AppointmentPresenceDeclaration" = "Declaração de presença";
+"AppointmentQRCode" = "Desconto de estacionamento";
+"AppointmentGoTo" = "Dirija-se a";
+"AppointmentTicket" = "Senha";
+
+"NewMessageTitle" = "Nova Mensagem";
+"MessageRecipient" = "Destinatário";
+"MessageSubject" = "Assunto";
+
+"AboutVersion" = "Versão";
+"AboutDevelopedBy" = "Desenvolvido por Simple Solutions com Xamarin Tech.";
+"AboutCopyright" = "Copyright 2017 {0}. Todos os direitos reservados.";

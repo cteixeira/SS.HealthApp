@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">MySAMS</string>
+  <string name="client_name">Sindicato Bancário Sul e Ilhas</string>
+  <string name="client_url">https://pics.sams.pt</string>
+
+  <!--string name="app_name">Digital Customer</string>
+  <string name="client_name">Digital Customer</string>
+  <string name="client_url">https://simplesolutions.pt</string-->
+  
+  <string name="developer_url">http://www.simplesolutions.pt/</string>
+  
+  <string name="drawer_open">Abrir</string>
+  <string name="drawer_close">Fechar</string>
+  <string name="info_saving">A gravar</string>
+  <string name="info_success">Sucesso</string>
+  <string name="info_error">Erro</string>
+  <string name="info_wait">Aguarde...</string>
+  <string name="yes">Sim</string>
+  <string name="no">Não</string>
+  <string name="close">Fechar</string>
+  <string name="save">Gravar</string>
+  <string name="select_option">Seleccione uma opção:</string>
+  <string name="no_records">Não foram encontrados registos.</string>
+  <string name="Ticket">Senha</string>
+
+  <string name="ErrGeneral">Ocorreu um erro, por favor tente mais tarde.</string>
+  <string name="ErrConnSevere">Ocorreu um erro na ligação ao serviço, verifique a conectividade ou tente mais tarde.</string>
+  <string name="ErrConnLight">Não existe ligação ao serviço, alguns dados poderão estar desatualizados.</string>
+  <string name="ErrChangePassword">Não foi possível fazer a alteração, verifique se a password antiga está correta ou tente mais tarde.</string>
+  <string name="ErrCancelAppointment">Não foi possível fazer o cancelamento, verifique a conectividade ou tente mais tarde.</string>
+  <string name="ErrCreateAppointment">Não é possível efetuar a marcação, por favor verifique os dados seleccionados.</string>
+  <string name="ErrOpenDeclaration">Não foi possível obter a declaração, verifique a conectividade ou tente mais tarde.</string>
+  <string name="ErrOpenDocument">Não foi possível obter o documento, verifique a conectividade ou tente mais tarde.</string>
+  <string name="ErrAccessCalendar">Não é possível aceder ao calendário, verifique as configurações da app nas definições do dispositivo.</string>
+  <string name="ErrNoAppointmentDates">Não é possível efetuar a marcação, por favor verifique os dados seleccionados.</string>
+  <string name="ErrNoAppViewFile">O dispositivo não tem nenhuma aplicação para abrir o ficheiro.</string>
+  <string name="ErrAccessGPS">Não foi possível aceder ao GPS</string>
+  <string name="ErrSendMessage">Não foi possível enviar a mensagem, por favor tente mais tarde.</string>
+  <string name="ErrCheckinAppointment">Não foi possível registar a entrada, verifique a conectividade ou tente mais tarde.</string>
+  <string name="ErrOpenQrCode"> Não foi possível obter o código de desconto, verifique a conectividade ou tente mais tarde.</string>
+
+
+  <string name="validationError_required">Obrigatório</string>
+  <string name="validationError_passwordmismatch">A nova password é diferente da confirmação.</string>
+
+  <string name="menu_Home">Início</string>
+  <string name="menu_Appointment">Marcações</string>
+  <string name="menu_AppointmentDescription">Faça a gestão das suas consultas e o check-in</string>
+  <string name="menu_Messages">Mensagens</string>
+  <string name="menu_MessagesDescription">Canal direto para os serviços</string>
+  <string name="menu_AccountStatment">Faturas</string>
+  <string name="menu_AccountStatmentDescription">Os seus documentos financeiros</string>
+  <string name="menu_News">Notícias</string>
+  <string name="menu_NewsDescription">Mantenha-se a par das novidades</string>
+  <string name="menu_Facility">Unidades</string>
+  <string name="menu_FacilityDescription">Encontre a unidade de saúde mais próxima</string>
+  <string name="menu_Declarations">Declarações</string>
+  <string name="menu_DeclarationsDescription">Peça a declaração de presença</string>
+  <string name="menu_PersonalData">Dados Pessoais</string>
+  <string name="menu_About">Sobre</string>
+  <string name="menu_Logout">Sair</string>
+
+  <string name="home_ticket_goto">Dirija-se a </string>
+
+  <string name="emergency_time_emergency">Atendimento Permanente</string>
+  <string name="emergency_time_adult">Adultos</string>
+  <string name="emergency_time_pediatric">Pediatria</string>
+  <string name="emergency_time_minutes">min</string>
+  
+  <string name="login_username">Número de utente</string>
+  <string name="login_password">PIN</string>
+  <string name="login_login">Entrar</string>
+  <string name="login_authenticating">A autenticar...</string>
+  <string name="login_error">O nome de utilizador ou a palavra chave são inválidos</string>
+ 
+  <string name="facility_travel_time_travel">Deslocação</string>
+  <string name="facility_travel_time_min">{0} min.</string>
+  <string name="facility_travel_time_BasedInTraffic">Baseado em distância e trânsito</string>
+  
+  <string name="menu_UserSettings_PersonalDataDescription">Altere os seus Dados Pessoais</string>
+  <string name="menu_UserSettings_ChangePassword">Alterar PIN</string>
+  <string name="menu_UserSettings_ChangePasswordDescription">Altere o seu PIN de acesso aos serviços</string>
+  <string name="menu_UserSettings_Notifications">Notificações</string>
+  <string name="menu_UserSettings_NotificationsDescription">Faça a gestão das notificações que pretende receber</string>
+
+  <string name="user_settingsListSubheader">Seleccione a opção pretendida</string>
+  <string name="userdata_name">Nome</string>
+  <string name="userdata_email">Email</string>
+  <string name="userdata_taxNumber">NIF</string>
+  <string name="userdata_phoneNumber">Telefone</string>
+  <string name="userdata_MobileNumber">Telemóvel</string>
+  <string name="userdata_address">Morada</string>
+  
+  <string name="userdata_changePassword_actualPassword">PIN actual</string>
+  <string name="userdata_changePassword_newPassword">Novo PIN</string>
+  <string name="userdata_changePassword_confirmNewPassword">Confirme novo PIN</string>
+  
+  <string name="appointment_NewAppointment">Nova Marcação</string>
+  <string name="appointment_Status_Booked">Agendado</string>
+  <string name="appointment_Status_Closed">Concluído</string>
+  <string name="appointment_Status_History">Histórico</string>
+  <string name="appointment_Status_Arrived_with_number">Aguarde a chamada da senha</string>
+  <string name="appointment_Status_Arrived_without_number">Aguarde a chamada pelo nome</string>
+  <string name="appointment_cancel">Cancelar marcação</string>
+  <string name="appointment_save_calendar">Registar no calendário</string>
+  <string name="appointment_check_in">Registar chegada</string>
+  <string name="appointment_feedback_rating">Classifique o serviço</string>
+  <string name="appointment_presence_declaration">Declaração de presença</string>
+  <string name="appointment_parking_qr_code">Desconto de estacionamento</string>
+  <string name="appointment_cancel_alertDialog_Title">Cancelar Marcação?</string>
+  <string name="appointment_cancel_alertDialog_Message">Confirme o cancelamento</string>
+  <string name="appointment_checkin_alertDialog_Title">Registar chegada?</string>
+  <string name="appointment_checkin_alertDialog_Message">Confirme a chegada</string>
+  <string name="appointment_eventcreation_sucess">Foi criado um novo evento no seu calendário</string>
+  <string name="appointment_type0">Consulta</string>
+  <string name="appointment_type1">Exame</string>
+  <string name="appointment_type2">Outro</string>
+  <string name="appointment_doctor">Médico</string>
+  <string name="appointment_speciality">Especialidade</string>
+  <string name="appointment_service">Ato</string>
+  <string name="appointment_facility">Unidade Saúde</string>
+  <string name="appointment_date_from">Marcação a partir de</string>
+  <string name="appointment_date">Data</string>
+  <string name="appointment_time">Hora</string>
+  <string name="appointment_payor">Entidade Financiadora</string>
+  <string name="appointment_selectMomentRequired">Por favor seleccione uma data primeiro</string>
+  <string name="appointment_book_alertDialog_Title">Confirma a marcação?</string>
+
+  <string name="message_message">Mensagem</string>
+  <string name="message_newMessage">Nova Mensagem</string>
+  <string name="message_recepient">Destinatário</string>
+  <string name="message_subject">Assunto</string>
+
+  <string name="AboutVersion">Versão {0}</string>
+
+  <string name="AboutText">
+    A App MySams é um serviço fornecido pelo SBSI / SAMS.\n
+    \n
+    A App MySAMS – disponível para smartphones com sistema operativo iOS ou Android – permite consultar informação das várias unidades de saúde do SBSI /SAMS,\n
+    saber os tempos de espera no Atendimento Permanente do Hospital e do Centro Clínico de Lisboa, gerir consultas e exames e disponibiliza informação da atividade realizada no SAMS.\n
+    \n
+    A App MySAMS permite auxiliá-lo na gestão da marcação de um ato clinico e a efetuar o cálculo de tempo e o percurso para a unidade de saúde.\n
+    \n
+    A App é para uso pessoal e carece de registo prévio. Nem todos os serviços da App funcionam com todos os equipamentos móveis – antes de se registar, terá de verificar se o seu equipamento móvel é compatível com o MySams.\n
+    \n
+    Copyright 2017 - Sindicato dos Bancários Sul e Ilhas. Todos os direitos reservados.\n
+    \n
+    Mobile app development with Xamarin Tech. in collaboration with Simple Solutions.
+  </string>
+
+  <!--string name="AboutText">
+    With the Digital Transformation in mind, Simple Solutions has developed an innovative product that digitizes the relationship and service provided, between B2C companies and their end customers.\n
+    \n
+    Some of the features of our Customer Service App:\n
+    - Booking, check-in and cancellation of appointments;\n
+    - Check-in with estimated time for service;\n
+    - Message exchange with back office;\n
+    - Notifications;\n
+    - Financial statement;\n
+    - News;\n
+    - Facilities list(with travel time, including traffic).\n
+    \n
+    Copyright 2017 - Simple Solutions. All rights reserved.\n
+  </string-->
+  
+</resources>

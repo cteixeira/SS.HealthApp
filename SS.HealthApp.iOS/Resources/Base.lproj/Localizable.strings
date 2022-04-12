@@ -1,0 +1,132 @@
+﻿"Yes" = "Yes";
+"No" = "No";
+"Back" = "Back";
+"RequiredField" = "Fill in the required fields";
+"SelectOption" = "Select an option:";
+"AreYouSure" = "Are you sure?";
+"Waiting" = "Wait...";
+"Save" = "Save";
+"Success" = "Success";
+"Close" = "Close";
+"Next" = "Next";
+"Select" = "Select";
+"NoRecords" = "No records found.";
+
+"ErrGeneral" = "An error has ocurred, please try again later.";
+"ErrConnSevere" = "There was an error connecting to the service, check the connectivity, or try again later.";
+"ErrConnLight" = "There is no connection, some data may be outdated.";
+"ErrChangePassword" = "We were unable to make the change, make sure the old PIN is correct, or try again later.";
+"ErrCancelAppointment" = "Unable to cancel, check connectivity, or try again later.";
+"ErrCreateAppointment" = "Unable to schedule, please check the selected data.";
+"ErrSendDeclaration" = "We were unable to submit the statement, check your email address or try again later.";
+"ErrOpenDeclaration" = "Could not get declaration, check connectivity, or try again later.";
+"ErrSendDocument" = "We were unable to send the document, check your email address or try again later.";
+"ErrOpenDocument" = "Could not get document, check connectivity, or try again later.";
+"ErrAccessCalendar" = "Can not access calendar, check app settings in device settings.";
+"ErrNoAppointmentDates" = "Unable to schedule, please check the selected data.";
+"ErrAccessGPS" = "Could not access GPS";
+"ErrSendingMessage" = "Could not send message, please try again later.";
+"ErrCheckinAppointment" = "Unable to check in, check connectivity, or try again later.";
+"ErrOpenQrCode" = "Could not get QR code, check connectivity, or try again later.";
+"ErrRatingService" = "Unable to rate the service, check connectivity, or try again later.";
+"ErrIOSVersion" = "Your device is not compatible with this feature.";
+
+"HomeTitle" = "Home";
+"AccountTitle" = "Account";
+"AppointmentTitle" = "Appointments";
+"DeclarationTitle" = "Declarations";
+"FacilityTitle" = "Facilities";
+"MessageTitle" = "Messages";
+"NewsTitle" = "News";
+"UserTitle" = "Personal Data";
+"AboutTitle" = "About";
+"Logout" = "Logout";
+
+"EmergencyTitle" = "Emergency Care";
+"WaitTime" = "Wait Time {0}";
+"WaitTimeAdult" = "{0} min. | Adults";
+"WaitTimeChildren" = "{0} min. | Pediatrics";
+
+"AccountSubTitle" = "Your financial documents";
+"AppointmentSubTitle" = "Manage your appointments";
+"DeclarationSubTitle" = "Get your declaration of presence";
+"FacilitySubTitle" = "Find the nearest health facility";
+"MessageSubTitle" = "Direct channel to our services";
+"NewsSubTitle" = "Keep up to date with news";
+
+"DeclarationTableTitle" = "Select the declaration for emailing";
+"DeclarationSendDocument" = "Do you want to receive the declaration by email?";
+"DeclarationFileTitle" = "Declaration";
+
+"AccountTableTitle" = "Select document for emailing";
+"AccountPending" = "Amount to Pay";
+"AccountSendDocument" = "Do you want to receive the document by email?";
+"AccountFileTitle" = "Document";
+
+"FacilityDrivingTitle" = "Travel Time";
+"FacilityDrivingTime" = "{0} min.";
+"FacilityDrivingCalculation" = "Based on distance and transit";
+
+"LoginUserName" = "Please enter your username";
+"LoginPassword" = "Enter your PIN";
+"LoginSubmit" = "Login";
+"LoginInvalid" = "Invalid access";
+
+"UserName" = "Name";
+"UserEmail" = "Email";
+"UserTaxNumber" = "Tax Number";
+"UserMobile" = "Mobile";
+"UserPhone" = "Phone";
+"UserAddress" = "Address";
+"UserTableTitle" = "Select an option";
+"UserTitleDetail" = "Personal data";
+"UserSubTitleDetail" = "Change your Personal Information";
+"UserTitlePassword" = "Change PIN";
+"UserSubTitlePassword" = "Change your service access PIN";
+"UserTitleNotification" = "Notifications";
+"UserSubTitleNotification" = "Manage the notifications you want to receive";
+
+"UserPasswordOld" = "Enter your old PIN";
+"UserPasswordNew" = "Enter your new PIN";
+"UserPasswordConfirm" = "Confirm your new PIN";
+"UserPasswordMismatch" = "The new PIN is different from the confirmation.";
+
+"AppointmentBookedTableTitle" = "Scheduled";
+"AppointmentOldTableTitle" = "Historic";
+"AppointmentClosedTableTitle" = "Closed";
+"AppointmentCancelAppointment" = "Cancel Appointment";
+"AppointmentDownloadICS" = "Register on Device Calendar";
+"AppointmentNew" = "New Appointment";
+"AppointmentTypeC" = "Consultation";
+"AppointmentTypeE" = "Exam";
+"AppointmentTypeO" = "Other";
+"AppointmentDoctor" = "Doctor";
+"AppointmentSpecialty" = "Specialty";
+"AppointmentService" = "Service";
+"AppointmentFacility" = "Facility";
+"AppointmentFrom" = "Schedule from";
+"AppointmentDate" = "Date";
+"AppointmentTime" = "Time";
+"AppointmentPayor" = "Payor";
+"AppointmentPayorWarning" = "Validation subject to conditions agreed with the Payor.";
+"AppointmentBook" = "Book";
+"AppointmentConfirmation" = "Confirm the appointment";
+"AppointmentEventCreationSuccess" = "A new event has been created on your device calendar";
+"NoAppointments" = "No Appointments";
+"AppointmentArrivedWithNumberTableTitle" = "Wait for the call by ticket";
+"AppointmentArrivedWithoutNumberTableTitle" = "Wait for the call by name";
+"AppointmentCheckIn" = "Check in";
+"AppointmentRating" = "Rate the Service";
+"AppointmentRatingSuccess" = "Thank you for rating.";
+"AppointmentPresenceDeclaration" = "Presence Declaration";
+"AppointmentQRCode" = "Parking Discount";
+"AppointmentGoTo" = "Go to";
+"AppointmentTicket" = "Ticket";
+
+"NewMessageTitle" = "New Message";
+"MessageRecipient" = "Recipient";
+"MessageSubject" = "Subject";
+
+"AboutVersion" = "Version";
+"AboutDevelopedBy" = "Developed by Simple Solutions using Xamarin Tech.";
+"AboutCopyright" = "Copyright 2017 {0}. All rights reserved.";

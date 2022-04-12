@@ -1,0 +1,26 @@
+Criar projetos:
+SS.HealthApp.Forms (Portable)
+	Procurar componente de substituição para iCarousel, Toast e QuickLook (PDF)
+	Implementar componente PickerList
+	Criar pasta Views para XAML
+	Criar View AccountList
+	Criar View AppointmentList
+	Criar View AppointmentNewStep1
+	Criar View AppointmentNewStep2
+	Criar View DeclarationList
+	Criar View FacilityList
+	Criar View FacilityDetail
+	Criar View Home (Banner + WaitTime + Menu)
+	Criar View MessageList
+	Criar View MessageDetail
+	Criar View MessageNew
+	Criar View NewsList
+	Criar View NewsDetail
+	Criar View UserLogin
+	Criar View UserOptions
+	Criar View UserDetail
+	Criar View UserChangePassword
+SS.HealthApp.Forms.iOS
+	Copiar pasta Resources
+SS.HealthApp.Forms.Android
+	Copiar pasta Resources exceto os Layouts que serão substituidos por XAML Views

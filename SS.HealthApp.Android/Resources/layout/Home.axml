@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+    <!--Begin Banner slider-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:orientation="vertical">
+      <ViewFlipper
+          android:id="@+id/view_flipper_banners"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+    </RelativeLayout>
+    <!--End Banner slider-->
+    <!--Begin Emergency wait time-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/panel_waiting_time"
+        android:visibility="gone">
+      <ViewFlipper
+          android:id="@+id/view_flipper_waiting_time"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+      </ViewFlipper>
+    </RelativeLayout>
+    <!--End Emergency wait time-->
+    <!--Begin Next Ticket-->
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:id="@+id/panel_next_ticket"
+      android:background="@color/grayblock_backgroundColor"
+      android:minHeight="100dp"
+      android:visibility="gone">
+      <LinearLayout
+        android:id="@+id/ll_goTo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight=".30"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:layout_gravity="center_vertical|center_horizontal">
+        <TextView
+          android:id="@+id/tvGoTo"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="22sp"
+          android:textColor="@color/colorPrimary"/>
+      </LinearLayout>
+      <LinearLayout
+        android:id="@+id/ll_Ticket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight=".70"
+        android:paddingRight="10dp"
+        android:layout_gravity="center_vertical">
+        <TextView
+          android:id="@+id/tvTicket"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:textSize="14sp"
+          android:textColor="@color/colorAccent" />
+        <TextView
+          android:id="@+id/tvTicketNumber"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+          android:textSize="40sp"
+          android:textColor="@color/colorAccent"/>
+      </LinearLayout>
+    </LinearLayout>
+    <!--End Next Ticket-->
+    <!--Begin Menu Options-->
+    <ListView
+        android:id="@+id/lvHomeMenu"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:dividerHeight="1dp"
+        android:divider="@android:color/darker_gray" />
+    <!--End Menu Options-->
+  </LinearLayout>
+</ScrollView>

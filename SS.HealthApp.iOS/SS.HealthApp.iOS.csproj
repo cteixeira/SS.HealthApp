@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProjectGuid>{B6BB8055-8CF9-4125-BBC4-42EEFDBA2748}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SS.HealthApp.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>SSHealthAppiOS</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>True</MtouchDebug>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchSdkVersion>
+    </MtouchSdkVersion>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchEnableBitcode>False</MtouchEnableBitcode>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <OptimizePNGs>true</OptimizePNGs>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchFloat32>False</MtouchFloat32>
+    <CodesignProvision>
+    </CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>i386</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <MtouchSdkVersion>10.1</MtouchSdkVersion>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchEnableBitcode>False</MtouchEnableBitcode>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <OptimizePNGs>True</OptimizePNGs>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchFloat32>False</MtouchFloat32>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <BuildIpa>True</BuildIpa>
+    <IpaIncludeArtwork>False</IpaIncludeArtwork>
+    <CodesignProvision>
+    </CodesignProvision>
+    <MtouchSdkVersion>10.3</MtouchSdkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <BuildIpa>True</BuildIpa>
+    <CodesignKey>iPhone Distribution: Sindicato dos Bancários do Sul e Ilhas (L4AATCT94G)</CodesignKey>
+    <MtouchDebug>False</MtouchDebug>
+    <CodesignProvision>App Store Distribution SBSI</CodesignProvision>
+    <CodesignExtraArgs />
+    <CodesignResourceRules />
+    <CodesignEntitlements />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>False</ConsolePause>
+    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+    <CodesignProvision>
+    </CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhoneSimulator'">
+    <BuildIpa>True</BuildIpa>
+    <IpaIncludeArtwork>False</IpaIncludeArtwork>
+    <MtouchSdkVersion>
+    </MtouchSdkVersion>
+    <MtouchLink>Full</MtouchLink>
+    <MtouchDebug>False</MtouchDebug>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchArch>i386, x86_64</MtouchArch>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchEnableBitcode>False</MtouchEnableBitcode>
+    <MtouchUseSGen>False</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <OptimizePNGs>false</OptimizePNGs>
+    <MtouchTlsProvider>Default</MtouchTlsProvider>
+    <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
+    <MtouchFloat32>False</MtouchFloat32>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignProvision>
+    </CodesignProvision>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <AppExtensionDebugBundleId />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Account\AccountListViewController.cs" />
+    <Compile Include="Account\AccountViewController.cs" />
+    <Compile Include="Appointment\NewVersion\AppointmentViewController.cs" />
+    <Compile Include="Appointment\RateServiceViewController.cs" />
+    <Compile Include="Appointment\NewStep0ViewController.cs" />
+    <Compile Include="Appointment\NewStep1ViewController.cs" />
+    <Compile Include="Appointment\AppointmentViewController.cs" />
+    <Compile Include="BaseType\DetailViewController.cs" />
+    <Compile Include="BaseType\ListViewController.cs" />
+    <Compile Include="Components\PickerList.cs" />
+    <Compile Include="Components\PickerModel.cs" />
+    <Compile Include="Components\QuickLook.cs" />
+    <Compile Include="Declaration\DeclarationViewController.cs" />
+    <Compile Include="Facility\FacilityDetailViewController.cs" />
+    <Compile Include="Home\BannerViewController.cs" />
+    <Compile Include="Components\UMTableViewCell.designer.cs">
+      <DependentUpon>UMTableViewCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Declaration\DeclarationListViewController.cs" />
+    <Compile Include="Facility\FacilityViewController.cs" />
+    <Compile Include="AboutViewController.cs" />
+    <Compile Include="Home\TicketViewController.cs" />
+    <Compile Include="Home\EmergencyViewController.cs" />
+    <Compile Include="Home\HomeViewController.cs" />
+    <Compile Include="Components\CellDelegate.cs" />
+    <Compile Include="Home\MenuViewController.cs" />
+    <Compile Include="Components\Cell.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="Components\UMTableViewCell.cs" />
+    <Compile Include="Message\MessageDetailViewController.cs" />
+    <Compile Include="Message\NewMessageViewController.cs" />
+    <Compile Include="SlideoutViewController.cs" />
+    <Compile Include="Message\MessageViewController.cs" />
+    <Compile Include="News\NewsDetailViewController.cs" />
+    <Compile Include="News\NewsViewController.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="User\UserListViewController.cs" />
+    <Compile Include="User\LoginViewController.cs" />
+    <Compile Include="User\UserPasswordViewController.cs" />
+    <Compile Include="User\UserNotificationViewController.cs" />
+    <Compile Include="User\UserDetailViewController.cs" />
+    <Compile Include="User\UserViewController.cs" />
+    <BundleResource Include="Resources\Icons\ic_euro_symbol_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_euro_symbol_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_euro_symbol_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_event_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_event_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_event_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_import_contacts_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_import_contacts_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_import_contacts_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_insert_drive_file_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_insert_drive_file_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_insert_drive_file_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_pin_drop_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_pin_drop_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_pin_drop_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_question_answer_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_question_answer_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_question_answer_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_person_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_person_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_person_white_36pt_3x.png" />
+    <Compile Include="Utils.cs" />
+    <BundleResource Include="Resources\Icons\ic_access_time_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_access_time_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_access_time_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_add_circle_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_add_circle_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_add_circle_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_check_circle_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_check_circle_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_check_circle_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_directions_car_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_directions_car_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_directions_car_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_email_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_email_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_email_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_face_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_face_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_face_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_file_download_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_file_download_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_file_download_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_navigate_next_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_navigate_next_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_navigate_next_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_search_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_search_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_search_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_more_horiz_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_more_horiz_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_more_horiz_white_36pt_3x.png" />
+    <BundleResource Include="Resources\list_placeholder.png" />
+    <None Include="app.config" />
+    <None Include="Info.plist">
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="packages.config" />
+    <BundleResource Include="Resources\Base.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\pt.lproj\Localizable.strings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="HockeySDK">
+      <HintPath>..\Components\hockeyappios-4.1.0.3\lib\ios-unified\HockeySDK.dll</HintPath>
+    </Reference>
+    <Reference Include="HockeySDK.iOSBindings">
+      <HintPath>..\Components\hockeyappios-4.1.0.3\lib\ios-unified\HockeySDK.iOSBindings.dll</HintPath>
+    </Reference>
+    <Reference Include="iCarousel">
+      <HintPath>..\Components\icarousel-1.8.2.1\lib\ios-unified\iCarousel.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoTouch.Dialog-1" />
+    <Reference Include="MonoTouch.Slideout, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoTouch.SlideoutNavigation.1.0.1\lib\Xamarin.iOS10\MonoTouch.Slideout.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MvvmValidation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=113792d2053ac461, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmValidation.3.0.0\lib\netstandard1.0\MvvmValidation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PCLStorage, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PCLStorage.Abstractions, Version=1.0.2.0, Culture=neutral, PublicKeyToken=286fe515a2c35b64, processorArchitecture=MSIL">
+      <HintPath>..\packages\PCLStorage.1.0.2\lib\portable-Xamarin.iOS+Xamarin.Mac\PCLStorage.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Connectivity, Version=2.2.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.2.2.12\lib\Xamarin.iOS10\Plugin.Connectivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Connectivity.Abstractions, Version=2.2.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.2.2.12\lib\Xamarin.iOS10\Plugin.Connectivity.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Geolocator, Version=3.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Geolocator.3.0.4\lib\Xamarin.iOS10\Plugin.Geolocator.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Geolocator.Abstractions, Version=3.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugin.Geolocator.3.0.4\lib\Xamarin.iOS10\Plugin.Geolocator.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SS.HealthApp.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\SS.HealthApp.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="SWTableViewCell">
+      <HintPath>..\Components\swtableviewcell-0.3.7.0\lib\ios-unified\SWTableViewCell.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="ToastIOS">
+      <HintPath>..\Components\ToastIOS-1.6\lib\ios-unified\ToastIOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="XamDialogs, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\xamdialogs.1.1.0.0\lib\Xamarin.iOS10\XamDialogs.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SS.HealthApp.PCL\SS.HealthApp.PCL.csproj">
+      <Project>{980c25d6-4bd9-4366-8ebf-54d6e79d276e}</Project>
+      <Name>SS.HealthApp.PCL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_add_circle_outline_white_36pt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_add_circle_outline_white_36pt_2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_add_circle_outline_white_36pt_3x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_phone_white_36pt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_phone_white_36pt_2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_phone_white_36pt_3x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\SAMS\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_highlight_off_36pt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_highlight_off_36pt_2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_highlight_off_36pt_3x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_reply_white_36pt_3x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_reply_white_36pt_2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Icons\ic_reply_white_36pt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Default-Portrait.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Default-Portrait%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Default%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Default-568h%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon-60%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon-72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon-72%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon-76.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon-76%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon-Small-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon-Small-40%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon-Small-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon-Small-50%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon-Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon-Small%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Icon%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\StoreIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Entitlements.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ClientResources\DigitalCustomer\Logo%40xl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\SS.HealthApp.Model.dll" />
+    <BundleResource Include="Resources\Icons\ic_sentiment_neutral_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_sentiment_neutral_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_sentiment_neutral_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_sentiment_very_dissatisfied_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_sentiment_very_dissatisfied_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_sentiment_very_dissatisfied_white_36pt_3x.png" />
+    <BundleResource Include="Resources\Icons\ic_sentiment_very_satisfied_white_36pt.png" />
+    <BundleResource Include="Resources\Icons\ic_sentiment_very_satisfied_white_36pt_2x.png" />
+    <BundleResource Include="Resources\Icons\ic_sentiment_very_satisfied_white_36pt_3x.png" />
+    <BundleResource Include="Resources\ClientResources\SAMS\Default%402x.png" />
+    <BundleResource Include="Resources\ClientResources\SAMS\Default-568h%402x.png" />
+    <BundleResource Include="Resources\ClientResources\SAMS\Icon-40.png" />
+    <BundleResource Include="Resources\ClientResources\SAMS\Icon-40%402x.png" />
+    <BundleResource Include="Resources\ClientResources\SAMS\Icon-58.png" />
+    <BundleResource Include="Resources\ClientResources\SAMS\Icon-60.png" />
+    <BundleResource Include="Resources\ClientResources\SAMS\Icon-60%402x.png" />
+    <BundleResource Include="Resources\ClientResources\SAMS\Icon-87.png" />
+    <BundleResource Include="Resources\ClientResources\SAMS\Icon-180.png" />
+    <BundleResource Include="Resources\ClientResources\SAMS\Icon-1024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ImageAsset Include="Media.xcassets\AppIcons.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\AppIcons.appiconset\Icon-1024.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\AppIcons.appiconset\Icon-180.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\AppIcons.appiconset\Icon-40.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\AppIcons.appiconset\Icon-40@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\AppIcons.appiconset\Icon-58.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\AppIcons.appiconset\Icon-60.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\AppIcons.appiconset\Icon-60@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\AppIcons.appiconset\Icon-87.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\LaunchImages.launchimage\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\LaunchImages.launchimage\Default-568h@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Media.xcassets\LaunchImages.launchimage\Default@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+</Project>
