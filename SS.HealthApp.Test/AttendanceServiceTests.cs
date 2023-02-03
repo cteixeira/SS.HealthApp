@@ -18,7 +18,7 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AttendanceService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm)
             {
                 var ticket = aService.GetNextTicketAsync().Result;
@@ -32,10 +32,10 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AttendanceService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm)
             {
-                var result = aService.CheckInAsync("4905||1796||1").Result;
+                var result = aService.CheckInAsync("2").Result;
                 Assert.AreEqual(result.Sucess, true);
             }
         }
@@ -47,10 +47,10 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AttendanceService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm)
             {
-                var res = aService.RateServiceAsync("1427||5017||1", 6).Result;
+                var res = aService.RateServiceAsync("5", 6).Result;
                 Assert.AreEqual(res, true);
             }
         }
@@ -62,10 +62,10 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AttendanceService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm)
             {
-                var code = aService.DownloadParkingQRCodeAsync("1427||5017||1", "C:\\").Result;
+                var code = aService.DownloadParkingQRCodeAsync("5", "C:\\temp\\").Result;
 
                 Assert.AreNotEqual(code, null);
             }

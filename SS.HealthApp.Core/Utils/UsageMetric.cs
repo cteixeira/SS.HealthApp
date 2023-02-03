@@ -3,9 +3,6 @@
 namespace SS.HealthApp.Core.Utils {
     public class UsageMetric {
 
-        
-
-
         public static void Add(string className, string methodName, string info) {
             Add(className, methodName, info, CoreContext.CurrentUser.CompanyId, CoreContext.CurrentUser.Id);
         }

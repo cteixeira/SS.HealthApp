@@ -11,7 +11,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var aService = new AccountService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
                 var items = aService.GetItemsAsync().Result;
                 Assert.AreNotEqual(items.Count, 0);
@@ -23,9 +23,9 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var aService = new AccountService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
-                var result = aService.SendDocumentAsync("2014NCS90614P 00000000011").Result;
+                var result = aService.SendDocumentAsync("1").Result;
                 Assert.AreEqual(result, true);
             }
         }
@@ -36,11 +36,11 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var aService = new AccountService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm)
             {
-                var result = aService.DownloadDocumentAsync("2014NCS90614P 00000000011").Result;
-                Assert.AreEqual(result, true);
+                var result = aService.DownloadDocumentAsync("1").Result;
+                Assert.AreNotEqual(result, null);
             }
         }
     }

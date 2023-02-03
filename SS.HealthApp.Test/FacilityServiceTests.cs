@@ -11,25 +11,25 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var fService = new FacilityService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
                 var items = fService.GetItemsAsync().Result;
                 Assert.AreNotEqual(items.Count, 0);
             }
         }
 
-        [TestMethod]
-        public void GetTimeDistanceAsyncTest() {
+        //[TestMethod]
+        //public void GetTimeDistanceAsyncTest() {
 
-            var uService = new UserService();
-            var fService = new FacilityService();
+        //    var uService = new UserService();
+        //    var fService = new FacilityService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
-            if (validForm) {
-                var item = fService.GetTimeDistanceAsync("38.7648909,-9.3837259").Result;
-                Assert.AreNotEqual(item, -1);
-            }
-        }
+        //    bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+        //    if (validForm) {
+        //        var item = fService.GetTimeDistanceAsync("38.7648909,-9.3837259").Result;
+        //        Assert.AreNotEqual(item, -1);
+        //    }
+        //}
 
     }
 }

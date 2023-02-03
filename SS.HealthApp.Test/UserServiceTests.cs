@@ -10,7 +10,7 @@ namespace SS.HealthApp.Tests {
 
             var uService = new UserService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
                 var item = uService.GetPersonalData().Result;
                 Assert.AreNotEqual(item.Name, string.Empty);
@@ -22,7 +22,7 @@ namespace SS.HealthApp.Tests {
 
             var uService = new UserService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
                 var res = uService.SavePersonalData(new Model.UserModels.PersonalData() {
                     Email = "teste@sbsi.pt",
@@ -38,9 +38,9 @@ namespace SS.HealthApp.Tests {
 
             var uService = new UserService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
-                var res = uService.ChangePassword(new Model.UserModels.ChangePassword() { oldPassword = "6673", newPassword = "6673" } ).Result;
+                var res = uService.ChangePassword(new Model.UserModels.ChangePassword() { oldPassword = "123456789", newPassword = "123456789" } ).Result;
                 Assert.AreNotEqual(res, string.Empty);
             }
         }

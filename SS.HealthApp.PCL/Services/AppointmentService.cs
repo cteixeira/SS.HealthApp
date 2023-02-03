@@ -212,12 +212,15 @@ namespace SS.HealthApp.PCL.Services {
                         bool result = JsonConvert.DeserializeObject<bool>(serviceResponse.ToString().ToLower());
                         if (result)
                         {
-                            Model.AppointmentModels.Appointment canceledAppointment = Items.FirstOrDefault(ap => ap.ID == appointmentID);
-                            if(canceledAppointment != null)
+                            if (Items != null)
                             {
-                                canceledAppointment.Status = Enum.AppointmentStatus.Closed;
-                                var repository = new Repositories.AppointmentRepository();
-                                await repository.SaveContentAsync(Items);
+                                Model.AppointmentModels.Appointment canceledAppointment = Items.FirstOrDefault(ap => ap.ID == appointmentID);
+                                if (canceledAppointment != null)
+                                {
+                                    canceledAppointment.Status = Enum.AppointmentStatus.Closed;
+                                    var repository = new Repositories.AppointmentRepository();
+                                    await repository.SaveContentAsync(Items);
+                                }
                             }
                         }
                         return result;

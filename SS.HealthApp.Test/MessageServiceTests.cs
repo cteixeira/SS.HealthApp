@@ -11,7 +11,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var mService = new MessageService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
                 var items = mService.GetItemsAsync().Result;
                 Assert.AreNotEqual(items.Count, 0);
@@ -24,10 +24,10 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var mService = new MessageService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm)
             {
-                var items = mService.OpenItemAsync("3407").Result;
+                var items = mService.OpenItemAsync("1").Result;
                 Assert.AreNotEqual(items.Count, 0);
             }
         }
@@ -37,7 +37,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var mService = new MessageService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
                 var items = mService.GetRecipientsAsync().Result;
                 Assert.AreNotEqual(items.Count, 0);
@@ -49,7 +49,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var mService = new MessageService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
                 var items = mService.GetSubjectsAsync().Result;
                 Assert.AreNotEqual(items.Count, 0);
@@ -61,7 +61,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var mService = new MessageService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
                 var items = mService.CreateMessageAsync("1", "2", "Vamos lá testar isto a sério \nFavor não responder.").Result;
                 Assert.AreNotEqual(items, new long[]{0, -1});
@@ -73,9 +73,9 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var mService = new MessageService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
-                var items = mService.ReplyMessageAsync("3521", "Vamos lá testar isto a sério \nFavor não responder.").Result;
+                var items = mService.ReplyMessageAsync("1", "Vamos lá testar isto a sério \nFavor não responder.").Result;
                 Assert.AreNotEqual(items, new long[] { 0, -1 });
             }
         }

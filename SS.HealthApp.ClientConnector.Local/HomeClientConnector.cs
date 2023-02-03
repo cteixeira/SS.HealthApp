@@ -42,11 +42,11 @@ namespace SS.HealthApp.ClientConnector.Local
 
             List<ClientConnector.Local.Models.Banner> ret = new List<Models.Banner>();
 
-            /*ret.Add(new Models.Banner {
+            ret.Add(new Models.Banner {
                 Id = "1",
                 ImageUrl = string.Concat(Settings.ResourcesUrl, "Promo1.jpg"),
                 Link = "http://www.simplesolutions.pt"
-            });*/
+            });
             ret.Add(new Models.Banner {
                 Id = "3",
                 ImageUrl = string.Concat(Settings.ResourcesUrl, "Promo3.jpg"),

@@ -65,7 +65,8 @@ namespace SS.HealthApp.Core.Services {
 
                 using (SmtpClient smtp = Utils.Email.GetSmtp())
                 {
-                    smtp.Send(msg);
+                    // Disabled because smtp is no longer valid
+                    // smtp.Send(msg);  
                 }
             }
 

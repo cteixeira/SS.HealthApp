@@ -20,7 +20,7 @@ namespace SS.HealthApp.ClientConnector.SAMS
                 serviceProxy.ClientCredentials.UserName.UserName = Config.MySAMSApiWS_Username;
                 serviceProxy.ClientCredentials.UserName.Password = Config.MySAMSApiWS_Password;
 
-                MySAMSApiWS.HomepageBanner[] banners = serviceProxy.ObterBannersHomepageV2(userid);
+                MySAMSApiWS.HomepageBanner[] banners = serviceProxy.ObterBannersHomepage();
 
                 if(banners != null)
                 {

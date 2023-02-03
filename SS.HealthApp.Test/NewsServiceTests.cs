@@ -11,7 +11,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var nService = new NewsService();
 
-            bool validForm = uService.LoginAsync("51110202", "6673").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
             if (validForm) {
                 var items = nService.GetItemsAsync().Result;
                 Assert.AreNotEqual(items.Count, 0);

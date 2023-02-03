@@ -123,7 +123,7 @@ namespace SS.HealthApp.ClientConnector.Local
                         Facility = "All Saints Hospital",
                         Description = "Orthopedics Treatment",
                         Status = Model.Enum.AppointmentStatus.Booked,
-                        Moment = DateTime.Now.AddDays(30).DateTimeRoundUp5MinutesInterval()
+                        Moment = DateTime.Now.AddDays(30).DateTimeRoundUp5MinutesInterval(),
                     },
                     new Appointment() {
                         ID = "2",
