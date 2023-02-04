@@ -1,12 +1,7 @@
+using Android.App;
 using Android.Content;
 using Android.OS;
-
-using System.Threading.Tasks;
-using Android.App;
 using Android.Support.V7.App;
-using HockeyApp.Android;
-using System;
-using Java.Lang;
 
 namespace SS.HealthApp.Android
 {

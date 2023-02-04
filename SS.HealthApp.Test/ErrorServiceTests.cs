@@ -10,7 +10,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var eService = new ErrorService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm) {
                 var result = eService.AddAsync(new System.Exception("error testing")).Result;
                 Assert.AreEqual(result, true);

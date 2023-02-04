@@ -18,7 +18,7 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AppointmentService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var items = aService.GetItemsAsync().Result;
@@ -32,7 +32,7 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AppointmentService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var result = aService.CancelAppointmentAsync("1").Result;
@@ -47,7 +47,7 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AppointmentService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var item = aService.GetAllDataAsync().Result;
@@ -66,7 +66,7 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AppointmentService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var aptData = aService.GetAllDataAsync().Result;
@@ -94,7 +94,7 @@ namespace SS.HealthApp.Tests
             aptBook.Type = Model.Enum.AppointmentType.C;
             aptBook.Moment = Convert.ToDateTime("2017-06-01");
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var items = aService.GetAvailableDatesAsync(aptBook).Result;
@@ -123,7 +123,7 @@ namespace SS.HealthApp.Tests
             aptBook.Type = Model.Enum.AppointmentType.C;
             aptBook.Moment = Convert.ToDateTime("2017-07-06");
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var items = aService.GetAvailableTimeAsync(aptBook).Result;
@@ -146,7 +146,7 @@ namespace SS.HealthApp.Tests
             AppointmentBook apptBook = new AppointmentBook(0, new PickerItem("1", "..."), new PickerItem("1", "..."),
                 new PickerItem("1", "..."), new PickerItem("1", "..."), new PickerItem("1", "..."), DateTime.Now.Date);
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var result = aService.BookNewAppointmentAsync(apptBook).Result;
@@ -169,7 +169,7 @@ namespace SS.HealthApp.Tests
             aptBook.Type = Model.Enum.AppointmentType.E;
             aptBook.Moment = Convert.ToDateTime("2017-06-01");
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var items = aService.GetAvailableDatesAsync(aptBook).Result;
@@ -198,7 +198,7 @@ namespace SS.HealthApp.Tests
             aptBook.Type = Model.Enum.AppointmentType.E;
             aptBook.Moment = Convert.ToDateTime("2017-06-01");
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var items = aService.GetAvailableTimeAsync(aptBook).Result;

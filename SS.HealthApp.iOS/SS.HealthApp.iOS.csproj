@@ -270,12 +270,6 @@
     <BundleResource Include="Resources\pt.lproj\Localizable.strings" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="HockeySDK">
-      <HintPath>..\Components\hockeyappios-4.1.0.3\lib\ios-unified\HockeySDK.dll</HintPath>
-    </Reference>
-    <Reference Include="HockeySDK.iOSBindings">
-      <HintPath>..\Components\hockeyappios-4.1.0.3\lib\ios-unified\HockeySDK.iOSBindings.dll</HintPath>
-    </Reference>
     <Reference Include="iCarousel">
       <HintPath>..\Components\icarousel-1.8.2.1\lib\ios-unified\iCarousel.dll</HintPath>
     </Reference>

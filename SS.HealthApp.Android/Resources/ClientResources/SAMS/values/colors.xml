@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <color name="colorPrimary">#00ABBD</color>
-  <color name="colorPrimaryDark">#0097A7</color>
-  <color name="colorAccent">#FF6600</color>
+  <color name="colorPrimary">#0B5394</color>
+  <color name="colorPrimaryDark">#084276</color>
+  <color name="colorAccent">#4ACCD4</color>
   <color name="backupColor">#51626F</color>
   <color name="grayblock_backgroundColor">#F3F3F3</color>
   <!--splash screen-->

@@ -11,7 +11,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var hService = new HomeService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm) {
                 var items = hService.GetBannersAsync().Result;
                 Assert.AreNotEqual(items.Count, 0);
@@ -24,7 +24,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var hService = new HomeService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm) {
                 var item = hService.GetEmergencyDelayAsync().Result;
                 Assert.AreNotEqual(item.Count, 0);

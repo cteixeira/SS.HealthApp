@@ -26,126 +26,6 @@ namespace SS.HealthApp.Android
 		
 		public static void UpdateIdValues()
 		{
-			global::HockeyApp.Resource.Color.hockeyapp_background_header = global::SS.HealthApp.Android.Resource.Color.hockeyapp_background_header;
-			global::HockeyApp.Resource.Color.hockeyapp_background_light = global::SS.HealthApp.Android.Resource.Color.hockeyapp_background_light;
-			global::HockeyApp.Resource.Color.hockeyapp_background_white = global::SS.HealthApp.Android.Resource.Color.hockeyapp_background_white;
-			global::HockeyApp.Resource.Color.hockeyapp_button_background = global::SS.HealthApp.Android.Resource.Color.hockeyapp_button_background;
-			global::HockeyApp.Resource.Color.hockeyapp_button_background_pressed = global::SS.HealthApp.Android.Resource.Color.hockeyapp_button_background_pressed;
-			global::HockeyApp.Resource.Color.hockeyapp_button_background_selected = global::SS.HealthApp.Android.Resource.Color.hockeyapp_button_background_selected;
-			global::HockeyApp.Resource.Color.hockeyapp_text_black = global::SS.HealthApp.Android.Resource.Color.hockeyapp_text_black;
-			global::HockeyApp.Resource.Color.hockeyapp_text_light = global::SS.HealthApp.Android.Resource.Color.hockeyapp_text_light;
-			global::HockeyApp.Resource.Color.hockeyapp_text_normal = global::SS.HealthApp.Android.Resource.Color.hockeyapp_text_normal;
-			global::HockeyApp.Resource.Color.hockeyapp_text_white = global::SS.HealthApp.Android.Resource.Color.hockeyapp_text_white;
-			global::HockeyApp.Resource.Drawable.hockeyapp_btn_background = global::SS.HealthApp.Android.Resource.Drawable.hockeyapp_btn_background;
-			global::HockeyApp.Resource.Id.button_add_response = global::SS.HealthApp.Android.Resource.Id.button_add_response;
-			global::HockeyApp.Resource.Id.button_attachment = global::SS.HealthApp.Android.Resource.Id.button_attachment;
-			global::HockeyApp.Resource.Id.button_login = global::SS.HealthApp.Android.Resource.Id.button_login;
-			global::HockeyApp.Resource.Id.button_refresh = global::SS.HealthApp.Android.Resource.Id.button_refresh;
-			global::HockeyApp.Resource.Id.button_send = global::SS.HealthApp.Android.Resource.Id.button_send;
-			global::HockeyApp.Resource.Id.button_update = global::SS.HealthApp.Android.Resource.Id.button_update;
-			global::HockeyApp.Resource.Id.input_email = global::SS.HealthApp.Android.Resource.Id.input_email;
-			global::HockeyApp.Resource.Id.input_message = global::SS.HealthApp.Android.Resource.Id.input_message;
-			global::HockeyApp.Resource.Id.input_name = global::SS.HealthApp.Android.Resource.Id.input_name;
-			global::HockeyApp.Resource.Id.input_password = global::SS.HealthApp.Android.Resource.Id.input_password;
-			global::HockeyApp.Resource.Id.input_subject = global::SS.HealthApp.Android.Resource.Id.input_subject;
-			global::HockeyApp.Resource.Id.label_author = global::SS.HealthApp.Android.Resource.Id.label_author;
-			global::HockeyApp.Resource.Id.label_date = global::SS.HealthApp.Android.Resource.Id.label_date;
-			global::HockeyApp.Resource.Id.label_last_updated = global::SS.HealthApp.Android.Resource.Id.label_last_updated;
-			global::HockeyApp.Resource.Id.label_message = global::SS.HealthApp.Android.Resource.Id.label_message;
-			global::HockeyApp.Resource.Id.label_text = global::SS.HealthApp.Android.Resource.Id.label_text;
-			global::HockeyApp.Resource.Id.label_title = global::SS.HealthApp.Android.Resource.Id.label_title;
-			global::HockeyApp.Resource.Id.label_version = global::SS.HealthApp.Android.Resource.Id.label_version;
-			global::HockeyApp.Resource.Id.list_attachments = global::SS.HealthApp.Android.Resource.Id.list_attachments;
-			global::HockeyApp.Resource.Id.list_feedback_messages = global::SS.HealthApp.Android.Resource.Id.list_feedback_messages;
-			global::HockeyApp.Resource.Id.text_headline = global::SS.HealthApp.Android.Resource.Id.text_headline;
-			global::HockeyApp.Resource.Id.view_header = global::SS.HealthApp.Android.Resource.Id.view_header;
-			global::HockeyApp.Resource.Id.web_update_details = global::SS.HealthApp.Android.Resource.Id.web_update_details;
-			global::HockeyApp.Resource.Id.wrapper_attachments = global::SS.HealthApp.Android.Resource.Id.wrapper_attachments;
-			global::HockeyApp.Resource.Id.wrapper_feedback = global::SS.HealthApp.Android.Resource.Id.wrapper_feedback;
-			global::HockeyApp.Resource.Id.wrapper_feedback_scroll = global::SS.HealthApp.Android.Resource.Id.wrapper_feedback_scroll;
-			global::HockeyApp.Resource.Id.wrapper_messages = global::SS.HealthApp.Android.Resource.Id.wrapper_messages;
-			global::HockeyApp.Resource.Id.wrapper_messages_buttons = global::SS.HealthApp.Android.Resource.Id.wrapper_messages_buttons;
-			global::HockeyApp.Resource.Layout.hockeyapp_activity_expiry_info = global::SS.HealthApp.Android.Resource.Layout.hockeyapp_activity_expiry_info;
-			global::HockeyApp.Resource.Layout.hockeyapp_activity_feedback = global::SS.HealthApp.Android.Resource.Layout.hockeyapp_activity_feedback;
-			global::HockeyApp.Resource.Layout.hockeyapp_activity_login = global::SS.HealthApp.Android.Resource.Layout.hockeyapp_activity_login;
-			global::HockeyApp.Resource.Layout.hockeyapp_activity_update = global::SS.HealthApp.Android.Resource.Layout.hockeyapp_activity_update;
-			global::HockeyApp.Resource.Layout.hockeyapp_fragment_update = global::SS.HealthApp.Android.Resource.Layout.hockeyapp_fragment_update;
-			global::HockeyApp.Resource.Layout.hockeyapp_view_feedback_message = global::SS.HealthApp.Android.Resource.Layout.hockeyapp_view_feedback_message;
-			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_app_name_fallback = global::SS.HealthApp.Android.Resource.String.hockeyapp_crash_dialog_app_name_fallback;
-			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_message = global::SS.HealthApp.Android.Resource.String.hockeyapp_crash_dialog_message;
-			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_negative_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_crash_dialog_negative_button;
-			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_neutral_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_crash_dialog_neutral_button;
-			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_positive_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_crash_dialog_positive_button;
-			global::HockeyApp.Resource.String.hockeyapp_crash_dialog_title = global::SS.HealthApp.Android.Resource.String.hockeyapp_crash_dialog_title;
-			global::HockeyApp.Resource.String.hockeyapp_dialog_error_message = global::SS.HealthApp.Android.Resource.String.hockeyapp_dialog_error_message;
-			global::HockeyApp.Resource.String.hockeyapp_dialog_error_title = global::SS.HealthApp.Android.Resource.String.hockeyapp_dialog_error_title;
-			global::HockeyApp.Resource.String.hockeyapp_dialog_negative_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_dialog_negative_button;
-			global::HockeyApp.Resource.String.hockeyapp_dialog_positive_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_dialog_positive_button;
-			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_message = global::SS.HealthApp.Android.Resource.String.hockeyapp_download_failed_dialog_message;
-			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_negative_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_download_failed_dialog_negative_button;
-			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_positive_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_download_failed_dialog_positive_button;
-			global::HockeyApp.Resource.String.hockeyapp_download_failed_dialog_title = global::SS.HealthApp.Android.Resource.String.hockeyapp_download_failed_dialog_title;
-			global::HockeyApp.Resource.String.hockeyapp_error_no_network_message = global::SS.HealthApp.Android.Resource.String.hockeyapp_error_no_network_message;
-			global::HockeyApp.Resource.String.hockeyapp_expiry_info_text = global::SS.HealthApp.Android.Resource.String.hockeyapp_expiry_info_text;
-			global::HockeyApp.Resource.String.hockeyapp_expiry_info_title = global::SS.HealthApp.Android.Resource.String.hockeyapp_expiry_info_title;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_attach_file = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_attach_file;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_attach_picture = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_attach_picture;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_button_text = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_attachment_button_text;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_error = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_attachment_error;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_attachment_loading = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_attachment_loading;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_email_hint = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_email_hint;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_failed_text = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_failed_text;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_failed_title = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_failed_title;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_fetching_feedback_text = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_fetching_feedback_text;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_generic_error = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_generic_error;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_last_updated_text = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_last_updated_text;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_max_attachments_allowed = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_max_attachments_allowed;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_message_hint = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_message_hint;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_name_hint = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_name_hint;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_refresh_button_text = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_refresh_button_text;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_response_button_text = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_response_button_text;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_select_file = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_select_file;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_select_picture = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_select_picture;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_send_button_text = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_send_button_text;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_send_generic_error = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_send_generic_error;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_send_network_error = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_send_network_error;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_sending_feedback_text = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_sending_feedback_text;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_subject_hint = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_subject_hint;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_title = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_title;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_email_empty = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_validate_email_empty;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_email_error = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_validate_email_error;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_name_error = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_validate_name_error;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_subject_error = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_validate_subject_error;
-			global::HockeyApp.Resource.String.hockeyapp_feedback_validate_text_error = global::SS.HealthApp.Android.Resource.String.hockeyapp_feedback_validate_text_error;
-			global::HockeyApp.Resource.String.hockeyapp_login_email_hint = global::SS.HealthApp.Android.Resource.String.hockeyapp_login_email_hint;
-			global::HockeyApp.Resource.String.hockeyapp_login_headline_text = global::SS.HealthApp.Android.Resource.String.hockeyapp_login_headline_text;
-			global::HockeyApp.Resource.String.hockeyapp_login_headline_text_email_only = global::SS.HealthApp.Android.Resource.String.hockeyapp_login_headline_text_email_only;
-			global::HockeyApp.Resource.String.hockeyapp_login_login_button_text = global::SS.HealthApp.Android.Resource.String.hockeyapp_login_login_button_text;
-			global::HockeyApp.Resource.String.hockeyapp_login_missing_credentials_toast = global::SS.HealthApp.Android.Resource.String.hockeyapp_login_missing_credentials_toast;
-			global::HockeyApp.Resource.String.hockeyapp_login_password_hint = global::SS.HealthApp.Android.Resource.String.hockeyapp_login_password_hint;
-			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_message = global::SS.HealthApp.Android.Resource.String.hockeyapp_paint_dialog_message;
-			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_negative_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_paint_dialog_negative_button;
-			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_neutral_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_paint_dialog_neutral_button;
-			global::HockeyApp.Resource.String.hockeyapp_paint_dialog_positive_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_paint_dialog_positive_button;
-			global::HockeyApp.Resource.String.hockeyapp_paint_indicator_toast = global::SS.HealthApp.Android.Resource.String.hockeyapp_paint_indicator_toast;
-			global::HockeyApp.Resource.String.hockeyapp_paint_menu_clear = global::SS.HealthApp.Android.Resource.String.hockeyapp_paint_menu_clear;
-			global::HockeyApp.Resource.String.hockeyapp_paint_menu_save = global::SS.HealthApp.Android.Resource.String.hockeyapp_paint_menu_save;
-			global::HockeyApp.Resource.String.hockeyapp_paint_menu_undo = global::SS.HealthApp.Android.Resource.String.hockeyapp_paint_menu_undo;
-			global::HockeyApp.Resource.String.hockeyapp_permission_dialog_negative_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_permission_dialog_negative_button;
-			global::HockeyApp.Resource.String.hockeyapp_permission_dialog_positive_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_permission_dialog_positive_button;
-			global::HockeyApp.Resource.String.hockeyapp_permission_update_message = global::SS.HealthApp.Android.Resource.String.hockeyapp_permission_update_message;
-			global::HockeyApp.Resource.String.hockeyapp_permission_update_title = global::SS.HealthApp.Android.Resource.String.hockeyapp_permission_update_title;
-			global::HockeyApp.Resource.String.hockeyapp_update_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_update_button;
-			global::HockeyApp.Resource.String.hockeyapp_update_dialog_message = global::SS.HealthApp.Android.Resource.String.hockeyapp_update_dialog_message;
-			global::HockeyApp.Resource.String.hockeyapp_update_dialog_negative_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_update_dialog_negative_button;
-			global::HockeyApp.Resource.String.hockeyapp_update_dialog_positive_button = global::SS.HealthApp.Android.Resource.String.hockeyapp_update_dialog_positive_button;
-			global::HockeyApp.Resource.String.hockeyapp_update_dialog_title = global::SS.HealthApp.Android.Resource.String.hockeyapp_update_dialog_title;
-			global::HockeyApp.Resource.String.hockeyapp_update_mandatory_toast = global::SS.HealthApp.Android.Resource.String.hockeyapp_update_mandatory_toast;
-			global::HockeyApp.Resource.String.hockeyapp_update_version_details_label = global::SS.HealthApp.Android.Resource.String.hockeyapp_update_version_details_label;
-			global::HockeyApp.Resource.String.library_name = global::SS.HealthApp.Android.Resource.String.library_name;
-			global::HockeyApp.Resource.Style.HockeyApp_ButtonStyle = global::SS.HealthApp.Android.Resource.Style.HockeyApp_ButtonStyle;
-			global::HockeyApp.Resource.Style.HockeyApp_EditTextStyle = global::SS.HealthApp.Android.Resource.Style.HockeyApp_EditTextStyle;
-			global::HockeyApp.Resource.Style.HockeyApp_SingleLineInputStyle = global::SS.HealthApp.Android.Resource.Style.HockeyApp_SingleLineInputStyle;
 			global::PCLStorage.Resource.String.ApplicationName = global::SS.HealthApp.Android.Resource.String.ApplicationName;
 			global::PCLStorage.Resource.String.Hello = global::SS.HealthApp.Android.Resource.String.Hello;
 		}
@@ -1176,32 +1056,32 @@ namespace SS.HealthApp.Android
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b0062
-			public const int abc_background_cache_hint_selector_material_dark = 2131427426;
+			// aapt resource value: 0x7f0b0058
+			public const int abc_background_cache_hint_selector_material_dark = 2131427416;
 			
-			// aapt resource value: 0x7f0b0063
-			public const int abc_background_cache_hint_selector_material_light = 2131427427;
+			// aapt resource value: 0x7f0b0059
+			public const int abc_background_cache_hint_selector_material_light = 2131427417;
 			
-			// aapt resource value: 0x7f0b0064
-			public const int abc_color_highlight_material = 2131427428;
+			// aapt resource value: 0x7f0b005a
+			public const int abc_color_highlight_material = 2131427418;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int abc_input_method_navigation_guard = 2131427328;
 			
-			// aapt resource value: 0x7f0b0065
-			public const int abc_primary_text_disable_only_material_dark = 2131427429;
+			// aapt resource value: 0x7f0b005b
+			public const int abc_primary_text_disable_only_material_dark = 2131427419;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int abc_primary_text_disable_only_material_light = 2131427430;
+			// aapt resource value: 0x7f0b005c
+			public const int abc_primary_text_disable_only_material_light = 2131427420;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int abc_primary_text_material_dark = 2131427431;
+			// aapt resource value: 0x7f0b005d
+			public const int abc_primary_text_material_dark = 2131427421;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int abc_primary_text_material_light = 2131427432;
+			// aapt resource value: 0x7f0b005e
+			public const int abc_primary_text_material_light = 2131427422;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int abc_search_url_text = 2131427433;
+			// aapt resource value: 0x7f0b005f
+			public const int abc_search_url_text = 2131427423;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int abc_search_url_text_normal = 2131427329;
@@ -1212,11 +1092,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0b0003
 			public const int abc_search_url_text_selected = 2131427331;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int abc_secondary_text_material_dark = 2131427434;
+			// aapt resource value: 0x7f0b0060
+			public const int abc_secondary_text_material_dark = 2131427424;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int abc_secondary_text_material_light = 2131427435;
+			// aapt resource value: 0x7f0b0061
+			public const int abc_secondary_text_material_light = 2131427425;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int accent_material_dark = 2131427332;
@@ -1236,8 +1116,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0b0009
 			public const int background_material_light = 2131427337;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int backupColor = 2131427411;
+			// aapt resource value: 0x7f0b0049
+			public const int backupColor = 2131427401;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int bright_foreground_disabled_material_dark = 2131427338;
@@ -1263,17 +1143,17 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0b0011
 			public const int button_material_light = 2131427345;
 			
-			// aapt resource value: 0x7f0b005c
-			public const int button_textColor = 2131427420;
-			
 			// aapt resource value: 0x7f0b0052
-			public const int colorAccent = 2131427410;
+			public const int button_textColor = 2131427410;
 			
-			// aapt resource value: 0x7f0b0050
-			public const int colorPrimary = 2131427408;
+			// aapt resource value: 0x7f0b0048
+			public const int colorAccent = 2131427400;
 			
-			// aapt resource value: 0x7f0b0051
-			public const int colorPrimaryDark = 2131427409;
+			// aapt resource value: 0x7f0b0046
+			public const int colorPrimary = 2131427398;
+			
+			// aapt resource value: 0x7f0b0047
+			public const int colorPrimaryDark = 2131427399;
 			
 			// aapt resource value: 0x7f0b003a
 			public const int design_fab_shadow_end_color = 2131427386;
@@ -1320,11 +1200,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0b0044
 			public const int disabled_color = 2131427396;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int emergencywaittime_adultColor = 2131427416;
+			// aapt resource value: 0x7f0b004e
+			public const int emergencywaittime_adultColor = 2131427406;
 			
-			// aapt resource value: 0x7f0b0059
-			public const int emergencywaittime_pediatricColor = 2131427417;
+			// aapt resource value: 0x7f0b004f
+			public const int emergencywaittime_pediatricColor = 2131427407;
 			
 			// aapt resource value: 0x7f0b0045
 			public const int error_color = 2131427397;
@@ -1335,8 +1215,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0b0017
 			public const int foreground_material_light = 2131427351;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int grayblock_backgroundColor = 2131427412;
+			// aapt resource value: 0x7f0b004a
+			public const int grayblock_backgroundColor = 2131427402;
 			
 			// aapt resource value: 0x7f0b0018
 			public const int highlighted_text_material_dark = 2131427352;
@@ -1350,38 +1230,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0b001b
 			public const int hint_foreground_material_light = 2131427355;
 			
-			// aapt resource value: 0x7f0b0046
-			public const int hockeyapp_background_header = 2131427398;
-			
-			// aapt resource value: 0x7f0b0047
-			public const int hockeyapp_background_light = 2131427399;
-			
-			// aapt resource value: 0x7f0b0048
-			public const int hockeyapp_background_white = 2131427400;
-			
-			// aapt resource value: 0x7f0b0049
-			public const int hockeyapp_button_background = 2131427401;
-			
-			// aapt resource value: 0x7f0b004a
-			public const int hockeyapp_button_background_pressed = 2131427402;
-			
-			// aapt resource value: 0x7f0b004b
-			public const int hockeyapp_button_background_selected = 2131427403;
-			
-			// aapt resource value: 0x7f0b004c
-			public const int hockeyapp_text_black = 2131427404;
-			
-			// aapt resource value: 0x7f0b004d
-			public const int hockeyapp_text_light = 2131427405;
-			
-			// aapt resource value: 0x7f0b004e
-			public const int hockeyapp_text_normal = 2131427406;
-			
-			// aapt resource value: 0x7f0b004f
-			public const int hockeyapp_text_white = 2131427407;
-			
-			// aapt resource value: 0x7f0b005e
-			public const int lightgrey = 2131427422;
+			// aapt resource value: 0x7f0b0054
+			public const int lightgrey = 2131427412;
 			
 			// aapt resource value: 0x7f0b001c
 			public const int material_blue_grey_800 = 2131427356;
@@ -1419,11 +1269,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0b0027
 			public const int material_grey_900 = 2131427367;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int navdrawer_itemTextColor = 2131427415;
+			// aapt resource value: 0x7f0b004d
+			public const int navdrawer_itemTextColor = 2131427405;
 			
-			// aapt resource value: 0x7f0b005a
-			public const int navigation_timeColor = 2131427418;
+			// aapt resource value: 0x7f0b0050
+			public const int navigation_timeColor = 2131427408;
 			
 			// aapt resource value: 0x7f0b0028
 			public const int primary_dark_material_dark = 2131427368;
@@ -1449,17 +1299,17 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0b002f
 			public const int primary_text_disabled_material_light = 2131427375;
 			
-			// aapt resource value: 0x7f0b005d
-			public const int purple_for_testing = 2131427421;
+			// aapt resource value: 0x7f0b0053
+			public const int purple_for_testing = 2131427411;
 			
-			// aapt resource value: 0x7f0b0061
-			public const int rate_bad = 2131427425;
+			// aapt resource value: 0x7f0b0057
+			public const int rate_bad = 2131427415;
 			
-			// aapt resource value: 0x7f0b005f
-			public const int rate_good = 2131427423;
+			// aapt resource value: 0x7f0b0055
+			public const int rate_good = 2131427413;
 			
-			// aapt resource value: 0x7f0b0060
-			public const int rate_neutral = 2131427424;
+			// aapt resource value: 0x7f0b0056
+			public const int rate_neutral = 2131427414;
 			
 			// aapt resource value: 0x7f0b0030
 			public const int ripple_material_dark = 2131427376;
@@ -1479,11 +1329,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0b0035
 			public const int secondary_text_disabled_material_light = 2131427381;
 			
-			// aapt resource value: 0x7f0b0055
-			public const int splash_background = 2131427413;
+			// aapt resource value: 0x7f0b004b
+			public const int splash_background = 2131427403;
 			
-			// aapt resource value: 0x7f0b005b
-			public const int subheader_backgorund = 2131427419;
+			// aapt resource value: 0x7f0b0051
+			public const int subheader_backgorund = 2131427409;
 			
 			// aapt resource value: 0x7f0b0036
 			public const int switch_thumb_disabled_material_dark = 2131427382;
@@ -1491,11 +1341,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0b0037
 			public const int switch_thumb_disabled_material_light = 2131427383;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int switch_thumb_material_dark = 2131427436;
+			// aapt resource value: 0x7f0b0062
+			public const int switch_thumb_material_dark = 2131427426;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int switch_thumb_material_light = 2131427437;
+			// aapt resource value: 0x7f0b0063
+			public const int switch_thumb_material_light = 2131427427;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int switch_thumb_normal_material_dark = 2131427384;
@@ -1503,8 +1353,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0b0039
 			public const int switch_thumb_normal_material_light = 2131427385;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int toptoolbar_textColor = 2131427414;
+			// aapt resource value: 0x7f0b004c
+			public const int toptoolbar_textColor = 2131427404;
 			
 			static Color()
 			{
@@ -2118,103 +1968,100 @@ namespace SS.HealthApp.Android
 			public const int edit_text_disable_style = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int hockeyapp_btn_background = 2130837583;
+			public const int ic_access_time_white_24dp = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int ic_access_time_white_24dp = 2130837584;
+			public const int ic_access_time_white_36dp = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int ic_access_time_white_36dp = 2130837585;
+			public const int ic_add_circle_outline_white_36dp = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int ic_add_circle_outline_white_36dp = 2130837586;
+			public const int ic_cancel_white_36dp = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int ic_cancel_white_36dp = 2130837587;
+			public const int ic_check_circle_white_36dp = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int ic_check_circle_white_36dp = 2130837588;
+			public const int ic_check_white_36dp = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int ic_check_white_36dp = 2130837589;
+			public const int ic_close_white_36dp = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int ic_close_white_36dp = 2130837590;
+			public const int ic_directions_car_white_36dp = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int ic_directions_car_white_36dp = 2130837591;
+			public const int ic_euro_symbol_white_36dp = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int ic_euro_symbol_white_36dp = 2130837592;
+			public const int ic_event_white_36dp = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int ic_event_white_36dp = 2130837593;
+			public const int ic_highlight_off_white_36dp = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int ic_highlight_off_white_36dp = 2130837594;
+			public const int ic_import_contacts_white_36dp = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int ic_import_contacts_white_36dp = 2130837595;
+			public const int ic_insert_drive_file_white_36dp = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int ic_insert_drive_file_white_36dp = 2130837596;
+			public const int ic_launcher = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int ic_launcher = 2130837597;
+			public const int ic_menu_black_24dp = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int ic_menu_black_24dp = 2130837598;
+			public const int ic_navigate_next_white_36dp = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int ic_navigate_next_white_36dp = 2130837599;
+			public const int ic_person_white_36dp = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int ic_person_white_36dp = 2130837600;
+			public const int ic_phone_white_36dp = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_phone_white_36dp = 2130837601;
+			public const int ic_pin_drop_white_36dp = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_pin_drop_white_36dp = 2130837602;
+			public const int ic_qrcode_white_36dp = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_qrcode_white_36dp = 2130837603;
+			public const int ic_question_answer_white_36dp = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_question_answer_white_36dp = 2130837604;
+			public const int ic_reply_white_36dp = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_reply_white_36dp = 2130837605;
+			public const int ic_sentiment_neutral_white_48dp = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_sentiment_neutral_white_48dp = 2130837606;
+			public const int ic_sentiment_very_dissatisfied_white_48dp = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_sentiment_very_dissatisfied_white_48dp = 2130837607;
+			public const int ic_sentiment_very_satisfied_white_36dp = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_sentiment_very_satisfied_white_36dp = 2130837608;
+			public const int ic_sentiment_very_satisfied_white_48dp = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_sentiment_very_satisfied_white_48dp = 2130837609;
+			public const int list_placeholder = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int list_placeholder = 2130837610;
+			public const int my_background = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int my_background = 2130837611;
-			
-			// aapt resource value: 0x7f02006c
-			public const int navdrawer_activated_background = 2130837612;
-			
-			// aapt resource value: 0x7f02006f
-			public const int notification_template_icon_bg = 2130837615;
-			
-			// aapt resource value: 0x7f02006d
-			public const int splash_logo = 2130837613;
+			public const int navdrawer_activated_background = 2130837611;
 			
 			// aapt resource value: 0x7f02006e
-			public const int splash_screen = 2130837614;
+			public const int notification_template_icon_bg = 2130837614;
+			
+			// aapt resource value: 0x7f02006c
+			public const int splash_logo = 2130837612;
+			
+			// aapt resource value: 0x7f02006d
+			public const int splash_screen = 2130837613;
 			
 			static Drawable()
 			{
@@ -2229,8 +2076,8 @@ namespace SS.HealthApp.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0600e4
-			public const int action0 = 2131099876;
+			// aapt resource value: 0x7f0600c8
+			public const int action0 = 2131099848;
 			
 			// aapt resource value: 0x7f06005a
 			public const int action_bar = 2131099738;
@@ -2253,14 +2100,14 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06003a
 			public const int action_bar_title = 2131099706;
 			
-			// aapt resource value: 0x7f060100
-			public const int action_call = 2131099904;
+			// aapt resource value: 0x7f0600e4
+			public const int action_call = 2131099876;
 			
 			// aapt resource value: 0x7f06005b
 			public const int action_context_bar = 2131099739;
 			
-			// aapt resource value: 0x7f0600e8
-			public const int action_divider = 2131099880;
+			// aapt resource value: 0x7f0600cc
+			public const int action_divider = 2131099852;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -2277,20 +2124,20 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06003c
 			public const int action_mode_close_button = 2131099708;
 			
-			// aapt resource value: 0x7f0600fe
-			public const int action_new = 2131099902;
+			// aapt resource value: 0x7f0600e2
+			public const int action_new = 2131099874;
 			
-			// aapt resource value: 0x7f060101
-			public const int action_personalData = 2131099905;
+			// aapt resource value: 0x7f0600e5
+			public const int action_personalData = 2131099877;
 			
-			// aapt resource value: 0x7f060102
-			public const int action_reply = 2131099906;
+			// aapt resource value: 0x7f0600e6
+			public const int action_reply = 2131099878;
 			
-			// aapt resource value: 0x7f060103
-			public const int action_save = 2131099907;
+			// aapt resource value: 0x7f0600e7
+			public const int action_save = 2131099879;
 			
-			// aapt resource value: 0x7f0600ff
-			public const int action_schedule = 2131099903;
+			// aapt resource value: 0x7f0600e3
+			public const int action_schedule = 2131099875;
 			
 			// aapt resource value: 0x7f06003d
 			public const int activity_chooser_view_content = 2131099709;
@@ -2307,8 +2154,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06002a
 			public const int bottom = 2131099690;
 			
-			// aapt resource value: 0x7f0600d1
-			public const int btLogin = 2131099857;
+			// aapt resource value: 0x7f0600b5
+			public const int btLogin = 2131099829;
 			
 			// aapt resource value: 0x7f06008a
 			public const int btSave = 2131099786;
@@ -2316,26 +2163,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060044
 			public const int buttonPanel = 2131099716;
 			
-			// aapt resource value: 0x7f0600b6
-			public const int button_add_response = 2131099830;
-			
-			// aapt resource value: 0x7f0600b1
-			public const int button_attachment = 2131099825;
-			
-			// aapt resource value: 0x7f0600bb
-			public const int button_login = 2131099835;
-			
-			// aapt resource value: 0x7f0600b7
-			public const int button_refresh = 2131099831;
-			
-			// aapt resource value: 0x7f0600b2
-			public const int button_send = 2131099826;
-			
-			// aapt resource value: 0x7f0600bf
-			public const int button_update = 2131099839;
-			
-			// aapt resource value: 0x7f0600e5
-			public const int cancel_action = 2131099877;
+			// aapt resource value: 0x7f0600c9
+			public const int cancel_action = 2131099849;
 			
 			// aapt resource value: 0x7f06002b
 			public const int center = 2131099691;
@@ -2349,8 +2178,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060052
 			public const int checkbox = 2131099730;
 			
-			// aapt resource value: 0x7f0600eb
-			public const int chronometer = 2131099883;
+			// aapt resource value: 0x7f0600cf
+			public const int chronometer = 2131099855;
 			
 			// aapt resource value: 0x7f060033
 			public const int clip_horizontal = 2131099699;
@@ -2364,8 +2193,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06004a
 			public const int contentPanel = 2131099722;
 			
-			// aapt resource value: 0x7f0600d3
-			public const int content_frame = 2131099859;
+			// aapt resource value: 0x7f0600b7
+			public const int content_frame = 2131099831;
 			
 			// aapt resource value: 0x7f060050
 			public const int custom = 2131099728;
@@ -2397,11 +2226,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06000e
 			public const int disableHome = 2131099662;
 			
-			// aapt resource value: 0x7f0600d2
-			public const int drawer_layout = 2131099858;
+			// aapt resource value: 0x7f0600b6
+			public const int drawer_layout = 2131099830;
 			
-			// aapt resource value: 0x7f0600d4
-			public const int drawer_menu = 2131099860;
+			// aapt resource value: 0x7f0600b8
+			public const int drawer_menu = 2131099832;
 			
 			// aapt resource value: 0x7f06005c
 			public const int edit_query = 2131099740;
@@ -2409,8 +2238,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06001c
 			public const int end = 2131099676;
 			
-			// aapt resource value: 0x7f0600f0
-			public const int end_padder = 2131099888;
+			// aapt resource value: 0x7f0600d4
+			public const int end_padder = 2131099860;
 			
 			// aapt resource value: 0x7f060023
 			public const int enterAlways = 2131099683;
@@ -2418,8 +2247,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060024
 			public const int enterAlwaysCollapsed = 2131099684;
 			
-			// aapt resource value: 0x7f0600fc
-			public const int etAddress = 2131099900;
+			// aapt resource value: 0x7f0600e0
+			public const int etAddress = 2131099872;
 			
 			// aapt resource value: 0x7f060089
 			public const int etConfirmPassword = 2131099785;
@@ -2427,23 +2256,23 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060079
 			public const int etDoctor = 2131099769;
 			
-			// aapt resource value: 0x7f0600f8
-			public const int etEmail = 2131099896;
+			// aapt resource value: 0x7f0600dc
+			public const int etEmail = 2131099868;
 			
 			// aapt resource value: 0x7f06007f
 			public const int etFacility = 2131099775;
 			
-			// aapt resource value: 0x7f0600dd
-			public const int etMessage = 2131099869;
+			// aapt resource value: 0x7f0600c1
+			public const int etMessage = 2131099841;
 			
-			// aapt resource value: 0x7f0600fb
-			public const int etMobileNumber = 2131099899;
+			// aapt resource value: 0x7f0600df
+			public const int etMobileNumber = 2131099871;
 			
 			// aapt resource value: 0x7f060083
 			public const int etMoment = 2131099779;
 			
-			// aapt resource value: 0x7f0600f7
-			public const int etName = 2131099895;
+			// aapt resource value: 0x7f0600db
+			public const int etName = 2131099867;
 			
 			// aapt resource value: 0x7f060088
 			public const int etNewPassword = 2131099784;
@@ -2451,17 +2280,17 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060087
 			public const int etOldPassword = 2131099783;
 			
-			// aapt resource value: 0x7f0600d0
-			public const int etPassword = 2131099856;
+			// aapt resource value: 0x7f0600b4
+			public const int etPassword = 2131099828;
 			
 			// aapt resource value: 0x7f060081
 			public const int etPayor = 2131099777;
 			
-			// aapt resource value: 0x7f0600fa
-			public const int etPhoneNumber = 2131099898;
+			// aapt resource value: 0x7f0600de
+			public const int etPhoneNumber = 2131099870;
 			
-			// aapt resource value: 0x7f0600d9
-			public const int etRecepient = 2131099865;
+			// aapt resource value: 0x7f0600bd
+			public const int etRecepient = 2131099837;
 			
 			// aapt resource value: 0x7f06007d
 			public const int etService = 2131099773;
@@ -2472,14 +2301,14 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06007b
 			public const int etSpeciality = 2131099771;
 			
-			// aapt resource value: 0x7f0600db
-			public const int etSubject = 2131099867;
+			// aapt resource value: 0x7f0600bf
+			public const int etSubject = 2131099839;
 			
-			// aapt resource value: 0x7f0600f9
-			public const int etTaxNumber = 2131099897;
+			// aapt resource value: 0x7f0600dd
+			public const int etTaxNumber = 2131099869;
 			
-			// aapt resource value: 0x7f0600cf
-			public const int etUsername = 2131099855;
+			// aapt resource value: 0x7f0600b3
+			public const int etUsername = 2131099827;
 			
 			// aapt resource value: 0x7f060025
 			public const int exitUntilCollapsed = 2131099685;
@@ -2517,26 +2346,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06003f
 			public const int image = 2131099711;
 			
-			// aapt resource value: 0x7f0600ef
-			public const int info = 2131099887;
+			// aapt resource value: 0x7f0600d3
+			public const int info = 2131099859;
 			
-			// aapt resource value: 0x7f0600ad
-			public const int input_email = 2131099821;
-			
-			// aapt resource value: 0x7f0600af
-			public const int input_message = 2131099823;
-			
-			// aapt resource value: 0x7f0600ac
-			public const int input_name = 2131099820;
-			
-			// aapt resource value: 0x7f0600ba
-			public const int input_password = 2131099834;
-			
-			// aapt resource value: 0x7f0600ae
-			public const int input_subject = 2131099822;
-			
-			// aapt resource value: 0x7f0600de
-			public const int itemNavDrawerText = 2131099870;
+			// aapt resource value: 0x7f0600c2
+			public const int itemNavDrawerText = 2131099842;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
@@ -2544,8 +2358,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0600a4
 			public const int iv1 = 2131099812;
 			
-			// aapt resource value: 0x7f0600f3
-			public const int ivBad = 2131099891;
+			// aapt resource value: 0x7f0600d7
+			public const int ivBad = 2131099863;
 			
 			// aapt resource value: 0x7f0600a2
 			public const int ivCar = 2131099810;
@@ -2562,8 +2376,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060082
 			public const int ivClearPayor = 2131099778;
 			
-			// aapt resource value: 0x7f0600da
-			public const int ivClearRecepient = 2131099866;
+			// aapt resource value: 0x7f0600be
+			public const int ivClearRecepient = 2131099838;
 			
 			// aapt resource value: 0x7f06007e
 			public const int ivClearService = 2131099774;
@@ -2574,8 +2388,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06007c
 			public const int ivClearSpeciality = 2131099772;
 			
-			// aapt resource value: 0x7f0600dc
-			public const int ivClearSubject = 2131099868;
+			// aapt resource value: 0x7f0600c0
+			public const int ivClearSubject = 2131099840;
 			
 			// aapt resource value: 0x7f06008b
 			public const int ivCustomListImage = 2131099787;
@@ -2583,8 +2397,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0600a0
 			public const int ivFacilityImage = 2131099808;
 			
-			// aapt resource value: 0x7f0600f5
-			public const int ivGood = 2131099893;
+			// aapt resource value: 0x7f0600d9
+			public const int ivGood = 2131099865;
 			
 			// aapt resource value: 0x7f060075
 			public const int ivIcon = 2131099765;
@@ -2595,50 +2409,23 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06008e
 			public const int ivNavigateIcon = 2131099790;
 			
-			// aapt resource value: 0x7f0600f4
-			public const int ivNeutral = 2131099892;
+			// aapt resource value: 0x7f0600d8
+			public const int ivNeutral = 2131099864;
 			
-			// aapt resource value: 0x7f0600e1
-			public const int ivNewsImage = 2131099873;
-			
-			// aapt resource value: 0x7f0600c1
-			public const int label_author = 2131099841;
-			
-			// aapt resource value: 0x7f0600c2
-			public const int label_date = 2131099842;
-			
-			// aapt resource value: 0x7f0600b4
-			public const int label_last_updated = 2131099828;
-			
-			// aapt resource value: 0x7f0600a9
-			public const int label_message = 2131099817;
-			
-			// aapt resource value: 0x7f0600c3
-			public const int label_text = 2131099843;
-			
-			// aapt resource value: 0x7f0600bd
-			public const int label_title = 2131099837;
-			
-			// aapt resource value: 0x7f0600be
-			public const int label_version = 2131099838;
+			// aapt resource value: 0x7f0600c5
+			public const int ivNewsImage = 2131099845;
 			
 			// aapt resource value: 0x7f06002f
 			public const int left = 2131099695;
 			
-			// aapt resource value: 0x7f0600e9
-			public const int line1 = 2131099881;
+			// aapt resource value: 0x7f0600cd
+			public const int line1 = 2131099853;
 			
-			// aapt resource value: 0x7f0600ed
-			public const int line3 = 2131099885;
+			// aapt resource value: 0x7f0600d1
+			public const int line3 = 2131099857;
 			
 			// aapt resource value: 0x7f06000b
 			public const int listMode = 2131099659;
-			
-			// aapt resource value: 0x7f0600c4
-			public const int list_attachments = 2131099844;
-			
-			// aapt resource value: 0x7f0600b8
-			public const int list_feedback_messages = 2131099832;
 			
 			// aapt resource value: 0x7f060041
 			public const int list_item = 2131099713;
@@ -2646,11 +2433,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06006d
 			public const int llProgressBar = 2131099757;
 			
-			// aapt resource value: 0x7f0600cb
-			public const int ll_Ticket = 2131099851;
+			// aapt resource value: 0x7f0600af
+			public const int ll_Ticket = 2131099823;
 			
-			// aapt resource value: 0x7f0600c9
-			public const int ll_goTo = 2131099849;
+			// aapt resource value: 0x7f0600ad
+			public const int ll_goTo = 2131099821;
 			
 			// aapt resource value: 0x7f06006f
 			public const int lvAccount = 2131099759;
@@ -2658,8 +2445,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060076
 			public const int lvAppointment = 2131099766;
 			
-			// aapt resource value: 0x7f0600d7
-			public const int lvConversation = 2131099863;
+			// aapt resource value: 0x7f0600bb
+			public const int lvConversation = 2131099835;
 			
 			// aapt resource value: 0x7f06008f
 			public const int lvDeclaration = 2131099791;
@@ -2667,14 +2454,14 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0600a8
 			public const int lvFacilities = 2131099816;
 			
-			// aapt resource value: 0x7f0600ce
-			public const int lvHomeMenu = 2131099854;
+			// aapt resource value: 0x7f0600b2
+			public const int lvHomeMenu = 2131099826;
 			
-			// aapt resource value: 0x7f0600d8
-			public const int lvMessages = 2131099864;
+			// aapt resource value: 0x7f0600bc
+			public const int lvMessages = 2131099836;
 			
-			// aapt resource value: 0x7f0600e3
-			public const int lvNews = 2131099875;
+			// aapt resource value: 0x7f0600c7
+			public const int lvNews = 2131099847;
 			
 			// aapt resource value: 0x7f060074
 			public const int lvOptions = 2131099764;
@@ -2682,11 +2469,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060073
 			public const int lvPicker = 2131099763;
 			
-			// aapt resource value: 0x7f0600fd
-			public const int lvUserSettings = 2131099901;
+			// aapt resource value: 0x7f0600e1
+			public const int lvUserSettings = 2131099873;
 			
-			// aapt resource value: 0x7f0600e7
-			public const int media_actions = 2131099879;
+			// aapt resource value: 0x7f0600cb
+			public const int media_actions = 2131099851;
 			
 			// aapt resource value: 0x7f06001d
 			public const int middle = 2131099677;
@@ -2715,11 +2502,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06009c
 			public const int panelChildren = 2131099804;
 			
-			// aapt resource value: 0x7f0600c8
-			public const int panel_next_ticket = 2131099848;
+			// aapt resource value: 0x7f0600ac
+			public const int panel_next_ticket = 2131099820;
 			
-			// aapt resource value: 0x7f0600c6
-			public const int panel_waiting_time = 2131099846;
+			// aapt resource value: 0x7f0600aa
+			public const int panel_waiting_time = 2131099818;
 			
 			// aapt resource value: 0x7f060028
 			public const int parallax = 2131099688;
@@ -2841,8 +2628,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060031
 			public const int start = 2131099697;
 			
-			// aapt resource value: 0x7f0600e6
-			public const int status_bar_latest_event_content = 2131099878;
+			// aapt resource value: 0x7f0600ca
+			public const int status_bar_latest_event_content = 2131099850;
 			
 			// aapt resource value: 0x7f060065
 			public const int submit_area = 2131099749;
@@ -2856,20 +2643,17 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060077
 			public const int tabs = 2131099767;
 			
-			// aapt resource value: 0x7f0600ee
-			public const int text = 2131099886;
+			// aapt resource value: 0x7f0600d2
+			public const int text = 2131099858;
 			
-			// aapt resource value: 0x7f0600ec
-			public const int text2 = 2131099884;
+			// aapt resource value: 0x7f0600d0
+			public const int text2 = 2131099856;
 			
 			// aapt resource value: 0x7f06004d
 			public const int textSpacerNoButtons = 2131099725;
 			
-			// aapt resource value: 0x7f0600b9
-			public const int text_headline = 2131099833;
-			
-			// aapt resource value: 0x7f0600ea
-			public const int time = 2131099882;
+			// aapt resource value: 0x7f0600ce
+			public const int time = 2131099854;
 			
 			// aapt resource value: 0x7f060043
 			public const int title = 2131099715;
@@ -2883,8 +2667,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060047
 			public const int topPanel = 2131099719;
 			
-			// aapt resource value: 0x7f0600f6
-			public const int top_toolbar = 2131099894;
+			// aapt resource value: 0x7f0600da
+			public const int top_toolbar = 2131099866;
 			
 			// aapt resource value: 0x7f060090
 			public const int touch_outside = 2131099792;
@@ -2895,11 +2679,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06006b
 			public const int tvAboutText = 2131099755;
 			
-			// aapt resource value: 0x7f0600f2
-			public const int tvAppontmentDescription = 2131099890;
+			// aapt resource value: 0x7f0600d6
+			public const int tvAppontmentDescription = 2131099862;
 			
-			// aapt resource value: 0x7f0600f1
-			public const int tvAppontmentTitle = 2131099889;
+			// aapt resource value: 0x7f0600d5
+			public const int tvAppontmentTitle = 2131099861;
 			
 			// aapt resource value: 0x7f060071
 			public const int tvDescription = 2131099761;
@@ -2916,8 +2700,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06009e
 			public const int tvFacilityTitle = 2131099806;
 			
-			// aapt resource value: 0x7f0600ca
-			public const int tvGoTo = 2131099850;
+			// aapt resource value: 0x7f0600ae
+			public const int tvGoTo = 2131099822;
 			
 			// aapt resource value: 0x7f06008d
 			public const int tvGroup = 2131099789;
@@ -2928,26 +2712,26 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0600a5
 			public const int tvNavigationTime = 2131099813;
 			
-			// aapt resource value: 0x7f0600e0
-			public const int tvNewsDate = 2131099872;
+			// aapt resource value: 0x7f0600c4
+			public const int tvNewsDate = 2131099844;
 			
-			// aapt resource value: 0x7f0600e2
-			public const int tvNewsDescription = 2131099874;
+			// aapt resource value: 0x7f0600c6
+			public const int tvNewsDescription = 2131099846;
 			
-			// aapt resource value: 0x7f0600df
-			public const int tvNewsTitle = 2131099871;
+			// aapt resource value: 0x7f0600c3
+			public const int tvNewsTitle = 2131099843;
 			
-			// aapt resource value: 0x7f0600d6
-			public const int tvSubHeaderDescription = 2131099862;
+			// aapt resource value: 0x7f0600ba
+			public const int tvSubHeaderDescription = 2131099834;
 			
-			// aapt resource value: 0x7f0600d5
-			public const int tvSubHeaderTitle = 2131099861;
+			// aapt resource value: 0x7f0600b9
+			public const int tvSubHeaderTitle = 2131099833;
 			
-			// aapt resource value: 0x7f0600cc
-			public const int tvTicket = 2131099852;
+			// aapt resource value: 0x7f0600b0
+			public const int tvTicket = 2131099824;
 			
-			// aapt resource value: 0x7f0600cd
-			public const int tvTicketNumber = 2131099853;
+			// aapt resource value: 0x7f0600b1
+			public const int tvTicketNumber = 2131099825;
 			
 			// aapt resource value: 0x7f06009b
 			public const int tvTimeAdult = 2131099803;
@@ -2970,14 +2754,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060014
 			public const int useLogo = 2131099668;
 			
-			// aapt resource value: 0x7f0600c5
-			public const int view_flipper_banners = 2131099845;
+			// aapt resource value: 0x7f0600a9
+			public const int view_flipper_banners = 2131099817;
 			
-			// aapt resource value: 0x7f0600c7
-			public const int view_flipper_waiting_time = 2131099847;
-			
-			// aapt resource value: 0x7f0600bc
-			public const int view_header = 2131099836;
+			// aapt resource value: 0x7f0600ab
+			public const int view_flipper_waiting_time = 2131099819;
 			
 			// aapt resource value: 0x7f06000a
 			public const int view_offset_helper = 2131099658;
@@ -2985,29 +2766,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060078
 			public const int viewpager = 2131099768;
 			
-			// aapt resource value: 0x7f0600c0
-			public const int web_update_details = 2131099840;
-			
 			// aapt resource value: 0x7f060022
 			public const int withText = 2131099682;
 			
 			// aapt resource value: 0x7f060015
 			public const int wrap_content = 2131099669;
-			
-			// aapt resource value: 0x7f0600b0
-			public const int wrapper_attachments = 2131099824;
-			
-			// aapt resource value: 0x7f0600ab
-			public const int wrapper_feedback = 2131099819;
-			
-			// aapt resource value: 0x7f0600aa
-			public const int wrapper_feedback_scroll = 2131099818;
-			
-			// aapt resource value: 0x7f0600b3
-			public const int wrapper_messages = 2131099827;
-			
-			// aapt resource value: 0x7f0600b5
-			public const int wrapper_messages_buttons = 2131099829;
 			
 			static Id()
 			{
@@ -3231,103 +2994,85 @@ namespace SS.HealthApp.Android
 			public const int FacilityList = 2130903097;
 			
 			// aapt resource value: 0x7f03003a
-			public const int hockeyapp_activity_expiry_info = 2130903098;
+			public const int Home = 2130903098;
 			
 			// aapt resource value: 0x7f03003b
-			public const int hockeyapp_activity_feedback = 2130903099;
+			public const int HomeMenuItem = 2130903099;
 			
 			// aapt resource value: 0x7f03003c
-			public const int hockeyapp_activity_login = 2130903100;
+			public const int Login = 2130903100;
 			
 			// aapt resource value: 0x7f03003d
-			public const int hockeyapp_activity_update = 2130903101;
+			public const int Main = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int hockeyapp_fragment_update = 2130903102;
+			public const int MessageDetail = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int hockeyapp_view_feedback_message = 2130903103;
+			public const int MessageList = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int Home = 2130903104;
+			public const int MessageNew = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int HomeMenuItem = 2130903105;
+			public const int NavDrawerMenuItem = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int Login = 2130903106;
+			public const int NewsDetail = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int Main = 2130903107;
+			public const int NewsList = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int MessageDetail = 2130903108;
+			public const int notification_media_action = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int MessageList = 2130903109;
+			public const int notification_media_cancel_action = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int MessageNew = 2130903110;
+			public const int notification_template_big_media = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int NavDrawerMenuItem = 2130903111;
+			public const int notification_template_big_media_narrow = 2130903111;
 			
 			// aapt resource value: 0x7f030048
-			public const int NewsDetail = 2130903112;
+			public const int notification_template_lines = 2130903112;
 			
 			// aapt resource value: 0x7f030049
-			public const int NewsList = 2130903113;
+			public const int notification_template_media = 2130903113;
 			
 			// aapt resource value: 0x7f03004a
-			public const int notification_media_action = 2130903114;
+			public const int notification_template_part_chronometer = 2130903114;
 			
 			// aapt resource value: 0x7f03004b
-			public const int notification_media_cancel_action = 2130903115;
+			public const int notification_template_part_time = 2130903115;
 			
 			// aapt resource value: 0x7f03004c
-			public const int notification_template_big_media = 2130903116;
+			public const int Notifications = 2130903116;
 			
 			// aapt resource value: 0x7f03004d
-			public const int notification_template_big_media_narrow = 2130903117;
+			public const int RateService = 2130903117;
 			
 			// aapt resource value: 0x7f03004e
-			public const int notification_template_lines = 2130903118;
+			public const int select_dialog_item_material = 2130903118;
 			
 			// aapt resource value: 0x7f03004f
-			public const int notification_template_media = 2130903119;
+			public const int select_dialog_multichoice_material = 2130903119;
 			
 			// aapt resource value: 0x7f030050
-			public const int notification_template_part_chronometer = 2130903120;
+			public const int select_dialog_singlechoice_material = 2130903120;
 			
 			// aapt resource value: 0x7f030051
-			public const int notification_template_part_time = 2130903121;
+			public const int support_simple_spinner_dropdown_item = 2130903121;
 			
 			// aapt resource value: 0x7f030052
-			public const int Notifications = 2130903122;
+			public const int TopToolbar = 2130903122;
 			
 			// aapt resource value: 0x7f030053
-			public const int RateService = 2130903123;
+			public const int UserDetail = 2130903123;
 			
 			// aapt resource value: 0x7f030054
-			public const int select_dialog_item_material = 2130903124;
-			
-			// aapt resource value: 0x7f030055
-			public const int select_dialog_multichoice_material = 2130903125;
-			
-			// aapt resource value: 0x7f030056
-			public const int select_dialog_singlechoice_material = 2130903126;
-			
-			// aapt resource value: 0x7f030057
-			public const int support_simple_spinner_dropdown_item = 2130903127;
-			
-			// aapt resource value: 0x7f030058
-			public const int TopToolbar = 2130903128;
-			
-			// aapt resource value: 0x7f030059
-			public const int UserDetail = 2130903129;
-			
-			// aapt resource value: 0x7f03005a
-			public const int UserSettingsList = 2130903130;
+			public const int UserSettingsList = 2130903124;
 			
 			static Layout()
 			{
@@ -3370,65 +3115,65 @@ namespace SS.HealthApp.Android
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0700d2
-			public const int AboutText = 2131165394;
+			// aapt resource value: 0x7f07008a
+			public const int AboutText = 2131165322;
 			
-			// aapt resource value: 0x7f0700d1
-			public const int AboutVersion = 2131165393;
+			// aapt resource value: 0x7f070089
+			public const int AboutVersion = 2131165321;
 			
 			// aapt resource value: 0x7f070018
 			public const int ApplicationName = 2131165208;
 			
-			// aapt resource value: 0x7f07007a
-			public const int ErrAccessCalendar = 2131165306;
+			// aapt resource value: 0x7f070032
+			public const int ErrAccessCalendar = 2131165234;
 			
-			// aapt resource value: 0x7f07007d
-			public const int ErrAccessGPS = 2131165309;
+			// aapt resource value: 0x7f070035
+			public const int ErrAccessGPS = 2131165237;
 			
-			// aapt resource value: 0x7f070076
-			public const int ErrCancelAppointment = 2131165302;
+			// aapt resource value: 0x7f07002e
+			public const int ErrCancelAppointment = 2131165230;
 			
-			// aapt resource value: 0x7f070075
-			public const int ErrChangePassword = 2131165301;
+			// aapt resource value: 0x7f07002d
+			public const int ErrChangePassword = 2131165229;
 			
-			// aapt resource value: 0x7f07007f
-			public const int ErrCheckinAppointment = 2131165311;
+			// aapt resource value: 0x7f070037
+			public const int ErrCheckinAppointment = 2131165239;
 			
-			// aapt resource value: 0x7f070074
-			public const int ErrConnLight = 2131165300;
+			// aapt resource value: 0x7f07002c
+			public const int ErrConnLight = 2131165228;
 			
-			// aapt resource value: 0x7f070073
-			public const int ErrConnSevere = 2131165299;
+			// aapt resource value: 0x7f07002b
+			public const int ErrConnSevere = 2131165227;
 			
-			// aapt resource value: 0x7f070077
-			public const int ErrCreateAppointment = 2131165303;
+			// aapt resource value: 0x7f07002f
+			public const int ErrCreateAppointment = 2131165231;
 			
-			// aapt resource value: 0x7f070072
-			public const int ErrGeneral = 2131165298;
+			// aapt resource value: 0x7f07002a
+			public const int ErrGeneral = 2131165226;
 			
-			// aapt resource value: 0x7f07007c
-			public const int ErrNoAppViewFile = 2131165308;
+			// aapt resource value: 0x7f070034
+			public const int ErrNoAppViewFile = 2131165236;
 			
-			// aapt resource value: 0x7f07007b
-			public const int ErrNoAppointmentDates = 2131165307;
+			// aapt resource value: 0x7f070033
+			public const int ErrNoAppointmentDates = 2131165235;
 			
-			// aapt resource value: 0x7f070078
-			public const int ErrOpenDeclaration = 2131165304;
+			// aapt resource value: 0x7f070030
+			public const int ErrOpenDeclaration = 2131165232;
 			
-			// aapt resource value: 0x7f070079
-			public const int ErrOpenDocument = 2131165305;
+			// aapt resource value: 0x7f070031
+			public const int ErrOpenDocument = 2131165233;
 			
-			// aapt resource value: 0x7f070080
-			public const int ErrOpenQrCode = 2131165312;
+			// aapt resource value: 0x7f070038
+			public const int ErrOpenQrCode = 2131165240;
 			
-			// aapt resource value: 0x7f07007e
-			public const int ErrSendMessage = 2131165310;
+			// aapt resource value: 0x7f070036
+			public const int ErrSendMessage = 2131165238;
 			
 			// aapt resource value: 0x7f070017
 			public const int Hello = 2131165207;
 			
-			// aapt resource value: 0x7f070071
-			public const int Ticket = 2131165297;
+			// aapt resource value: 0x7f070029
+			public const int Ticket = 2131165225;
 			
 			// aapt resource value: 0x7f070000
 			public const int abc_action_bar_home_description = 2131165184;
@@ -3487,101 +3232,101 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f070012
 			public const int abc_toolbar_collapse_description = 2131165202;
 			
-			// aapt resource value: 0x7f070061
-			public const int app_name = 2131165281;
+			// aapt resource value: 0x7f070019
+			public const int app_name = 2131165209;
 			
 			// aapt resource value: 0x7f070014
 			public const int appbar_scrolling_view_behavior = 2131165204;
 			
-			// aapt resource value: 0x7f0700af
-			public const int appointment_NewAppointment = 2131165359;
+			// aapt resource value: 0x7f070067
+			public const int appointment_NewAppointment = 2131165287;
 			
-			// aapt resource value: 0x7f0700b3
-			public const int appointment_Status_Arrived_with_number = 2131165363;
+			// aapt resource value: 0x7f07006b
+			public const int appointment_Status_Arrived_with_number = 2131165291;
 			
-			// aapt resource value: 0x7f0700b4
-			public const int appointment_Status_Arrived_without_number = 2131165364;
+			// aapt resource value: 0x7f07006c
+			public const int appointment_Status_Arrived_without_number = 2131165292;
 			
-			// aapt resource value: 0x7f0700b0
-			public const int appointment_Status_Booked = 2131165360;
+			// aapt resource value: 0x7f070068
+			public const int appointment_Status_Booked = 2131165288;
 			
-			// aapt resource value: 0x7f0700b1
-			public const int appointment_Status_Closed = 2131165361;
+			// aapt resource value: 0x7f070069
+			public const int appointment_Status_Closed = 2131165289;
 			
-			// aapt resource value: 0x7f0700b2
-			public const int appointment_Status_History = 2131165362;
+			// aapt resource value: 0x7f07006a
+			public const int appointment_Status_History = 2131165290;
 			
-			// aapt resource value: 0x7f0700cc
-			public const int appointment_book_alertDialog_Title = 2131165388;
+			// aapt resource value: 0x7f070084
+			public const int appointment_book_alertDialog_Title = 2131165316;
 			
-			// aapt resource value: 0x7f0700b5
-			public const int appointment_cancel = 2131165365;
+			// aapt resource value: 0x7f07006d
+			public const int appointment_cancel = 2131165293;
 			
-			// aapt resource value: 0x7f0700bc
-			public const int appointment_cancel_alertDialog_Message = 2131165372;
+			// aapt resource value: 0x7f070074
+			public const int appointment_cancel_alertDialog_Message = 2131165300;
 			
-			// aapt resource value: 0x7f0700bb
-			public const int appointment_cancel_alertDialog_Title = 2131165371;
+			// aapt resource value: 0x7f070073
+			public const int appointment_cancel_alertDialog_Title = 2131165299;
 			
-			// aapt resource value: 0x7f0700b7
-			public const int appointment_check_in = 2131165367;
+			// aapt resource value: 0x7f07006f
+			public const int appointment_check_in = 2131165295;
 			
-			// aapt resource value: 0x7f0700be
-			public const int appointment_checkin_alertDialog_Message = 2131165374;
+			// aapt resource value: 0x7f070076
+			public const int appointment_checkin_alertDialog_Message = 2131165302;
 			
-			// aapt resource value: 0x7f0700bd
-			public const int appointment_checkin_alertDialog_Title = 2131165373;
+			// aapt resource value: 0x7f070075
+			public const int appointment_checkin_alertDialog_Title = 2131165301;
 			
-			// aapt resource value: 0x7f0700c8
-			public const int appointment_date = 2131165384;
+			// aapt resource value: 0x7f070080
+			public const int appointment_date = 2131165312;
 			
-			// aapt resource value: 0x7f0700c7
-			public const int appointment_date_from = 2131165383;
+			// aapt resource value: 0x7f07007f
+			public const int appointment_date_from = 2131165311;
 			
-			// aapt resource value: 0x7f0700c3
-			public const int appointment_doctor = 2131165379;
+			// aapt resource value: 0x7f07007b
+			public const int appointment_doctor = 2131165307;
 			
-			// aapt resource value: 0x7f0700bf
-			public const int appointment_eventcreation_sucess = 2131165375;
+			// aapt resource value: 0x7f070077
+			public const int appointment_eventcreation_sucess = 2131165303;
 			
-			// aapt resource value: 0x7f0700c6
-			public const int appointment_facility = 2131165382;
+			// aapt resource value: 0x7f07007e
+			public const int appointment_facility = 2131165310;
 			
-			// aapt resource value: 0x7f0700b8
-			public const int appointment_feedback_rating = 2131165368;
+			// aapt resource value: 0x7f070070
+			public const int appointment_feedback_rating = 2131165296;
 			
-			// aapt resource value: 0x7f0700ba
-			public const int appointment_parking_qr_code = 2131165370;
+			// aapt resource value: 0x7f070072
+			public const int appointment_parking_qr_code = 2131165298;
 			
-			// aapt resource value: 0x7f0700ca
-			public const int appointment_payor = 2131165386;
+			// aapt resource value: 0x7f070082
+			public const int appointment_payor = 2131165314;
 			
-			// aapt resource value: 0x7f0700b9
-			public const int appointment_presence_declaration = 2131165369;
+			// aapt resource value: 0x7f070071
+			public const int appointment_presence_declaration = 2131165297;
 			
-			// aapt resource value: 0x7f0700b6
-			public const int appointment_save_calendar = 2131165366;
+			// aapt resource value: 0x7f07006e
+			public const int appointment_save_calendar = 2131165294;
 			
-			// aapt resource value: 0x7f0700cb
-			public const int appointment_selectMomentRequired = 2131165387;
+			// aapt resource value: 0x7f070083
+			public const int appointment_selectMomentRequired = 2131165315;
 			
-			// aapt resource value: 0x7f0700c5
-			public const int appointment_service = 2131165381;
+			// aapt resource value: 0x7f07007d
+			public const int appointment_service = 2131165309;
 			
-			// aapt resource value: 0x7f0700c4
-			public const int appointment_speciality = 2131165380;
+			// aapt resource value: 0x7f07007c
+			public const int appointment_speciality = 2131165308;
 			
-			// aapt resource value: 0x7f0700c9
-			public const int appointment_time = 2131165385;
+			// aapt resource value: 0x7f070081
+			public const int appointment_time = 2131165313;
 			
-			// aapt resource value: 0x7f0700c0
-			public const int appointment_type0 = 2131165376;
+			// aapt resource value: 0x7f070078
+			public const int appointment_type0 = 2131165304;
 			
-			// aapt resource value: 0x7f0700c1
-			public const int appointment_type1 = 2131165377;
+			// aapt resource value: 0x7f070079
+			public const int appointment_type1 = 2131165305;
 			
-			// aapt resource value: 0x7f0700c2
-			public const int appointment_type2 = 2131165378;
+			// aapt resource value: 0x7f07007a
+			public const int appointment_type2 = 2131165306;
 			
 			// aapt resource value: 0x7f070015
 			public const int bottom_sheet_behavior = 2131165205;
@@ -3589,419 +3334,203 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f070016
 			public const int character_counter_pattern = 2131165206;
 			
-			// aapt resource value: 0x7f070062
-			public const int client_name = 2131165282;
-			
-			// aapt resource value: 0x7f070063
-			public const int client_url = 2131165283;
-			
-			// aapt resource value: 0x7f07006d
-			public const int close = 2131165293;
-			
-			// aapt resource value: 0x7f070064
-			public const int developer_url = 2131165284;
-			
-			// aapt resource value: 0x7f070066
-			public const int drawer_close = 2131165286;
-			
-			// aapt resource value: 0x7f070065
-			public const int drawer_open = 2131165285;
-			
-			// aapt resource value: 0x7f070095
-			public const int emergency_time_adult = 2131165333;
-			
-			// aapt resource value: 0x7f070094
-			public const int emergency_time_emergency = 2131165332;
-			
-			// aapt resource value: 0x7f070097
-			public const int emergency_time_minutes = 2131165335;
-			
-			// aapt resource value: 0x7f070096
-			public const int emergency_time_pediatric = 2131165334;
-			
-			// aapt resource value: 0x7f07009f
-			public const int facility_travel_time_BasedInTraffic = 2131165343;
-			
-			// aapt resource value: 0x7f07009e
-			public const int facility_travel_time_min = 2131165342;
-			
-			// aapt resource value: 0x7f07009d
-			public const int facility_travel_time_travel = 2131165341;
-			
 			// aapt resource value: 0x7f07001a
-			public const int hockeyapp_crash_dialog_app_name_fallback = 2131165210;
+			public const int client_name = 2131165210;
 			
 			// aapt resource value: 0x7f07001b
-			public const int hockeyapp_crash_dialog_message = 2131165211;
-			
-			// aapt resource value: 0x7f07001c
-			public const int hockeyapp_crash_dialog_negative_button = 2131165212;
-			
-			// aapt resource value: 0x7f07001d
-			public const int hockeyapp_crash_dialog_neutral_button = 2131165213;
-			
-			// aapt resource value: 0x7f07001e
-			public const int hockeyapp_crash_dialog_positive_button = 2131165214;
-			
-			// aapt resource value: 0x7f07001f
-			public const int hockeyapp_crash_dialog_title = 2131165215;
-			
-			// aapt resource value: 0x7f070020
-			public const int hockeyapp_dialog_error_message = 2131165216;
-			
-			// aapt resource value: 0x7f070021
-			public const int hockeyapp_dialog_error_title = 2131165217;
-			
-			// aapt resource value: 0x7f070022
-			public const int hockeyapp_dialog_negative_button = 2131165218;
-			
-			// aapt resource value: 0x7f070023
-			public const int hockeyapp_dialog_positive_button = 2131165219;
-			
-			// aapt resource value: 0x7f070024
-			public const int hockeyapp_download_failed_dialog_message = 2131165220;
+			public const int client_url = 2131165211;
 			
 			// aapt resource value: 0x7f070025
-			public const int hockeyapp_download_failed_dialog_negative_button = 2131165221;
+			public const int close = 2131165221;
 			
-			// aapt resource value: 0x7f070026
-			public const int hockeyapp_download_failed_dialog_positive_button = 2131165222;
+			// aapt resource value: 0x7f07001c
+			public const int developer_url = 2131165212;
 			
-			// aapt resource value: 0x7f070027
-			public const int hockeyapp_download_failed_dialog_title = 2131165223;
+			// aapt resource value: 0x7f07001e
+			public const int drawer_close = 2131165214;
 			
-			// aapt resource value: 0x7f070028
-			public const int hockeyapp_error_no_network_message = 2131165224;
-			
-			// aapt resource value: 0x7f070029
-			public const int hockeyapp_expiry_info_text = 2131165225;
-			
-			// aapt resource value: 0x7f07002a
-			public const int hockeyapp_expiry_info_title = 2131165226;
-			
-			// aapt resource value: 0x7f07002b
-			public const int hockeyapp_feedback_attach_file = 2131165227;
-			
-			// aapt resource value: 0x7f07002c
-			public const int hockeyapp_feedback_attach_picture = 2131165228;
-			
-			// aapt resource value: 0x7f07002d
-			public const int hockeyapp_feedback_attachment_button_text = 2131165229;
-			
-			// aapt resource value: 0x7f07002e
-			public const int hockeyapp_feedback_attachment_error = 2131165230;
-			
-			// aapt resource value: 0x7f07002f
-			public const int hockeyapp_feedback_attachment_loading = 2131165231;
-			
-			// aapt resource value: 0x7f070030
-			public const int hockeyapp_feedback_email_hint = 2131165232;
-			
-			// aapt resource value: 0x7f070031
-			public const int hockeyapp_feedback_failed_text = 2131165233;
-			
-			// aapt resource value: 0x7f070032
-			public const int hockeyapp_feedback_failed_title = 2131165234;
-			
-			// aapt resource value: 0x7f070033
-			public const int hockeyapp_feedback_fetching_feedback_text = 2131165235;
-			
-			// aapt resource value: 0x7f070034
-			public const int hockeyapp_feedback_generic_error = 2131165236;
-			
-			// aapt resource value: 0x7f070035
-			public const int hockeyapp_feedback_last_updated_text = 2131165237;
-			
-			// aapt resource value: 0x7f070036
-			public const int hockeyapp_feedback_max_attachments_allowed = 2131165238;
-			
-			// aapt resource value: 0x7f070037
-			public const int hockeyapp_feedback_message_hint = 2131165239;
-			
-			// aapt resource value: 0x7f070038
-			public const int hockeyapp_feedback_name_hint = 2131165240;
-			
-			// aapt resource value: 0x7f070039
-			public const int hockeyapp_feedback_refresh_button_text = 2131165241;
-			
-			// aapt resource value: 0x7f07003a
-			public const int hockeyapp_feedback_response_button_text = 2131165242;
-			
-			// aapt resource value: 0x7f07003b
-			public const int hockeyapp_feedback_select_file = 2131165243;
-			
-			// aapt resource value: 0x7f07003c
-			public const int hockeyapp_feedback_select_picture = 2131165244;
-			
-			// aapt resource value: 0x7f07003d
-			public const int hockeyapp_feedback_send_button_text = 2131165245;
-			
-			// aapt resource value: 0x7f07003e
-			public const int hockeyapp_feedback_send_generic_error = 2131165246;
-			
-			// aapt resource value: 0x7f07003f
-			public const int hockeyapp_feedback_send_network_error = 2131165247;
-			
-			// aapt resource value: 0x7f070040
-			public const int hockeyapp_feedback_sending_feedback_text = 2131165248;
-			
-			// aapt resource value: 0x7f070041
-			public const int hockeyapp_feedback_subject_hint = 2131165249;
-			
-			// aapt resource value: 0x7f070042
-			public const int hockeyapp_feedback_title = 2131165250;
-			
-			// aapt resource value: 0x7f070043
-			public const int hockeyapp_feedback_validate_email_empty = 2131165251;
-			
-			// aapt resource value: 0x7f070044
-			public const int hockeyapp_feedback_validate_email_error = 2131165252;
-			
-			// aapt resource value: 0x7f070045
-			public const int hockeyapp_feedback_validate_name_error = 2131165253;
-			
-			// aapt resource value: 0x7f070046
-			public const int hockeyapp_feedback_validate_subject_error = 2131165254;
-			
-			// aapt resource value: 0x7f070047
-			public const int hockeyapp_feedback_validate_text_error = 2131165255;
-			
-			// aapt resource value: 0x7f070048
-			public const int hockeyapp_login_email_hint = 2131165256;
-			
-			// aapt resource value: 0x7f070049
-			public const int hockeyapp_login_headline_text = 2131165257;
-			
-			// aapt resource value: 0x7f07004a
-			public const int hockeyapp_login_headline_text_email_only = 2131165258;
-			
-			// aapt resource value: 0x7f07004b
-			public const int hockeyapp_login_login_button_text = 2131165259;
-			
-			// aapt resource value: 0x7f07004c
-			public const int hockeyapp_login_missing_credentials_toast = 2131165260;
+			// aapt resource value: 0x7f07001d
+			public const int drawer_open = 2131165213;
 			
 			// aapt resource value: 0x7f07004d
-			public const int hockeyapp_login_password_hint = 2131165261;
+			public const int emergency_time_adult = 2131165261;
 			
-			// aapt resource value: 0x7f07004e
-			public const int hockeyapp_paint_dialog_message = 2131165262;
+			// aapt resource value: 0x7f07004c
+			public const int emergency_time_emergency = 2131165260;
 			
 			// aapt resource value: 0x7f07004f
-			public const int hockeyapp_paint_dialog_negative_button = 2131165263;
+			public const int emergency_time_minutes = 2131165263;
 			
-			// aapt resource value: 0x7f070050
-			public const int hockeyapp_paint_dialog_neutral_button = 2131165264;
-			
-			// aapt resource value: 0x7f070051
-			public const int hockeyapp_paint_dialog_positive_button = 2131165265;
-			
-			// aapt resource value: 0x7f070052
-			public const int hockeyapp_paint_indicator_toast = 2131165266;
-			
-			// aapt resource value: 0x7f070053
-			public const int hockeyapp_paint_menu_clear = 2131165267;
-			
-			// aapt resource value: 0x7f070054
-			public const int hockeyapp_paint_menu_save = 2131165268;
-			
-			// aapt resource value: 0x7f070055
-			public const int hockeyapp_paint_menu_undo = 2131165269;
-			
-			// aapt resource value: 0x7f070056
-			public const int hockeyapp_permission_dialog_negative_button = 2131165270;
+			// aapt resource value: 0x7f07004e
+			public const int emergency_time_pediatric = 2131165262;
 			
 			// aapt resource value: 0x7f070057
-			public const int hockeyapp_permission_dialog_positive_button = 2131165271;
+			public const int facility_travel_time_BasedInTraffic = 2131165271;
 			
-			// aapt resource value: 0x7f070058
-			public const int hockeyapp_permission_update_message = 2131165272;
+			// aapt resource value: 0x7f070056
+			public const int facility_travel_time_min = 2131165270;
+			
+			// aapt resource value: 0x7f070055
+			public const int facility_travel_time_travel = 2131165269;
+			
+			// aapt resource value: 0x7f07004b
+			public const int home_ticket_goto = 2131165259;
+			
+			// aapt resource value: 0x7f070021
+			public const int info_error = 2131165217;
+			
+			// aapt resource value: 0x7f07001f
+			public const int info_saving = 2131165215;
+			
+			// aapt resource value: 0x7f070020
+			public const int info_success = 2131165216;
+			
+			// aapt resource value: 0x7f070022
+			public const int info_wait = 2131165218;
+			
+			// aapt resource value: 0x7f070053
+			public const int login_authenticating = 2131165267;
+			
+			// aapt resource value: 0x7f070054
+			public const int login_error = 2131165268;
+			
+			// aapt resource value: 0x7f070052
+			public const int login_login = 2131165266;
+			
+			// aapt resource value: 0x7f070051
+			public const int login_password = 2131165265;
+			
+			// aapt resource value: 0x7f070050
+			public const int login_username = 2131165264;
+			
+			// aapt resource value: 0x7f070049
+			public const int menu_About = 2131165257;
+			
+			// aapt resource value: 0x7f070040
+			public const int menu_AccountStatment = 2131165248;
+			
+			// aapt resource value: 0x7f070041
+			public const int menu_AccountStatmentDescription = 2131165249;
+			
+			// aapt resource value: 0x7f07003c
+			public const int menu_Appointment = 2131165244;
+			
+			// aapt resource value: 0x7f07003d
+			public const int menu_AppointmentDescription = 2131165245;
+			
+			// aapt resource value: 0x7f070046
+			public const int menu_Declarations = 2131165254;
+			
+			// aapt resource value: 0x7f070047
+			public const int menu_DeclarationsDescription = 2131165255;
+			
+			// aapt resource value: 0x7f070044
+			public const int menu_Facility = 2131165252;
+			
+			// aapt resource value: 0x7f070045
+			public const int menu_FacilityDescription = 2131165253;
+			
+			// aapt resource value: 0x7f07003b
+			public const int menu_Home = 2131165243;
+			
+			// aapt resource value: 0x7f07004a
+			public const int menu_Logout = 2131165258;
+			
+			// aapt resource value: 0x7f07003e
+			public const int menu_Messages = 2131165246;
+			
+			// aapt resource value: 0x7f07003f
+			public const int menu_MessagesDescription = 2131165247;
+			
+			// aapt resource value: 0x7f070042
+			public const int menu_News = 2131165250;
+			
+			// aapt resource value: 0x7f070043
+			public const int menu_NewsDescription = 2131165251;
+			
+			// aapt resource value: 0x7f070048
+			public const int menu_PersonalData = 2131165256;
 			
 			// aapt resource value: 0x7f070059
-			public const int hockeyapp_permission_update_title = 2131165273;
+			public const int menu_UserSettings_ChangePassword = 2131165273;
 			
 			// aapt resource value: 0x7f07005a
-			public const int hockeyapp_update_button = 2131165274;
+			public const int menu_UserSettings_ChangePasswordDescription = 2131165274;
 			
 			// aapt resource value: 0x7f07005b
-			public const int hockeyapp_update_dialog_message = 2131165275;
+			public const int menu_UserSettings_Notifications = 2131165275;
 			
 			// aapt resource value: 0x7f07005c
-			public const int hockeyapp_update_dialog_negative_button = 2131165276;
+			public const int menu_UserSettings_NotificationsDescription = 2131165276;
 			
-			// aapt resource value: 0x7f07005d
-			public const int hockeyapp_update_dialog_positive_button = 2131165277;
-			
-			// aapt resource value: 0x7f07005e
-			public const int hockeyapp_update_dialog_title = 2131165278;
-			
-			// aapt resource value: 0x7f07005f
-			public const int hockeyapp_update_mandatory_toast = 2131165279;
-			
-			// aapt resource value: 0x7f070060
-			public const int hockeyapp_update_version_details_label = 2131165280;
-			
-			// aapt resource value: 0x7f070093
-			public const int home_ticket_goto = 2131165331;
-			
-			// aapt resource value: 0x7f070069
-			public const int info_error = 2131165289;
-			
-			// aapt resource value: 0x7f070067
-			public const int info_saving = 2131165287;
-			
-			// aapt resource value: 0x7f070068
-			public const int info_success = 2131165288;
-			
-			// aapt resource value: 0x7f07006a
-			public const int info_wait = 2131165290;
-			
-			// aapt resource value: 0x7f070019
-			public const int library_name = 2131165209;
-			
-			// aapt resource value: 0x7f07009b
-			public const int login_authenticating = 2131165339;
-			
-			// aapt resource value: 0x7f07009c
-			public const int login_error = 2131165340;
-			
-			// aapt resource value: 0x7f07009a
-			public const int login_login = 2131165338;
-			
-			// aapt resource value: 0x7f070099
-			public const int login_password = 2131165337;
-			
-			// aapt resource value: 0x7f070098
-			public const int login_username = 2131165336;
-			
-			// aapt resource value: 0x7f070091
-			public const int menu_About = 2131165329;
-			
-			// aapt resource value: 0x7f070088
-			public const int menu_AccountStatment = 2131165320;
-			
-			// aapt resource value: 0x7f070089
-			public const int menu_AccountStatmentDescription = 2131165321;
-			
-			// aapt resource value: 0x7f070084
-			public const int menu_Appointment = 2131165316;
+			// aapt resource value: 0x7f070058
+			public const int menu_UserSettings_PersonalDataDescription = 2131165272;
 			
 			// aapt resource value: 0x7f070085
-			public const int menu_AppointmentDescription = 2131165317;
-			
-			// aapt resource value: 0x7f07008e
-			public const int menu_Declarations = 2131165326;
-			
-			// aapt resource value: 0x7f07008f
-			public const int menu_DeclarationsDescription = 2131165327;
-			
-			// aapt resource value: 0x7f07008c
-			public const int menu_Facility = 2131165324;
-			
-			// aapt resource value: 0x7f07008d
-			public const int menu_FacilityDescription = 2131165325;
-			
-			// aapt resource value: 0x7f070083
-			public const int menu_Home = 2131165315;
-			
-			// aapt resource value: 0x7f070092
-			public const int menu_Logout = 2131165330;
+			public const int message_message = 2131165317;
 			
 			// aapt resource value: 0x7f070086
-			public const int menu_Messages = 2131165318;
+			public const int message_newMessage = 2131165318;
 			
 			// aapt resource value: 0x7f070087
-			public const int menu_MessagesDescription = 2131165319;
+			public const int message_recepient = 2131165319;
 			
-			// aapt resource value: 0x7f07008a
-			public const int menu_News = 2131165322;
+			// aapt resource value: 0x7f070088
+			public const int message_subject = 2131165320;
 			
-			// aapt resource value: 0x7f07008b
-			public const int menu_NewsDescription = 2131165323;
+			// aapt resource value: 0x7f070024
+			public const int no = 2131165220;
 			
-			// aapt resource value: 0x7f070090
-			public const int menu_PersonalData = 2131165328;
+			// aapt resource value: 0x7f070028
+			public const int no_records = 2131165224;
 			
-			// aapt resource value: 0x7f0700a1
-			public const int menu_UserSettings_ChangePassword = 2131165345;
+			// aapt resource value: 0x7f070026
+			public const int save = 2131165222;
 			
-			// aapt resource value: 0x7f0700a2
-			public const int menu_UserSettings_ChangePasswordDescription = 2131165346;
-			
-			// aapt resource value: 0x7f0700a3
-			public const int menu_UserSettings_Notifications = 2131165347;
-			
-			// aapt resource value: 0x7f0700a4
-			public const int menu_UserSettings_NotificationsDescription = 2131165348;
-			
-			// aapt resource value: 0x7f0700a0
-			public const int menu_UserSettings_PersonalDataDescription = 2131165344;
-			
-			// aapt resource value: 0x7f0700cd
-			public const int message_message = 2131165389;
-			
-			// aapt resource value: 0x7f0700ce
-			public const int message_newMessage = 2131165390;
-			
-			// aapt resource value: 0x7f0700cf
-			public const int message_recepient = 2131165391;
-			
-			// aapt resource value: 0x7f0700d0
-			public const int message_subject = 2131165392;
-			
-			// aapt resource value: 0x7f07006c
-			public const int no = 2131165292;
-			
-			// aapt resource value: 0x7f070070
-			public const int no_records = 2131165296;
-			
-			// aapt resource value: 0x7f07006e
-			public const int save = 2131165294;
-			
-			// aapt resource value: 0x7f07006f
-			public const int select_option = 2131165295;
+			// aapt resource value: 0x7f070027
+			public const int select_option = 2131165223;
 			
 			// aapt resource value: 0x7f070013
 			public const int status_bar_notification_info_overflow = 2131165203;
 			
-			// aapt resource value: 0x7f0700a5
-			public const int user_settingsListSubheader = 2131165349;
+			// aapt resource value: 0x7f07005d
+			public const int user_settingsListSubheader = 2131165277;
 			
-			// aapt resource value: 0x7f0700aa
-			public const int userdata_MobileNumber = 2131165354;
+			// aapt resource value: 0x7f070062
+			public const int userdata_MobileNumber = 2131165282;
 			
-			// aapt resource value: 0x7f0700ab
-			public const int userdata_address = 2131165355;
+			// aapt resource value: 0x7f070063
+			public const int userdata_address = 2131165283;
 			
-			// aapt resource value: 0x7f0700ac
-			public const int userdata_changePassword_actualPassword = 2131165356;
+			// aapt resource value: 0x7f070064
+			public const int userdata_changePassword_actualPassword = 2131165284;
 			
-			// aapt resource value: 0x7f0700ae
-			public const int userdata_changePassword_confirmNewPassword = 2131165358;
+			// aapt resource value: 0x7f070066
+			public const int userdata_changePassword_confirmNewPassword = 2131165286;
 			
-			// aapt resource value: 0x7f0700ad
-			public const int userdata_changePassword_newPassword = 2131165357;
+			// aapt resource value: 0x7f070065
+			public const int userdata_changePassword_newPassword = 2131165285;
 			
-			// aapt resource value: 0x7f0700a7
-			public const int userdata_email = 2131165351;
+			// aapt resource value: 0x7f07005f
+			public const int userdata_email = 2131165279;
 			
-			// aapt resource value: 0x7f0700a6
-			public const int userdata_name = 2131165350;
+			// aapt resource value: 0x7f07005e
+			public const int userdata_name = 2131165278;
 			
-			// aapt resource value: 0x7f0700a9
-			public const int userdata_phoneNumber = 2131165353;
+			// aapt resource value: 0x7f070061
+			public const int userdata_phoneNumber = 2131165281;
 			
-			// aapt resource value: 0x7f0700a8
-			public const int userdata_taxNumber = 2131165352;
+			// aapt resource value: 0x7f070060
+			public const int userdata_taxNumber = 2131165280;
 			
-			// aapt resource value: 0x7f070082
-			public const int validationError_passwordmismatch = 2131165314;
+			// aapt resource value: 0x7f07003a
+			public const int validationError_passwordmismatch = 2131165242;
 			
-			// aapt resource value: 0x7f070081
-			public const int validationError_required = 2131165313;
+			// aapt resource value: 0x7f070039
+			public const int validationError_required = 2131165241;
 			
-			// aapt resource value: 0x7f07006b
-			public const int yes = 2131165291;
+			// aapt resource value: 0x7f070023
+			public const int yes = 2131165219;
 			
 			static String()
 			{
@@ -4031,20 +3560,20 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f09013f
 			public const int Animation_Design_BottomSheetDialog = 2131296575;
 			
+			// aapt resource value: 0x7f090157
+			public const int AppTheme = 2131296599;
+			
 			// aapt resource value: 0x7f09015a
-			public const int AppTheme = 2131296602;
-			
-			// aapt resource value: 0x7f09015d
-			public const int AppTheme_Button = 2131296605;
-			
-			// aapt resource value: 0x7f09015e
-			public const int AppTheme_FormElement = 2131296606;
+			public const int AppTheme_Button = 2131296602;
 			
 			// aapt resource value: 0x7f09015b
-			public const int AppTheme_Splash = 2131296603;
+			public const int AppTheme_FormElement = 2131296603;
 			
-			// aapt resource value: 0x7f09015c
-			public const int AppTheme_TopToolbar = 2131296604;
+			// aapt resource value: 0x7f090158
+			public const int AppTheme_Splash = 2131296600;
+			
+			// aapt resource value: 0x7f090159
+			public const int AppTheme_TopToolbar = 2131296601;
 			
 			// aapt resource value: 0x7f09008a
 			public const int Base_AlertDialog_AppCompat = 2131296394;
@@ -4474,15 +4003,6 @@ namespace SS.HealthApp.Android
 			
 			// aapt resource value: 0x7f090140
 			public const int Base_Widget_Design_TabLayout = 2131296576;
-			
-			// aapt resource value: 0x7f090157
-			public const int HockeyApp_ButtonStyle = 2131296599;
-			
-			// aapt resource value: 0x7f090158
-			public const int HockeyApp_EditTextStyle = 2131296600;
-			
-			// aapt resource value: 0x7f090159
-			public const int HockeyApp_SingleLineInputStyle = 2131296601;
 			
 			// aapt resource value: 0x7f090017
 			public const int Platform_AppCompat = 2131296279;

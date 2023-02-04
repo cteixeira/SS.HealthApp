@@ -18,7 +18,7 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AttendanceService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var ticket = aService.GetNextTicketAsync().Result;
@@ -32,7 +32,7 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AttendanceService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var result = aService.CheckInAsync("2").Result;
@@ -47,7 +47,7 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AttendanceService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var res = aService.RateServiceAsync("5", 6).Result;
@@ -62,7 +62,7 @@ namespace SS.HealthApp.Tests
             var uService = new UserService();
             var aService = new AttendanceService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var code = aService.DownloadParkingQRCodeAsync("5", "C:\\temp\\").Result;

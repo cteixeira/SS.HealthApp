@@ -47,7 +47,7 @@ namespace SS.HealthApp.ClientConnector.Local
         {
             return new List<Models.User>{
                 new Models.User {
-                    Id= "1", Name = "Simple Solutions", Username = "digicustomer", Password = "123456789", Email = "digitalcustomer@simplesolutions.pt",
+                    Id= "1", Name = "Simple Solutions", Username = "digicustomer", Password = "1234", Email = "digitalcustomer@simplesolutions.pt",
                     TaxNumber = "505045923",Mobile = "", PhoneNumber = "214676118", Address = "Taguspark - Núcleo Central 205 | 2740-122 Porto-Salvo"
                 },
                 new Models.User {

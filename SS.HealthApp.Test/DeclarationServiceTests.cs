@@ -12,7 +12,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var dService = new DeclarationService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm) {
                 var items = dService.GetItemsAsync().Result;
                 Assert.AreNotEqual(items.Count, 0);
@@ -24,7 +24,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var dService = new DeclarationService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm) {
                 var result = dService.SendPresenceDeclarationAsync("1").Result;
                 Assert.AreEqual(result, true);
@@ -37,7 +37,7 @@ namespace SS.HealthApp.Tests {
             var uService = new UserService();
             var dService = new DeclarationService();
 
-            bool validForm = uService.LoginAsync("digicustomer", "123456789").Result;
+            bool validForm = uService.LoginAsync("digicustomer", "1234").Result;
             if (validForm)
             {
                 var result = dService.DownloadPresenceDeclarationAsync("1").Result;

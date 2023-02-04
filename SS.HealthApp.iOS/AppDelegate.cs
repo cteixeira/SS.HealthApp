@@ -1,7 +1,6 @@
 ﻿using Foundation;
 using UIKit;
 using MonoTouch.SlideoutNavigation;
-using HockeyApp.iOS;
 using System;
 
 namespace SS.HealthApp.iOS {
@@ -25,16 +24,6 @@ namespace SS.HealthApp.iOS {
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions) {
 
             try {
-                //HockeyApp Logger
-                /*var manager = BITHockeyManager.SharedHockeyManager;
-                manager.Configure("59bab9aa6d724a2fbb99618385b21069");
-                manager.StartManager();
-                manager.Authenticator.AuthenticateInstallation();*/
-
-                /*AppDomain.CurrentDomain.UnhandledException += (sender, ex) => {
-                    Utils.ErrorHandling((Exception)ex.ExceptionObject);
-                };*/
-
                 Window = new UIWindow(UIScreen.MainScreen.Bounds);
                 SetupAsync();
                 Window.MakeKeyAndVisible(); // make the window visible

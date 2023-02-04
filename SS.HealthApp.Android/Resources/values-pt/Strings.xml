@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">MySAMS</string>
+  <!--<string name="app_name">MySAMS</string>
   <string name="client_name">Sindicato Bancário Sul e Ilhas</string>
-  <string name="client_url">https://pics.sams.pt</string>
+  <string name="client_url">https://pics.sams.pt</string>-->
 
-  <!--string name="app_name">Digital Customer</string>
-  <string name="client_name">Digital Customer</string>
-  <string name="client_url">https://simplesolutions.pt</string-->
+  <string name="app_name">SS.HealtApp</string>
+  <string name="client_name">SS.HealtApp</string>
+  <string name="client_url">https://simplesolutions.pt</string>
   
   <string name="developer_url">http://www.simplesolutions.pt/</string>
   
@@ -134,7 +134,7 @@
 
   <string name="AboutVersion">Versão {0}</string>
 
-  <string name="AboutText">
+  <!--string name="AboutText">
     A App MySams é um serviço fornecido pelo SBSI / SAMS.\n
     \n
     A App MySAMS – disponível para smartphones com sistema operativo iOS ou Android – permite consultar informação das várias unidades de saúde do SBSI /SAMS,\n
@@ -147,9 +147,9 @@
     Copyright 2017 - Sindicato dos Bancários Sul e Ilhas. Todos os direitos reservados.\n
     \n
     Mobile app development with Xamarin Tech. in collaboration with Simple Solutions.
-  </string>
+  </string-->
 
-  <!--string name="AboutText">
+  <string name="AboutText">
     With the Digital Transformation in mind, Simple Solutions has developed an innovative product that digitizes the relationship and service provided, between B2C companies and their end customers.\n
     \n
     Some of the features of our Customer Service App:\n
@@ -162,6 +162,6 @@
     - Facilities list(with travel time, including traffic).\n
     \n
     Copyright 2017 - Simple Solutions. All rights reserved.\n
-  </string-->
+  </string>
   
 </resources>
