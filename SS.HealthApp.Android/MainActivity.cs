@@ -37,16 +37,13 @@ namespace SS.HealthApp.Android
             base.OnCreate(bundle);
 
             SetContentView(Resource.Layout.Main);
-
-            //
+            
             // set the toolbar
             var toolbar = FindViewById<Toolbar>(Resource.Id.top_toolbar);
             //Toolbar will now take on default Action Bar characteristics
             SetSupportActionBar(toolbar);
             SupportActionBar.Title = Resources.GetString(Resource.String.app_name);
 
-
-            //
             // set the navigation drawer
             SetupNavDrawer(bundle, toolbar);
 

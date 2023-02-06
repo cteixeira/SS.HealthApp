@@ -15,8 +15,8 @@
         //Local 
         internal const string CompanyID = "Local";
         internal const string CompanySecret = "password";
-        internal const string TokenEndpointUrl = "http://localhost:53582/api/token";
-        internal const string ServicesBaseUrl = "http://localhost:53582/api/";
+        internal const string TokenEndpointUrl = "http://10.0.2.2:8080/api/token";
+        internal const string ServicesBaseUrl = "http://10.0.2.2:8080/api/";
 
         //SAMS
         //internal const string CompanyID = "SAMS";
