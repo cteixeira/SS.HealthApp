@@ -29,7 +29,7 @@ namespace SS.HealthApp.Android
             base.OnViewCreated(view, savedInstanceState);
 
             //Set top bar title
-            ((global::Android.Support.V7.App.AppCompatActivity)Activity).SupportActionBar.Title = Resources.GetString(Resource.String.menu_About);
+            //((global::Android.Support.V7.App.AppCompatActivity)Activity).SupportActionBar.Title = Resources.GetString(Resource.String.menu_About);
 
             String version = string.Empty;
 

@@ -18,6 +18,10 @@
         internal const string TokenEndpointUrl = "http://10.0.2.2:8080/api/token";
         internal const string ServicesBaseUrl = "http://10.0.2.2:8080/api/";
 
+        // with Conveyor
+        //internal const string TokenEndpointUrl = "http://192.168.1.93:45457/api/token";
+        //internal const string ServicesBaseUrl = "http://192.168.1.93:45457/api/";
+
         //SAMS
         //internal const string CompanyID = "SAMS";
         //internal const string CompanySecret = "xxx";

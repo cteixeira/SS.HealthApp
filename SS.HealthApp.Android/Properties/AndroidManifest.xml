@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="pt.simplesolutions.SS.HealthApp.Android" android:installLocation="auto" android:versionCode="5" android:versionName="1.5">
-	<uses-sdk android:minSdkVersion="26" android:targetSdkVersion="27" />
+	<uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23" />
 	<application android:label="@string/app_name" android:theme="@style/AppTheme"></application>
-  <uses-permission android:name="android.permission.INTERNET" />
-  <uses-permission android:name="android.permission.CALL_PHONE" />
-  <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.WRITE_CALENDAR" />
 </manifest>
