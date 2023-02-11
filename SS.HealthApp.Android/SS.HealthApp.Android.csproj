@@ -689,10 +689,6 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_sentiment_very_dissatisfied_white_48dp.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_sentiment_neutral_white_48dp.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_sentiment_very_dissatisfied_white_48dp.png" />
-    <AndroidResource Include="Resources\layout\Main2.axml">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
     <None Include="Resources\ClientResources\SAMS\drawable-xxxhdpi\splash_logo.png" />
     <None Include="Resources\ClientResources\SAMS\drawable-xxhdpi\splash_logo.png" />
     <None Include="Resources\ClientResources\SAMS\drawable-xhdpi\splash_logo.png" />

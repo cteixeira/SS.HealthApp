@@ -2076,8 +2076,8 @@ namespace SS.HealthApp.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0600cc
-			public const int action0 = 2131099852;
+			// aapt resource value: 0x7f0600c8
+			public const int action0 = 2131099848;
 			
 			// aapt resource value: 0x7f06005a
 			public const int action_bar = 2131099738;
@@ -2100,14 +2100,14 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06003a
 			public const int action_bar_title = 2131099706;
 			
-			// aapt resource value: 0x7f0600e8
-			public const int action_call = 2131099880;
+			// aapt resource value: 0x7f0600e4
+			public const int action_call = 2131099876;
 			
 			// aapt resource value: 0x7f06005b
 			public const int action_context_bar = 2131099739;
 			
-			// aapt resource value: 0x7f0600d0
-			public const int action_divider = 2131099856;
+			// aapt resource value: 0x7f0600cc
+			public const int action_divider = 2131099852;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -2124,20 +2124,20 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06003c
 			public const int action_mode_close_button = 2131099708;
 			
+			// aapt resource value: 0x7f0600e2
+			public const int action_new = 2131099874;
+			
+			// aapt resource value: 0x7f0600e5
+			public const int action_personalData = 2131099877;
+			
 			// aapt resource value: 0x7f0600e6
-			public const int action_new = 2131099878;
-			
-			// aapt resource value: 0x7f0600e9
-			public const int action_personalData = 2131099881;
-			
-			// aapt resource value: 0x7f0600ea
-			public const int action_reply = 2131099882;
-			
-			// aapt resource value: 0x7f0600eb
-			public const int action_save = 2131099883;
+			public const int action_reply = 2131099878;
 			
 			// aapt resource value: 0x7f0600e7
-			public const int action_schedule = 2131099879;
+			public const int action_save = 2131099879;
+			
+			// aapt resource value: 0x7f0600e3
+			public const int action_schedule = 2131099875;
 			
 			// aapt resource value: 0x7f06003d
 			public const int activity_chooser_view_content = 2131099709;
@@ -2163,8 +2163,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060044
 			public const int buttonPanel = 2131099716;
 			
-			// aapt resource value: 0x7f0600cd
-			public const int cancel_action = 2131099853;
+			// aapt resource value: 0x7f0600c9
+			public const int cancel_action = 2131099849;
 			
 			// aapt resource value: 0x7f06002b
 			public const int center = 2131099691;
@@ -2178,8 +2178,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060052
 			public const int checkbox = 2131099730;
 			
-			// aapt resource value: 0x7f0600d3
-			public const int chronometer = 2131099859;
+			// aapt resource value: 0x7f0600cf
+			public const int chronometer = 2131099855;
 			
 			// aapt resource value: 0x7f060033
 			public const int clip_horizontal = 2131099699;
@@ -2195,9 +2195,6 @@ namespace SS.HealthApp.Android
 			
 			// aapt resource value: 0x7f0600b7
 			public const int content_frame = 2131099831;
-			
-			// aapt resource value: 0x7f0600bb
-			public const int content_frame2 = 2131099835;
 			
 			// aapt resource value: 0x7f060050
 			public const int custom = 2131099728;
@@ -2232,14 +2229,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0600b6
 			public const int drawer_layout = 2131099830;
 			
-			// aapt resource value: 0x7f0600b9
-			public const int drawer_layout2 = 2131099833;
-			
 			// aapt resource value: 0x7f0600b8
 			public const int drawer_menu = 2131099832;
-			
-			// aapt resource value: 0x7f0600bc
-			public const int drawer_menu2 = 2131099836;
 			
 			// aapt resource value: 0x7f06005c
 			public const int edit_query = 2131099740;
@@ -2247,8 +2238,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06001c
 			public const int end = 2131099676;
 			
-			// aapt resource value: 0x7f0600d8
-			public const int end_padder = 2131099864;
+			// aapt resource value: 0x7f0600d4
+			public const int end_padder = 2131099860;
 			
 			// aapt resource value: 0x7f060023
 			public const int enterAlways = 2131099683;
@@ -2256,8 +2247,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060024
 			public const int enterAlwaysCollapsed = 2131099684;
 			
-			// aapt resource value: 0x7f0600e4
-			public const int etAddress = 2131099876;
+			// aapt resource value: 0x7f0600e0
+			public const int etAddress = 2131099872;
 			
 			// aapt resource value: 0x7f060089
 			public const int etConfirmPassword = 2131099785;
@@ -2265,23 +2256,23 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060079
 			public const int etDoctor = 2131099769;
 			
-			// aapt resource value: 0x7f0600e0
-			public const int etEmail = 2131099872;
+			// aapt resource value: 0x7f0600dc
+			public const int etEmail = 2131099868;
 			
 			// aapt resource value: 0x7f06007f
 			public const int etFacility = 2131099775;
 			
-			// aapt resource value: 0x7f0600c5
-			public const int etMessage = 2131099845;
+			// aapt resource value: 0x7f0600c1
+			public const int etMessage = 2131099841;
 			
-			// aapt resource value: 0x7f0600e3
-			public const int etMobileNumber = 2131099875;
+			// aapt resource value: 0x7f0600df
+			public const int etMobileNumber = 2131099871;
 			
 			// aapt resource value: 0x7f060083
 			public const int etMoment = 2131099779;
 			
-			// aapt resource value: 0x7f0600df
-			public const int etName = 2131099871;
+			// aapt resource value: 0x7f0600db
+			public const int etName = 2131099867;
 			
 			// aapt resource value: 0x7f060088
 			public const int etNewPassword = 2131099784;
@@ -2295,11 +2286,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060081
 			public const int etPayor = 2131099777;
 			
-			// aapt resource value: 0x7f0600e2
-			public const int etPhoneNumber = 2131099874;
+			// aapt resource value: 0x7f0600de
+			public const int etPhoneNumber = 2131099870;
 			
-			// aapt resource value: 0x7f0600c1
-			public const int etRecepient = 2131099841;
+			// aapt resource value: 0x7f0600bd
+			public const int etRecepient = 2131099837;
 			
 			// aapt resource value: 0x7f06007d
 			public const int etService = 2131099773;
@@ -2310,11 +2301,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06007b
 			public const int etSpeciality = 2131099771;
 			
-			// aapt resource value: 0x7f0600c3
-			public const int etSubject = 2131099843;
+			// aapt resource value: 0x7f0600bf
+			public const int etSubject = 2131099839;
 			
-			// aapt resource value: 0x7f0600e1
-			public const int etTaxNumber = 2131099873;
+			// aapt resource value: 0x7f0600dd
+			public const int etTaxNumber = 2131099869;
 			
 			// aapt resource value: 0x7f0600b3
 			public const int etUsername = 2131099827;
@@ -2355,11 +2346,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06003f
 			public const int image = 2131099711;
 			
-			// aapt resource value: 0x7f0600d7
-			public const int info = 2131099863;
+			// aapt resource value: 0x7f0600d3
+			public const int info = 2131099859;
 			
-			// aapt resource value: 0x7f0600c6
-			public const int itemNavDrawerText = 2131099846;
+			// aapt resource value: 0x7f0600c2
+			public const int itemNavDrawerText = 2131099842;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
@@ -2367,8 +2358,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0600a4
 			public const int iv1 = 2131099812;
 			
-			// aapt resource value: 0x7f0600db
-			public const int ivBad = 2131099867;
+			// aapt resource value: 0x7f0600d7
+			public const int ivBad = 2131099863;
 			
 			// aapt resource value: 0x7f0600a2
 			public const int ivCar = 2131099810;
@@ -2385,8 +2376,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060082
 			public const int ivClearPayor = 2131099778;
 			
-			// aapt resource value: 0x7f0600c2
-			public const int ivClearRecepient = 2131099842;
+			// aapt resource value: 0x7f0600be
+			public const int ivClearRecepient = 2131099838;
 			
 			// aapt resource value: 0x7f06007e
 			public const int ivClearService = 2131099774;
@@ -2397,8 +2388,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06007c
 			public const int ivClearSpeciality = 2131099772;
 			
-			// aapt resource value: 0x7f0600c4
-			public const int ivClearSubject = 2131099844;
+			// aapt resource value: 0x7f0600c0
+			public const int ivClearSubject = 2131099840;
 			
 			// aapt resource value: 0x7f06008b
 			public const int ivCustomListImage = 2131099787;
@@ -2406,8 +2397,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0600a0
 			public const int ivFacilityImage = 2131099808;
 			
-			// aapt resource value: 0x7f0600dd
-			public const int ivGood = 2131099869;
+			// aapt resource value: 0x7f0600d9
+			public const int ivGood = 2131099865;
 			
 			// aapt resource value: 0x7f060075
 			public const int ivIcon = 2131099765;
@@ -2418,20 +2409,20 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06008e
 			public const int ivNavigateIcon = 2131099790;
 			
-			// aapt resource value: 0x7f0600dc
-			public const int ivNeutral = 2131099868;
+			// aapt resource value: 0x7f0600d8
+			public const int ivNeutral = 2131099864;
 			
-			// aapt resource value: 0x7f0600c9
-			public const int ivNewsImage = 2131099849;
+			// aapt resource value: 0x7f0600c5
+			public const int ivNewsImage = 2131099845;
 			
 			// aapt resource value: 0x7f06002f
 			public const int left = 2131099695;
 			
-			// aapt resource value: 0x7f0600d1
-			public const int line1 = 2131099857;
+			// aapt resource value: 0x7f0600cd
+			public const int line1 = 2131099853;
 			
-			// aapt resource value: 0x7f0600d5
-			public const int line3 = 2131099861;
+			// aapt resource value: 0x7f0600d1
+			public const int line3 = 2131099857;
 			
 			// aapt resource value: 0x7f06000b
 			public const int listMode = 2131099659;
@@ -2454,8 +2445,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060076
 			public const int lvAppointment = 2131099766;
 			
-			// aapt resource value: 0x7f0600bf
-			public const int lvConversation = 2131099839;
+			// aapt resource value: 0x7f0600bb
+			public const int lvConversation = 2131099835;
 			
 			// aapt resource value: 0x7f06008f
 			public const int lvDeclaration = 2131099791;
@@ -2466,11 +2457,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f0600b2
 			public const int lvHomeMenu = 2131099826;
 			
-			// aapt resource value: 0x7f0600c0
-			public const int lvMessages = 2131099840;
+			// aapt resource value: 0x7f0600bc
+			public const int lvMessages = 2131099836;
 			
-			// aapt resource value: 0x7f0600cb
-			public const int lvNews = 2131099851;
+			// aapt resource value: 0x7f0600c7
+			public const int lvNews = 2131099847;
 			
 			// aapt resource value: 0x7f060074
 			public const int lvOptions = 2131099764;
@@ -2478,11 +2469,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060073
 			public const int lvPicker = 2131099763;
 			
-			// aapt resource value: 0x7f0600e5
-			public const int lvUserSettings = 2131099877;
+			// aapt resource value: 0x7f0600e1
+			public const int lvUserSettings = 2131099873;
 			
-			// aapt resource value: 0x7f0600cf
-			public const int media_actions = 2131099855;
+			// aapt resource value: 0x7f0600cb
+			public const int media_actions = 2131099851;
 			
 			// aapt resource value: 0x7f06001d
 			public const int middle = 2131099677;
@@ -2637,8 +2628,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060031
 			public const int start = 2131099697;
 			
-			// aapt resource value: 0x7f0600ce
-			public const int status_bar_latest_event_content = 2131099854;
+			// aapt resource value: 0x7f0600ca
+			public const int status_bar_latest_event_content = 2131099850;
 			
 			// aapt resource value: 0x7f060065
 			public const int submit_area = 2131099749;
@@ -2652,17 +2643,17 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060077
 			public const int tabs = 2131099767;
 			
-			// aapt resource value: 0x7f0600d6
-			public const int text = 2131099862;
+			// aapt resource value: 0x7f0600d2
+			public const int text = 2131099858;
 			
-			// aapt resource value: 0x7f0600d4
-			public const int text2 = 2131099860;
+			// aapt resource value: 0x7f0600d0
+			public const int text2 = 2131099856;
 			
 			// aapt resource value: 0x7f06004d
 			public const int textSpacerNoButtons = 2131099725;
 			
-			// aapt resource value: 0x7f0600d2
-			public const int time = 2131099858;
+			// aapt resource value: 0x7f0600ce
+			public const int time = 2131099854;
 			
 			// aapt resource value: 0x7f060043
 			public const int title = 2131099715;
@@ -2676,8 +2667,8 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f060047
 			public const int topPanel = 2131099719;
 			
-			// aapt resource value: 0x7f0600de
-			public const int top_toolbar = 2131099870;
+			// aapt resource value: 0x7f0600da
+			public const int top_toolbar = 2131099866;
 			
 			// aapt resource value: 0x7f060090
 			public const int touch_outside = 2131099792;
@@ -2688,11 +2679,11 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06006b
 			public const int tvAboutText = 2131099755;
 			
-			// aapt resource value: 0x7f0600da
-			public const int tvAppontmentDescription = 2131099866;
+			// aapt resource value: 0x7f0600d6
+			public const int tvAppontmentDescription = 2131099862;
 			
-			// aapt resource value: 0x7f0600d9
-			public const int tvAppontmentTitle = 2131099865;
+			// aapt resource value: 0x7f0600d5
+			public const int tvAppontmentTitle = 2131099861;
 			
 			// aapt resource value: 0x7f060071
 			public const int tvDescription = 2131099761;
@@ -2715,29 +2706,26 @@ namespace SS.HealthApp.Android
 			// aapt resource value: 0x7f06008d
 			public const int tvGroup = 2131099789;
 			
-			// aapt resource value: 0x7f0600ba
-			public const int tvHelloText = 2131099834;
-			
 			// aapt resource value: 0x7f0600a6
 			public const int tvNavigatioMessage = 2131099814;
 			
 			// aapt resource value: 0x7f0600a5
 			public const int tvNavigationTime = 2131099813;
 			
-			// aapt resource value: 0x7f0600c8
-			public const int tvNewsDate = 2131099848;
+			// aapt resource value: 0x7f0600c4
+			public const int tvNewsDate = 2131099844;
 			
-			// aapt resource value: 0x7f0600ca
-			public const int tvNewsDescription = 2131099850;
+			// aapt resource value: 0x7f0600c6
+			public const int tvNewsDescription = 2131099846;
 			
-			// aapt resource value: 0x7f0600c7
-			public const int tvNewsTitle = 2131099847;
+			// aapt resource value: 0x7f0600c3
+			public const int tvNewsTitle = 2131099843;
 			
-			// aapt resource value: 0x7f0600be
-			public const int tvSubHeaderDescription = 2131099838;
+			// aapt resource value: 0x7f0600ba
+			public const int tvSubHeaderDescription = 2131099834;
 			
-			// aapt resource value: 0x7f0600bd
-			public const int tvSubHeaderTitle = 2131099837;
+			// aapt resource value: 0x7f0600b9
+			public const int tvSubHeaderTitle = 2131099833;
 			
 			// aapt resource value: 0x7f0600b0
 			public const int tvTicket = 2131099824;
@@ -3018,76 +3006,73 @@ namespace SS.HealthApp.Android
 			public const int Main = 2130903101;
 			
 			// aapt resource value: 0x7f03003e
-			public const int Main2 = 2130903102;
+			public const int MessageDetail = 2130903102;
 			
 			// aapt resource value: 0x7f03003f
-			public const int MessageDetail = 2130903103;
+			public const int MessageList = 2130903103;
 			
 			// aapt resource value: 0x7f030040
-			public const int MessageList = 2130903104;
+			public const int MessageNew = 2130903104;
 			
 			// aapt resource value: 0x7f030041
-			public const int MessageNew = 2130903105;
+			public const int NavDrawerMenuItem = 2130903105;
 			
 			// aapt resource value: 0x7f030042
-			public const int NavDrawerMenuItem = 2130903106;
+			public const int NewsDetail = 2130903106;
 			
 			// aapt resource value: 0x7f030043
-			public const int NewsDetail = 2130903107;
+			public const int NewsList = 2130903107;
 			
 			// aapt resource value: 0x7f030044
-			public const int NewsList = 2130903108;
+			public const int notification_media_action = 2130903108;
 			
 			// aapt resource value: 0x7f030045
-			public const int notification_media_action = 2130903109;
+			public const int notification_media_cancel_action = 2130903109;
 			
 			// aapt resource value: 0x7f030046
-			public const int notification_media_cancel_action = 2130903110;
+			public const int notification_template_big_media = 2130903110;
 			
 			// aapt resource value: 0x7f030047
-			public const int notification_template_big_media = 2130903111;
+			public const int notification_template_big_media_narrow = 2130903111;
 			
 			// aapt resource value: 0x7f030048
-			public const int notification_template_big_media_narrow = 2130903112;
+			public const int notification_template_lines = 2130903112;
 			
 			// aapt resource value: 0x7f030049
-			public const int notification_template_lines = 2130903113;
+			public const int notification_template_media = 2130903113;
 			
 			// aapt resource value: 0x7f03004a
-			public const int notification_template_media = 2130903114;
+			public const int notification_template_part_chronometer = 2130903114;
 			
 			// aapt resource value: 0x7f03004b
-			public const int notification_template_part_chronometer = 2130903115;
+			public const int notification_template_part_time = 2130903115;
 			
 			// aapt resource value: 0x7f03004c
-			public const int notification_template_part_time = 2130903116;
+			public const int Notifications = 2130903116;
 			
 			// aapt resource value: 0x7f03004d
-			public const int Notifications = 2130903117;
+			public const int RateService = 2130903117;
 			
 			// aapt resource value: 0x7f03004e
-			public const int RateService = 2130903118;
+			public const int select_dialog_item_material = 2130903118;
 			
 			// aapt resource value: 0x7f03004f
-			public const int select_dialog_item_material = 2130903119;
+			public const int select_dialog_multichoice_material = 2130903119;
 			
 			// aapt resource value: 0x7f030050
-			public const int select_dialog_multichoice_material = 2130903120;
+			public const int select_dialog_singlechoice_material = 2130903120;
 			
 			// aapt resource value: 0x7f030051
-			public const int select_dialog_singlechoice_material = 2130903121;
+			public const int support_simple_spinner_dropdown_item = 2130903121;
 			
 			// aapt resource value: 0x7f030052
-			public const int support_simple_spinner_dropdown_item = 2130903122;
+			public const int TopToolbar = 2130903122;
 			
 			// aapt resource value: 0x7f030053
-			public const int TopToolbar = 2130903123;
+			public const int UserDetail = 2130903123;
 			
 			// aapt resource value: 0x7f030054
-			public const int UserDetail = 2130903124;
-			
-			// aapt resource value: 0x7f030055
-			public const int UserSettingsList = 2130903125;
+			public const int UserSettingsList = 2130903124;
 			
 			static Layout()
 			{
