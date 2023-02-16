@@ -9,35 +9,10 @@ namespace SS.HealthApp.PCL.Services {
 
     public class DeclarationService : _BaseService<PresenceDeclaration> {
 
-        public async Task<List<PresenceDeclaration>> GetItemsAsync() {
-
-            Items = new List<PresenceDeclaration>();
-
-            if (CrossConnectivity.Current.IsConnected)
-            {
-
-                using (HttpClient client = await base.GetServicesHttpClient())
-                {
-                    HttpResponseMessage response = await client.GetAsync("presencedeclaration");
-                    if (response.IsSuccessStatusCode)
-                    {
-
-                        Newtonsoft.Json.Linq.JToken serviceResponse = Newtonsoft.Json.Linq.JToken.Parse(await response.Content.ReadAsStringAsync());
-                        Items = JsonConvert.DeserializeObject<List<PresenceDeclaration>>(serviceResponse.ToString());
-
-                        Repositories.DeclarationRepository repository = new Repositories.DeclarationRepository();
-                        await repository.SaveContentAsync(Items);
-
-                    }
-                }
-            }
-            else
-            {
-                Repositories.DeclarationRepository repository = new Repositories.DeclarationRepository();
-                Items = await repository.GetContentAsync();
-            }
-
-            return Items;
+        public DeclarationService()
+        {
+            Repository = new Repositories.DeclarationRepository();
+            RequestUri = "presencedeclaration";
         }
 
         public async Task<bool> SendPresenceDeclarationAsync(string id) {
@@ -78,7 +53,6 @@ namespace SS.HealthApp.PCL.Services {
 
             return null;
         }
-
 
         public async Task<bool> SendPresenceDeclarationByAppointmentIdAsync(string appointmentId)
         {

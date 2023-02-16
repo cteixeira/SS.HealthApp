@@ -15,30 +15,9 @@ namespace SS.HealthApp.PCL.Services {
         private static AppointmentData ApptData;
         public static AppointmentBook ApptBook = new AppointmentBook();
 
-        public async Task<List<Appointment>> GetItemsAsync() {
-            
-            Items = new List<Appointment>();
-
-            if (CrossConnectivity.Current.IsConnected) {
-
-                using (HttpClient client = await base.GetServicesHttpClient()) {
-                    HttpResponseMessage response = await client.GetAsync("appointment/list");
-                    if (response.IsSuccessStatusCode) {
-
-                        Newtonsoft.Json.Linq.JToken serviceResponse = Newtonsoft.Json.Linq.JToken.Parse(await response.Content.ReadAsStringAsync());
-                        Items = JsonConvert.DeserializeObject<List<Appointment>>(serviceResponse.ToString());
-
-                        var repository = new Repositories.AppointmentRepository();
-                        await repository.SaveContentAsync(Items);
-                    }
-                }
-            }
-            else {
-                var repository = new Repositories.AppointmentRepository();
-                Items = await repository.GetContentAsync();
-            }
-
-            return Items;
+        public AppointmentService(){
+            Repository = new Repositories.AppointmentRepository();
+            RequestUri = "appointment/list";
         }
         
         public async Task<AppointmentData> GetAllDataAsync() {

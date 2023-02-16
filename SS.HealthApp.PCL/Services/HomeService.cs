@@ -1,20 +1,17 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using SS.HealthApp.Model.HomeModels;
-using SS.HealthApp.Model;
+﻿using Newtonsoft.Json;
 using Plugin.Connectivity;
+using SS.HealthApp.Model.HomeModels;
+using System.Collections.Generic;
 using System.Net.Http;
-using Newtonsoft.Json;
+using System.Threading.Tasks;
 
 namespace SS.HealthApp.PCL.Services
 {
 
-    public class HomeService : _BaseService<_BaseModel>
+    public class HomeService : _BaseService
     {
-
         public async Task<List<Banner>> GetBannersAsync()
         {
-
             List<Banner> items = new List<Banner>();
 
             if (CrossConnectivity.Current.IsConnected)

@@ -11,36 +11,10 @@ namespace SS.HealthApp.PCL.Services
 
     public class FacilityService : _BaseService<Facility>
     {
-
-        public async Task<List<Facility>> GetItemsAsync() {
-
-            Items = new List<Facility>();
-
-            if (CrossConnectivity.Current.IsConnected)
-            {
-
-                using (HttpClient client = await base.GetServicesHttpClient())
-                {
-                    HttpResponseMessage response = await client.GetAsync("facilities");
-                    if (response.IsSuccessStatusCode)
-                    {
-
-                        Newtonsoft.Json.Linq.JToken serviceResponse = Newtonsoft.Json.Linq.JToken.Parse(await response.Content.ReadAsStringAsync());
-                        Items = JsonConvert.DeserializeObject<List<Facility>>(serviceResponse.ToString());
-                        
-                        Repositories.FacilityRepository repository = new Repositories.FacilityRepository();
-                        await repository.SaveContentAsync(Items);
-
-                    }
-                }
-            }
-            else
-            {
-                Repositories.FacilityRepository repository = new Repositories.FacilityRepository();
-                Items = await repository.GetContentAsync();
-            }
-
-            return Items;
+        public FacilityService()
+        {
+            Repository = new Repositories.FacilityRepository();
+            RequestUri = "facilities";
         }
 
         public async Task<string> GetOriginCoordinates() {

@@ -10,35 +10,10 @@ namespace SS.HealthApp.PCL.Services {
 
     public class AccountService : _BaseService<AccountStatement> {
 
-        public async Task<List<AccountStatement>> GetItemsAsync() {
-
-            Items = new List<AccountStatement>();
-
-            if (CrossConnectivity.Current.IsConnected)
-            {
-
-                using (HttpClient client = await base.GetServicesHttpClient())
-                {
-                    HttpResponseMessage response = await client.GetAsync("accountstatement");
-                    if (response.IsSuccessStatusCode)
-                    {
-
-                        Newtonsoft.Json.Linq.JToken serviceResponse = Newtonsoft.Json.Linq.JToken.Parse(await response.Content.ReadAsStringAsync());
-                        Items = JsonConvert.DeserializeObject<List<AccountStatement>>(serviceResponse.ToString());
-                        
-                        Repositories.AccountStatementRepository repository = new Repositories.AccountStatementRepository();
-                        await repository.SaveContentAsync(Items);
-
-                    }
-                }
-            }
-            else
-            {
-                Repositories.AccountStatementRepository repository = new Repositories.AccountStatementRepository();
-                Items = await repository.GetContentAsync();
-            }
-
-            return Items;
+        public AccountService()
+        {
+            Repository = new Repositories.AccountStatementRepository();
+            RequestUri = "accountstatement";
         }
 
         public async Task<bool> SendDocumentAsync(string id) {

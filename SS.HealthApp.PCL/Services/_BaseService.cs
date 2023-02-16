@@ -5,6 +5,8 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Thinktecture.IdentityModel.Client;
 using SS.HealthApp.Model.UserModels;
+using Plugin.Connectivity;
+using Newtonsoft.Json;
 
 namespace SS.HealthApp.PCL.Services
 {
@@ -103,15 +105,41 @@ namespace SS.HealthApp.PCL.Services
 
     public abstract class _BaseService<T> : _BaseService where T : SS.HealthApp.Model._BaseModel {
 
-        #region properties
+        protected static List<T> Items;
+        protected Repositories.BaseRepository<List<T>> Repository;
+        protected string RequestUri;
 
-        protected static List<T> Items { get; set; }
+        public virtual async Task<List<T>> GetItemsAsync()
+        {
+            Items = new List<T>();
 
-        #endregion
+            if (CrossConnectivity.Current.IsConnected)
+            {
+                using (HttpClient client = await base.GetServicesHttpClient())
+                {
+                    HttpResponseMessage response = await client.GetAsync(RequestUri);
+                    if (response.IsSuccessStatusCode)
+                    {
+
+                        Newtonsoft.Json.Linq.JToken serviceResponse = Newtonsoft.Json.Linq.JToken.Parse(await response.Content.ReadAsStringAsync());
+                        Items = JsonConvert.DeserializeObject<List<T>>(serviceResponse.ToString());
+
+                        await Repository.SaveContentAsync(Items);
+                    }
+                }
+            }
+            else
+            {
+                var repository = new Repositories.AppointmentRepository();
+                Items = await Repository.GetContentAsync();
+            }
+
+            return Items;
+        }
 
         public T GetItem(string ID)
         {
-            return Items != null ? Items.Find(n => n.ID == ID) : null;
+            return Items?.Find(n => n.ID == ID);
         }
 
     }

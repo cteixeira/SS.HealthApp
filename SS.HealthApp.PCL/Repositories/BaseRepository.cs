@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SS.HealthApp.PCL.Repositories
 {
-    abstract class BaseRepository<T> where T : new()
+    public abstract class BaseRepository<T> where T : new()
     {
 
         protected const string DATA_FOLDER = "data";

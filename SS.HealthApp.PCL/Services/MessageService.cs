@@ -11,31 +11,10 @@ namespace SS.HealthApp.PCL.Services {
 
     public class MessageService : _BaseService<Message> {
 
-        public async Task<List<Message>> GetItemsAsync() {
-
-            Items = new List<Message>();
-
-            if (CrossConnectivity.Current.IsConnected) {
-
-                using (HttpClient client = await base.GetServicesHttpClient()) {
-                    HttpResponseMessage response = await client.GetAsync("message");
-                    if (response.IsSuccessStatusCode) {
-
-                        Newtonsoft.Json.Linq.JToken serviceResponse = Newtonsoft.Json.Linq.JToken.Parse(await response.Content.ReadAsStringAsync());
-                        Items = JsonConvert.DeserializeObject<List<Message>>(serviceResponse.ToString());
-
-                        var repository = new Repositories.MessageRepository();
-                        await repository.SaveContentAsync(Items);
-
-                    }
-                }
-            }
-            else {
-                Repositories.MessageRepository repository = new Repositories.MessageRepository();
-                Items = await repository.GetContentAsync();
-            }
-
-            return Items;
+        public MessageService()
+        {
+            Repository = new Repositories.MessageRepository();
+            RequestUri = "message";
         }
 
         public async Task<List<Message>> OpenItemAsync(string id) {
