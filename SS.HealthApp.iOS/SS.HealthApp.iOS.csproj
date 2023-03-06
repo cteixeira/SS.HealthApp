@@ -448,6 +448,7 @@
     <BundleResource Include="Resources\ClientResources\DigitalCustomer\Logo%40xl.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\iCarousel.dll" />
     <Content Include="bin\SS.HealthApp.Model.dll" />
     <BundleResource Include="Resources\Icons\ic_sentiment_neutral_white_36pt.png" />
     <BundleResource Include="Resources\Icons\ic_sentiment_neutral_white_36pt_2x.png" />
@@ -468,6 +469,8 @@
     <BundleResource Include="Resources\ClientResources\SAMS\Icon-87.png" />
     <BundleResource Include="Resources\ClientResources\SAMS\Icon-180.png" />
     <BundleResource Include="Resources\ClientResources\SAMS\Icon-1024.png" />
+    <Content Include="bin\SWTableViewCell.dll" />
+    <Content Include="bin\ToastIOS.dll" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Media.xcassets\AppIcons.appiconset\Contents.json">
